@@ -1,0 +1,72 @@
+<input type ="date" name ="bday">
+<input type = "submit"> <br>
+
+<a href = "link">
+<input type = "button" value="click"></a><br>
+
+<form>
+<input type="datetime-local" name="bdaytime"><br>
+<input type = "time" name="bdaytime"><br>
+
+dropdown list (select tag)
+<select name="cars"</option>
+<option>Volvo/option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select><br>
+
+<select>
+<optgroup label = "India">
+  <option value="mumbai"> mumbai </option>
+  <option value="">  </option>
+  <option value="">  </option>
+<optgroup label = "USA">
+  <option value="florida"> florida </option>
+  <option value="">  </option>
+  <option value="">  </option>
+</select>
+
+<select name ="company" multiple="on">
+<option value = "AU">Audi</option>
+<option value = ""> </option>
+<option value = ""> </option>
+<option value = ""> </option>
+</select>
+
+<input type = "email">
+<input type = "file">
+<input type = "search">
+<input type = "month">
+<input type = "submit"> 
+
+<textarea name = "message" rows = "5" cols = "15">
+</textarea>
+
+<input type = "url" name="homepage"><br>
+Enter Password
+<input type = "password" name = "pass"><br>
+Enter color
+<input type ="color" name = "col"><br>
+
+<input type = "number" name = "quantity" min ="1" max="25">
+
+<audio controls>
+<source src=" link "  type="audio/mpeg">Your pc don't support this.
+</audio>
+
+frame tag
+
+
+<video width="500" height="240" controls>
+ <source src = "link" type="video/mp4">
+</video>
+
+<h1> Video </h1>
+
+share>>embedded>iframe
+
+
+
+
+
+
