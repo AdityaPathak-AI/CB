@@ -18,3 +18,9 @@ const item = {
 }
 console.log(item["Aditya"])
 console.log(item)
+
+//Practice Set
+
+let ab = "6"
+let bc = 9
+console.log(ab + bc)
