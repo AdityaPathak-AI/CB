@@ -69,8 +69,33 @@ share>>embedded>iframe
 
 #4/08/2023
 
+<form autocomplete="on">;
+<form action = "autocomplete.html" method="get">
 
+1. autofocus
+2. autocomplete
+3. disabled
+4. value = "aditya"
+5. maxlength = "50"
+6. <form novalidate>
+7. size = "80"
 
+<details>
+<summary> Summary </summary>
+<p> kjdjdbnfjabfjcnkfncainfiUWNEFIUENBFIUEBWIUFBEWIUFBWEIUDNJKASBCJKEWBFUIBWEIUDBnuedfniuaebfiuebfr </p>
+</details>
 
+head > base tag
+
+<base href = "path"></base>
+
+<img src = "f2.jpg">
+<img src = "f3.jpg">
+
+<fieldset>
+<legend>PHP</legend>
+Title: <input type="text" /><br/>
+Name: <input type="text" /><br/>
+School: <input type="text" /><br/>
 
 
