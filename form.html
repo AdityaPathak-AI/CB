@@ -7,7 +7,7 @@
     <h1 style="background-color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: 50; text-align: center;">Fill this form to register</h1>
 
 
-    <center>
+    
         <fieldset>
     <form style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 30;">
     
@@ -28,26 +28,35 @@
         <label for="dob">Date Of Birth:</label>
         <input style="font-size: 20;" type="date" id="dob" name="dob"><br><br>  
 
+        <!--Email-->
+        <label for="email">Enter your Email:</label>
+        <input style="font-size: 20;" type="email" id="email" name="email"><br><br>
+
+        <!--Occupation-->
+        <label for="OccupationType">Occupation</label>
+        <select name="Occupation" id="OccupationType">
+            <option value="student">Student</option>
+            <option value="student">Professional</option>
+            <option value="student">Other</option>
+        </select> <br/><br/>
+
+        <!--Textarea-->
+        <label form="textarea">Thoughts:</label>
+        <br/>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        <br />
+          
         <!--Password-->
         <label for="password">Enter your Password:</label>
         <input style="font-size: 20;" type="password" id="password" name="password"><br><br>
 
         <!--Gender-->
-        
-    </form>
-
-        
-
-
-
-        
-         <!--Submit-->
+        <!--Submit-->
         <input style="font-size: 25;" type="submit" value="Submit">
-        
-
     </form>
-    </center>
-    </fieldset>
+     </fieldset>
+
+     
 
     
 </body>
