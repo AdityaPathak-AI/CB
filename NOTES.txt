@@ -102,4 +102,48 @@ School: <input type="text" /><br/>
 
 CSS NOTES
 
+# selectors
+
+1.element b
+2.ID #A1
+3.class p
+4.class with specific element (p.n)
+5.group (h1,p,h6)
+6.universal *
+
+8/08/2023
+
+# div tag
+
+#margin
+
+comments in CSS
+/*comments*/
+
+#image in background 
+
+background-color:
+background-image : url();
+background-repeat: repeat-y;
+background-attachment : fixed;
+background-position : center , top , bottom , left , right
+
+#border
+
+border-style:
+border-color: 
+border-width: 
+border-radius: 50px 50px 50px 50px
+
+rgb(805,780,60)
+
+shorthand property _ give three property at a time.
+
+blockline element
+ 
+
+
+
+
+
 
