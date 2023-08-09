@@ -140,6 +140,41 @@ rgb(805,780,60)
 shorthand property _ give three property at a time.
 
 blockline element
+
+9/08/2023
+#display
+
+1.block element [h,p,]
+2.inline element
+
+<span></span>
+
+display: inline
+display: inline-block [height , width]
+display: block 
+display: run in
+display: none
+visibility: hidden
+
+#float
+poitioning property
+moves left and right only
+clear and float
+
+#font
+font :- color , family , size , style. 
+
+#margin
+it give space around beyond border. (TRBL)
+margin- top
+margin- bottom
+margin- left 
+margin- right
+margin- auto
+
+margin: 25px 50px 75px 100px
+
+
  
 
 

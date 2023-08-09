@@ -1,27 +1,27 @@
 div {
-    width: 100%;
-    height: 900px;
+    width: 500px;
+    height: 180px;
     background: white;
     border: 2px solid black;
 }
 
 #A1 {
-    width: 100%;
-    height: 300px;
+    width: 500px;
+    height: 60px;
     background: orange;
     border: 2px solid black;
 }
 
 #A2 {
-    width: 100%;
-    height: 300px;
+     width: 500px;
+    height: 60px;
     background: white;
     border: 2px solid black;
 }
 
 #A3 {
-    width: 100%;
-    height: 300px;
+     width: 500px;
+    height: 60px;
     background: green;
     border: 2px solid black;
-}
+} 
