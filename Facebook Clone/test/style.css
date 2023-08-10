@@ -1,0 +1,63 @@
+body
+{
+	background:pink;
+}
+.main
+{
+	margin:auto;
+	width:1200px;
+	height:800px;
+	background:red;
+	
+                  
+}
+.header
+{
+	height:80px;
+	 background:green; 
+	 /*background-image: url(birdfly.gif); */
+}
+.header h1
+{
+	 
+	color:purple;
+	font-family:"Courier New", Courier, monospace;
+	float:left;
+ 	 margin-left:80px;
+	margin-top:20px;  
+}
+.log
+{
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+}
+.center
+{	height:520px;
+	background:cyan;
+}
+.center h1
+{	 
+	color:red;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	float:left;
+	margin-left:50px;
+	margin-top:20px;
+}
+.name
+{	float:left;
+	margin-left:140px;
+	margin-top:40px;
+}
+.footer
+{
+            color:yellow;
+            background-color: black;
+          font-family: Vladimir Script;
+           font-size:30px;
+            height: 200px;
+            text-align:center;
+            padding-left: 150px;
+     padding-top: 120px;
+            
+}
