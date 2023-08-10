@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body
 {
+    
     background: white;
 }
 .main
 {
+    
     margin: auto;
     width: auto;
     height: 100%;
@@ -22,3 +30,27 @@ body
     margin-left: 80px;
     margin-top: 20px;   
 }
+.login
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.center
+{
+   
+    height: 100%;
+    background: rgb(242, 242, 244);
+}
+.center h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+
+
+
