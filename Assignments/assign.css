@@ -1,11 +1,14 @@
 .ToDo{
     text-align: center;
-    border: 2px solid black;
+   /*  border: 2px solid black; */
 }
 
 .Images{
     text-align: center;
-    border: 2px solid black;
+   /*  border: 2px solid black; */
     padding: 5px;
 
+}
+.email{
+    text-align: center;
 }
