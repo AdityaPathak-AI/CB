@@ -178,6 +178,25 @@ margin: 25px 50px 75px 100px
 
  padding
 
+11/08/2023
+
+1.Between id and selector id will be preferred.
+2.
+
+#hover
+
+a:hover
+{
+  color:green;
+}
+
+a:active
+{
+  color:cyan
+}
+
+
+
 
 
 

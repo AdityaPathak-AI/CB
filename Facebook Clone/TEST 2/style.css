@@ -59,6 +59,7 @@ body
     float: left;
     margin-left: 60px;
     margin-top: 50px;
+    box-shadow: 10px 12px 4px rgba(red, green, blue, alpha);
 
 }
 .footer{
