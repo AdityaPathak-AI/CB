@@ -4,7 +4,7 @@
 }
 
 body{
-    background: white;
+    background: rgb(25, 50, 194);
 }
 
 .main{
@@ -12,14 +12,14 @@ body{
     margin: auto;
     width: auto;
     height: 100%;
-    background: rgb(3, 0, 0);
+    background: rgb(1, 0, 3);
 }
 
 .header{
     padding: 20px;
     display: flex;
     height: 40px;
-    background: rgb(222, 206, 113);
+    background: rgb(255, 255, 255);
     
 }
 .Logo
@@ -29,27 +29,19 @@ body{
 .nav
 {
     /* border: 2px solid black; */
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
     text-align: center;
     display: flex;
     margin: 15px 400px;
-    text-decoration: none;
-   /*  list-style: none; */
+   
+   
 
 }
 .nav li
 {
     margin: 1px 10px;  
     list-style: none;
-    text-decoration: none;
+    
 }
 
-.button
-{
-  
-  margin: 15px; 
-  height: 100px;
-  width: 200px;
-  
-
-}
