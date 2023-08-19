@@ -86,11 +86,24 @@ body {
 .Offers{
   background-color: white;
   /* border: 2px solid black; */
-   height: 500px;
+   height: 450px;
    margin-top: 40px;
+   display: flex;
 }
 .Mobile{
-  margin-left: 350px;
-/*   border: 2px solid black; */
-  width: 600px;
+/*   margin-left: 350px; */
+  /* border: 2px solid black; */
+  width: 50%; 
 }
+.Mobile img{
+  margin-left: 35%;
+}
+.Get{
+  width: 50%;
+  /* border: 2px solid black; */
+}
+.hoe1{
+  margin-top: 20%;
+  
+}
+
