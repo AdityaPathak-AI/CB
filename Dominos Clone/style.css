@@ -103,7 +103,12 @@ body {
   /* border: 2px solid black; */
 }
 .hoe1{
-  margin-top: 20%;
-  
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hoe3{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
