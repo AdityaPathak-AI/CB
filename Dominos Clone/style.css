@@ -89,11 +89,13 @@ body {
    height: 450px;
    margin-top: 40px;
    display: flex;
+   background-color: rgba(71, 76, 91, 0.529);  
 }
 .Mobile{
 /*   margin-left: 350px; */
   /* border: 2px solid black; */
   width: 50%; 
+  
 }
 .Mobile img{
   margin-left: 35%;
@@ -105,10 +107,12 @@ body {
 .hoe1{
   margin-top: 15%;
   font-size: 40px;
+  font-weight: 3000;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hoe3{
   font-size: 25px;
+  font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
 }
 
