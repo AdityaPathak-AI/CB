@@ -4,7 +4,7 @@
 }
 
 body {
-  background: rgb(25, 50, 194);
+  background: rgb(43, 65, 186);
 }
 
 .main {
@@ -42,42 +42,40 @@ body {
 }
 
 .banner {
-  /*  border: 4px solid black; */
+  /* border: 4px solid black; */
   display: flex;
-  background-color: rgb(77, 154, 206);
+  background-color: rgb(27, 83, 187);
   height: 400px;
 }
-.Rider {
-  margin-left: 1058px;
+/* .Rider {
+   margin-left: 1058px; 
+  border: 2px solid black;  
+}  */
+.adv {
   /* border: 2px solid black; */
-}
-/* .adv {
-  border: 2px solid black;
-  margin-left: 40px;
+  margin-left: 90px;
   margin-top: 60px;
-  width:50%;
-  padding: 5px;
-} */
-
-.Coupons
-{
-    margin-top: 30px;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+  width: 50%;
+  padding: 15px;
 }
-.Explore
-{
-    margin-top: 30px;
-    margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+
+.Coupons {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+.Explore {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
 }
 .Explore div{
-    border: 2px dotted black;
-    margin-top: 5px;
-    margin-left: 60px;
-    height: 250px;
-    width: 350px;
-    text-align: center;
-} 
+  border: 2px dotted black;
+  margin-top: 5px;
+  margin-left: 60px;
+  height: 250px;
+  width: 350px;
+  text-align: center;
+}
