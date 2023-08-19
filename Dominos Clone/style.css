@@ -1,10 +1,10 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: rgb(43, 65, 186);
+  background: rgb(255, 255, 255);
 }
 
 .main {
@@ -29,22 +29,25 @@ body {
   font-size: large;
   text-align: center;
   display: flex;
+  
   margin: 10px 400px;
   /*   text-decoration: none; */
 }
 .nav li {
   margin: 1px 10px;
   list-style: none;
-  color: black;
+  color: rgb(2, 0, 0);
+  
 }
 .nav a {
   text-decoration: none;
+  color: rgb(170, 109, 109);
 }
 
 .banner {
   /* border: 4px solid black; */
   display: flex;
-  background-color: rgb(27, 83, 187);
+  background-color: rgb(42, 92, 187);
   height: 400px;
 }
 /* .Rider {
@@ -78,4 +81,16 @@ body {
   height: 250px;
   width: 350px;
   text-align: center;
+}
+
+.Offers{
+  background-color: white;
+  /* border: 2px solid black; */
+   height: 500px;
+   margin-top: 40px;
+}
+.Mobile{
+  margin-left: 350px;
+/*   border: 2px solid black; */
+  width: 600px;
 }
