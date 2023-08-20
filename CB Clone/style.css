@@ -41,3 +41,26 @@
 .phone li{
     margin: 20px 10px;
 }
+
+.enqborder{
+  /*border: 2px solid white; */
+  width: 100%;
+  margin-left: 400px;
+}
+.enquiry{
+    border: 2px solid rgb(217, 57, 57);
+    border-radius: 10px;
+    background-color: rgb(217, 57, 57);
+    font-weight: 600;
+    margin-top: 8px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+    
+}
+.enquiry li{
+    margin: 5px 10px;
+    
+}
