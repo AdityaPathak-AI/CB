@@ -28,7 +28,7 @@
     list-style: none;
 }
 .email li{
-    margin-top: 20px;
+     margin: 20px 10px;
 }
 .phone{
    /*  border: 2px solid white; */
