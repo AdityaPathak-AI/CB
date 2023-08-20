@@ -7,7 +7,7 @@
   display: flex;
   width: 100%;
   height: 80px;
-  background-color: rgb(48, 43, 43);
+  background-color: #383C41;
 }
 .icons {
  /*  border: 2px solid white; */
@@ -50,8 +50,8 @@
 .enquiry{
     border: 2px solid rgb(217, 57, 57);
     border-radius: 10px;
-    background-color: rgb(217, 57, 57);
-    font-weight: 600;
+    background-color: #fc4045;
+    font-weight: 60;
     margin-top: 8px;
     width: 80%;
     height: 60px;
@@ -63,4 +63,34 @@
 .enquiry li{
     margin: 5px 10px;
     
+}
+.Nav{
+  border: 5px solid rgb(255, 0, 0);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  
+}
+.navLogo{
+  /* border: 2px solid black; */
+  width: 20%;
+  margin: 30px 30px;
+  height: 70px;
+}
+.navBar{
+  /* border: 2px solid black; */
+  width: 60%;
+  height: 50px;
+  margin: 30px 20px 30px 200px;
+}
+.Bars{
+   list-style: none;
+   display: flex;
+   padding: 4px;
+}
+.Bars li{
+   margin: 5px 8px;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
 }
