@@ -218,6 +218,23 @@ dropdown
 
 ul > list-style: none
 
+21/08/
+box sizing
+background : url()
+contan , cover
+
+transitions in css
+
+ease 
+linear 
+ease-in
+ease-out
+ease-in-out
+
+gradient in css
+
+1.radial-gradient
+2.linear-gradient
 
 
 
