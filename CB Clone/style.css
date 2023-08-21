@@ -67,6 +67,7 @@
   height: 100px;
   display: flex;
   background-color: #efcddc;
+  /* position: fixed;  */
 }
 .navLogo {
   /* border: 2px solid black; */
@@ -94,6 +95,7 @@
 }
 .Line7 {
   background-color: #efcddc;
+  /* margin-top: 100px; */
 }
 .Heading {
   /*  border: 5px solid red; */
@@ -126,7 +128,7 @@
 }
 .CoursesBar {
   margin-left: 160px;
-  /*  border: 5px solid red; */
+   border: 5px solid red;
   width: 82%;
   height: 250px;
   display: flex;
@@ -229,4 +231,25 @@
 .react {
   margin: 20px 30px;
   border-radius: 20px;
+}
+.CoursesBar1{
+  margin-left: 160px;
+   border: 5px solid red;
+  width: 82%;
+  height: 250px;
+  display: flex;
+}
+.CoursesBar2{
+  margin-left: 160px;
+  border: 5px solid red;
+  width: 82%;
+  height: 250px;
+  display: flex;
+}
+.CoursesBar3{
+  margin-left: 160px;
+  border: 5px solid red;
+  width: 82%;
+  height: 250px;
+  display: flex;
 }
