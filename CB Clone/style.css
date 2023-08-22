@@ -468,7 +468,7 @@
 /* CoursesBar3*/
 .CoursesBar3 {
   margin-left: 160px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 82%;
   height: 250px;
   display: flex;
@@ -509,4 +509,86 @@
   margin-left: 30px;
   margin-right: 30px;
   border-radius: 10px;
+}
+.ManualTesting {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.ManualTesting img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.ManualTesting h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.TestingAutomation {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.TestingAutomation img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.TestingAutomation h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.ASPNETWebDevelopment {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.ASPNETWebDevelopment img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.ASPNETWebDevelopment h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.ProgramminginC {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.ProgramminginC img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.ProgramminginC h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.Spring,
+.ManualTesting,
+.TestingAutomation,
+.ASPNETWebDevelopment,
+.ProgramminginC {
+  margin: 20px 30px;
+  border-radius: 20px;
+  background-color: #ead8e0;
+  border: 2px solid pink;
 }
