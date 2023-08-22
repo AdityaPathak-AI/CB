@@ -85,7 +85,7 @@
 .Bars {
   list-style: none;
   display: flex;
-  padding: 4px;
+  padding: 2px;
 }
 .Bars li {
   margin: 5px 8px;
@@ -128,7 +128,7 @@
 }
 .CoursesBar {
   margin-left: 160px;
-   border: 5px solid red;
+  /*  border: 5px solid red; */
   width: 82%;
   height: 250px;
   display: flex;
@@ -231,14 +231,122 @@
 .react {
   margin: 20px 30px;
   border-radius: 20px;
+  background-color: #ead8e0;
+  border: 2px solid pink;
 }
+
+/* CoursesBar1 */
+
 .CoursesBar1{
   margin-left: 160px;
-   border: 5px solid red;
+  /* border: 5px solid red; */
   width: 82%;
   height: 250px;
   display: flex;
 }
+.nodeJS {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.nodeJS img{
+   padding-left: 90px;
+   padding-top: 20px;
+}
+.nodeJS h4{
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.angularJS {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.angularJS img{
+   padding-left: 90px;
+   padding-top: 20px;
+}
+.angularJS h4{
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.MernStack {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.MernStack img{
+   padding-left: 90px;
+   padding-top: 20px;
+}
+.MernStack h4{
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.MeanStack {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.MeanStack img{
+   padding-left: 90px;
+   padding-top: 20px;
+}
+.MeanStack h4{
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.Python {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.Python img{
+   padding-left: 90px;
+   padding-top: 20px;
+}
+.Python h4{
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.nodeJS,
+.angularJS,
+.MernStack,
+.MeanStack,
+.Python {
+  margin: 20px 30px;
+  border-radius: 20px;
+}
+
+
+
+/* CoursesBar2*/
 .CoursesBar2{
   margin-left: 160px;
   border: 5px solid red;
@@ -246,6 +354,8 @@
   height: 250px;
   display: flex;
 }
+
+/* CoursesBar3*/
 .CoursesBar3{
   margin-left: 160px;
   border: 5px solid red;
