@@ -67,7 +67,8 @@
   height: 100px;
   display: flex;
   background-color: #efcddc;
-  /* position: fixed;  */
+  position: sticky;
+  top: 0;
 }
 .navLogo {
   /* border: 2px solid black; */
@@ -175,11 +176,11 @@
   width: 20%;
   height: 200px;
 }
-.android img{
+.android img {
   padding-left: 90px;
   padding-top: 20px;
 }
-.android h4{
+.android h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -188,16 +189,16 @@
   margin-right: 30px;
   border-radius: 10px;
 }
-.reactNative{
+.reactNative {
   border: 2px solid black;
   width: 20%;
   height: 200px;
 }
-.reactNative img{
+.reactNative img {
   padding-left: 90px;
   padding-top: 20px;
 }
-.reactNative h4{
+.reactNative h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -211,11 +212,11 @@
   width: 20%;
   height: 200px;
 }
-.react img{
-   padding-left: 90px;
-   padding-top: 20px;
+.react img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.react h4{
+.react h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -237,7 +238,7 @@
 
 /* CoursesBar1 */
 
-.CoursesBar1{
+.CoursesBar1 {
   margin-left: 160px;
   /* border: 5px solid red; */
   width: 82%;
@@ -249,11 +250,11 @@
   width: 20%;
   height: 200px;
 }
-.nodeJS img{
-   padding-left: 90px;
-   padding-top: 20px;
+.nodeJS img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.nodeJS h4{
+.nodeJS h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -267,11 +268,11 @@
   width: 20%;
   height: 200px;
 }
-.angularJS img{
-   padding-left: 90px;
-   padding-top: 20px;
+.angularJS img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.angularJS h4{
+.angularJS h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -285,11 +286,11 @@
   width: 20%;
   height: 200px;
 }
-.MernStack img{
-   padding-left: 90px;
-   padding-top: 20px;
+.MernStack img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.MernStack h4{
+.MernStack h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -303,11 +304,11 @@
   width: 20%;
   height: 200px;
 }
-.MeanStack img{
-   padding-left: 90px;
-   padding-top: 20px;
+.MeanStack img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.MeanStack h4{
+.MeanStack h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -321,11 +322,11 @@
   width: 20%;
   height: 200px;
 }
-.Python img{
-   padding-left: 90px;
-   padding-top: 20px;
+.Python img {
+  padding-left: 90px;
+  padding-top: 20px;
 }
-.Python h4{
+.Python h4 {
   border: 2px solid #fc4045;
   background-color: #fc4045;
   color: white;
@@ -342,21 +343,123 @@
 .Python {
   margin: 20px 30px;
   border-radius: 20px;
+   background-color: #ead8e0;
+  border: 2px solid pink;
 }
 
-
-
 /* CoursesBar2*/
-.CoursesBar2{
+.CoursesBar2 {
   margin-left: 160px;
-  border: 5px solid red;
+ /*  border: 5px solid red; */
   width: 82%;
   height: 250px;
   display: flex;
 }
+.Django {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.Django img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.Django h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.DataScience {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.DataScience img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.DataScience h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.DataAnalytics {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.DataAnalytics img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.DataAnalytics h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.AI {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.AI img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.AI h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.Java {
+  border: 2px solid black;
+  width: 20%;
+  height: 200px;
+}
+.Java img {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+.Java h4 {
+  border: 2px solid #fc4045;
+  background-color: #fc4045;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.Django,
+.DataScience,
+.DataAnalytics,
+.AI,
+.Java {
+  margin: 20px 30px;
+  border-radius: 20px;
+   background-color: #ead8e0;
+  border: 2px solid pink;
+}
+
+
 
 /* CoursesBar3*/
-.CoursesBar3{
+.CoursesBar3 {
   margin-left: 160px;
   border: 5px solid red;
   width: 82%;
