@@ -818,7 +818,7 @@
 .InqBox {
   /* border: 2px solid red; */
   width: 100%;
-  height: 700px;
+  height: 750px;
   margin-top: 80px;
   background-color: #494949;
 }
@@ -833,9 +833,9 @@
   display: flex;
 }
 .ContactForm {
-  /* border: 2px solid red; */
+  /*  border: 2px solid red; */
   width: 50%;
-  height: 600px;
+  height: 550px;
 }
 .imgBox {
   /* border: 2px solid red; */
@@ -848,7 +848,7 @@
   padding-left: 200px;
   padding-top: 20px;
   height: 500px;
-  /* border: 2px solid red; */
+  /*  border: 2px solid red; */
 }
 .formData input {
   width: 100%;
@@ -856,6 +856,15 @@
   border-radius: 8px;
   margin: 2px;
   font-size: 25px;
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formData input:hover{
+  width: 100%;
+  height: 90px;
+  border-radius: 10px;
+  margin: 4px;
+  font-size: 35px;
   padding-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -869,6 +878,16 @@
   padding-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.formData textarea:hover{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin: 4px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .submit {
   background-color: #fc4045;
   border: 2px solid #fc4045;
@@ -876,8 +895,8 @@
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
-.bottom{
+.bottom {
   width: 100%;
-  height: 300px;
-  background-color:#efcddc; 
+  height: 200px;
+  background-color: #efcddc;
 }
