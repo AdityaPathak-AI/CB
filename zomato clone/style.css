@@ -90,17 +90,26 @@
   width: 60%;
 }
 .OrderOnline {
-  border: 2px solid red;
+  border: 5px solid red;
   width: 50%;
   margin: 1px 10px;
+  border-radius: 10px;
+}
+
+.orderImage{
+  border: 2px solid red;
+  position: absolute;
 }
 .dining {
-  border: 2px solid red;
+  border: 5px solid red;
   width: 50%;
   margin: 1px 10px;
+  border-radius: 10px;
 }
 .NiCl {
-  border: 2px solid red;
+  border: 5px solid red;
   width: 50%;
   margin: 1px 10px;
+  border-radius: 10px;
 }
+
