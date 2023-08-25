@@ -83,6 +83,26 @@
 .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
 .firstCard{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
+  height: 300px;
+  margin-left: 370px;
+  width: 60%;
+  
+}
+.OrderOnline
+{
+    border: 2px solid red;
+    width: 50%;
+    margin: 1px 10px;
+}
+.dining{
+    border: 2px solid red;
+    width: 50%;
+    margin: 1px 10px;
+}
+.NiCl{
+    border: 2px solid red;
+    width: 50%;
+    margin: 1px 10px;
 }
