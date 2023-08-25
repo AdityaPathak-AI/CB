@@ -82,3 +82,7 @@
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
+.firstCard{
+  border: 2px solid red;
+  display: flex;
+}
