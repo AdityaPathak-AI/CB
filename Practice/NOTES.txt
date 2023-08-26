@@ -236,6 +236,26 @@ gradient in css
 1.radial-gradient
 2.linear-gradient
 
+26/08/2023
+
+Bootstrap
+
+1.grid
+2.forms
+3.tables
+4.alerts
+5.buttons
+6.wells
+7.navBar
+8.badges and labels
+9.label
+10.contextual classes
+11.Pill Badges
+12.pagination
+13.disabled
+14.breadcrumbs
+15.jumbotron
+
 
 
 
