@@ -1,0 +1,13 @@
+breakpoints in bootstrap
+1. large
+2.medium
+3small
+4.x-small
+
+#Advantages of BootStrap
+
+1saves a lot of time.
+2responsive features.
+3.cosistent design.
+4.easy to use.
+5.compatible with browsers.
