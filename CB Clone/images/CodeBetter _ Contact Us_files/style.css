@@ -1,0 +1,2770 @@
+.aboutPageMain .aboutSectionDiv,
+.rightBannerSide .seventeenCourseDiv,
+.rightBannerSide .starCourseDiv {
+  background: #fff;
+}
+.aboutBanner .corsesCertiimgDiv,
+.rightBannerSide .seventeenCourseDiv,
+.rightBannerSide .starCourseDiv {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1rem 1.5rem -0.3rem,
+    rgba(0, 0, 0, 0.05) 0 0.4rem 0.6rem -0.2rem;
+}
+.coursereviewstb tr td a:hover,
+.officeContaintBox a:hover,
+.tabs li a,
+.testimonialsPageMain .tabTesti li a:hover {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #fff;
+}
+.main {
+  overflow-x: hidden;
+}
+.w-2 {
+  width: 2%;
+}
+.c-White,
+.topcontactnav a {
+  color: #fff;
+}
+.c-Black {
+  color: #494944;
+}
+.ml-20 {
+  margin-left: 20%;
+}
+.ml--5 {
+  margin-left: -5%;
+}
+.ml-10 {
+  margin-left: 10%;
+}
+.ptb-5 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../font/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../font/Roboto-Thin.ttf);
+}
+.topcontactnav {
+  background: #383c41;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.topcontactnav .topnavbox {
+  padding: 1rem 6rem 0.7rem 5rem;
+}
+.topCoursesSecDiv .courseName span,
+.topcontactnav .top-info p,
+.upComeBatchSecDiv .courseName span {
+  font-size: 2.2rem;
+}
+.Demovideotitle,
+.courseName,
+.topcontactnav .top-mobno p {
+  font-size: 2rem;
+}
+.topcontactnav .msgIco,
+.topcontactnav .top-btn {
+  text-align: end;
+}
+.socialIcons a img {
+  width: 35px;
+  margin-right: 15px;
+}
+.topcontactnav .top-btn .enqBtn {
+  background-color: #fc4045;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+  outline: 0;
+  border: 0;
+}
+.topcontactnav .top-btn .enqBtn img {
+  width: 20%;
+  margin-right: 5%;
+}
+.bgBannerDiv {
+  background: #ffe9ec;
+  position: relative;
+  z-index: 99;
+}
+.homeBannerbgDiv {
+  background: #ffe9ec;
+  height: 78rem;
+}
+.navbarDiv {
+  padding: 0 4rem;
+}
+.navbarDiv .navbar-brand {
+  width: auto;
+}
+.navbarDiv .navbar-brand img {
+  width: 40rem;
+  margin-top: 2rem;
+}
+.navbar-light .navbar-nav .dropdown-item,
+.navbar-light .navbar-nav .nav-link {
+  color: #494949;
+  font-family: Roboto-Medium;
+  font-size: 2.6rem;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  padding: 0 2rem;
+  border-radius: 1rem;
+  top: 5rem;
+}
+.navbar-light .navbar-nav .dropdown-item:hover {
+  color: #fc4045;
+  background: 0 0;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #fc4045;
+  font-family: Roboto-Bold;
+  position: relative;
+}
+.dropAling {
+  margin-left: -3rem;
+  margin-right: 0 !important;
+}
+.actdropAling {
+  margin-left: -2rem;
+  margin-right: 2rem !important;
+}
+.dropdown-toggle::after {
+  margin-left: 3rem;
+  border-top: none;
+  border-right: none;
+  border-bottom: 0;
+  border-left: none;
+}
+.navbar-light .navbar-nav .dropdown-toggle::before {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: relative;
+  left: 14rem;
+}
+.navbar-light .navbar-nav .active > .nav-link:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/Group20.png);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 4.5rem;
+  width: 9rem;
+  height: 1.5rem;
+}
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.coursesdetailimg1,
+.footerSecDiv .firstFoot .contactDiv img,
+.headUnderline img,
+.headunderIcon img,
+.linkDivcoursedetails,
+.placementSecDiv .headimage img,
+.quickInquSecDiv .queryImage img,
+.studReviewSecDiv .linkDiv,
+.topCoursesSecDiv .linkDiv {
+  width: 100%;
+}
+.headBannerDiv .leftBannerSide {
+  top: 5rem;
+  left: 14rem;
+  position: relative;
+  padding-right: 15rem;
+}
+.headBannerDiv .cornerIcoDiv {
+  position: absolute;
+  top: 18rem;
+  left: -16rem;
+}
+.headBannerDiv .leftBannerSide h3 {
+  color: #fc4045;
+  font-size: 2.4rem;
+  font-family: Roboto-Medium;
+  margin-bottom: 2.5rem;
+}
+.headBannerDiv .leftBannerSide h2 {
+  color: #494949;
+  font-size: 4rem;
+  font-family: Roboto-Medium;
+  padding-right: 5rem;
+}
+.aboutPageMain .sectionTitle span,
+.bannerPageTitle span,
+.branchText h2 span,
+.coursereviewstb tr td.reviewsfirstcolumn a,
+.coursereviewstb tr td.reviewssecondcolumn a,
+.eventBlogSecDiv .innerBlogBox h5 span,
+.headBannerDiv .leftBannerSide h2 span,
+.sectionTitle span {
+  color: #fc4045;
+}
+.coursedetailbutton button,
+.viewCoursebtnDiv button {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Regular;
+  font-size: 2.4rem;
+  padding: 1.2rem 3.8rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 1.1rem;
+  margin-top: 7.5rem;
+}
+.headunderIcon {
+  position: absolute;
+  top: 60%;
+  left: -2%;
+  width: 40%;
+}
+.aboutBanner,
+.aboutPageMain .bg-pink,
+.aboutPageMain .ourOffice,
+.counterDiv,
+.internPageMain,
+.placementSecDiv,
+.rightBannerSide,
+.testimonialsPageMain,
+.viewCoursebtnDiv {
+  position: relative;
+}
+.rightBannerSide .banimg img {
+  position: absolute;
+  top: 54px;
+  left: 14rem;
+  width: 60rem;
+}
+.rightBannerSide .seventeenCourseDiv {
+  width: 19rem;
+  height: 19rem;
+  line-height: 1.1;
+  border-radius: 50%;
+  position: absolute;
+  top: 14.5rem;
+  left: 1rem;
+}
+.rightBannerSide .underIcoDiv {
+  position: absolute;
+  top: 33rem;
+  left: 0;
+}
+.rightBannerSide .underIcoDiv img {
+  width: 20rem;
+}
+.rightBannerSide .blkaniarrow img {
+  position: absolute;
+  width: 20rem;
+  top: 7rem;
+  left: 18rem;
+  animation: 4.5s linear infinite alternate leftanimation;
+}
+@keyframes leftanimation {
+  0% {
+    transform: translate(-30px);
+  }
+  100% {
+    transform: translate(30px);
+  }
+}
+.rightBannerSide .starCourseDiv {
+  line-height: 1.2;
+  color: #707070;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  left: 83rem;
+  padding: 1.5%;
+  text-align: center;
+}
+.internPageMain .intersParaDiv p,
+.rightBannerSide .starCourseDiv p {
+  font-family: Roboto-Regular;
+  font-size: 2.7rem;
+  color: #494949;
+}
+.rightBannerSide .starCourseDiv p span {
+  font-family: Roboto-Medium;
+  font-size: 5rem;
+  color: #494949;
+}
+.rightBannerSide .redaniarrow img {
+  position: absolute;
+  width: 20rem;
+  top: 24rem;
+  left: 75rem;
+  animation: 4.5s linear infinite alternate upDownanimation;
+  z-index: 99;
+}
+@keyframes upDownanimation {
+  0% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.counterDiv {
+  text-align: center;
+  background-image: url(../images/heading/counterBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 99;
+}
+.counterDiv .layer {
+  background-color: rgba(65, 65, 65, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.counterDiv #prg-counter {
+  padding: 10rem 0;
+}
+.counterDiv h3 {
+  color: #fff;
+  font-family: Roboto-Light;
+  font-size: 3.5rem;
+}
+.sectHeadindDiv h2,
+.sectionTitle {
+  font-size: 6rem;
+  font-family: Roboto-Bold;
+}
+.counterDiv .prg-container {
+  padding: 0 6rem;
+}
+.counterDiv h3 span {
+  font-size: 8rem;
+  font-family: Roboto-Medium;
+}
+#prg-counter .plusIco::after {
+  content: " +";
+  display: inline-block;
+  font-family: Roboto-Light;
+  font-size: 3.5rem;
+  margin-left: 1rem;
+}
+#prg-counter .countSet1::before,
+#prg-counter .countSet2::before {
+  content: " ";
+  background-image: url(../images/icons/counterUnderline.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 90%;
+  width: 18%;
+  height: 2rem;
+}
+#prg-counter .countSet1::before {
+  left: 18%;
+}
+#prg-counter .countSet2::before {
+  left: 30%;
+}
+#prg-counter .countSet3::before,
+#prg-counter .countSet4::before {
+  content: " ";
+  background-image: url(../images/icons/counterUnderline.png);
+  width: 19%;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 90%;
+}
+#prg-counter .countSet3::before {
+  left: 28%;
+  height: 20rem;
+}
+#prg-counter .countSet4::before {
+  left: 27%;
+  height: 2rem;
+}
+.welcomSecDiv {
+  padding: 0 18rem;
+  margin-bottom: 4rem;
+}
+.sectHeadindDiv {
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+.sectHeadindDiv h2 {
+  color: #494949;
+  text-align: center;
+}
+.sectHeadindDiv .headUnderLine {
+  border-bottom: 0.6rem solid #fc4045;
+  width: 50rem;
+  margin: 1% auto;
+}
+.paraDiv p {
+  color: #494949;
+  font-family: Roboto-Regular;
+  font-size: 2.6rem;
+  text-align: justify;
+}
+.knoMoreBtn,
+.sectionTitle,
+.whtsappbtn {
+  text-align: center;
+}
+.knoMoreBtn button {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 2.6rem;
+  padding: 1.2rem 3.8rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 1.1rem;
+  margin-top: 1%;
+}
+.placementSecDiv {
+  background: #ffe9ec;
+  padding: 5rem 10rem;
+}
+.placementSecDiv .headIcon {
+  position: absolute;
+  top: 5rem;
+  right: 47rem;
+}
+.placementSecDiv .headIcon img {
+  width: 14rem;
+}
+.placementPageSect .candiName,
+.placementSecDiv .candiName,
+.placementSecDiv .placeStud {
+  margin-top: 5%;
+}
+.placementSecDiv .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/textFoot.png);
+  background-repeat: no-repeat;
+  left: 53.5%;
+  top: 10%;
+  width: 20rem;
+  height: 4.5rem;
+}
+.placementPageSect .outerWhtBox,
+.placementSecDiv .outerWhtBox {
+  text-align: center;
+  background: #fff;
+  border-radius: 4rem;
+  padding: 2rem;
+  border: 0.1rem solid #000;
+  margin-bottom: 3rem;
+  height: 35rem;
+}
+.aboutPageMain .teamContaintBox .candiimage,
+.placementPageSect .candiimage,
+.placementSecDiv .candiimage,
+.studReviewSecDiv .candiimage {
+  border: 0.1rem solid #707070;
+  border-radius: 50%;
+  width: 18rem;
+  height: 18rem;
+  padding: 0.5rem;
+  margin: auto;
+}
+.aboutPageMain .teamContaintBox .candiimage .bdrDiv,
+.placementPageSect .bdrDiv,
+.placementSecDiv .bdrDiv,
+.studReviewSecDiv .candiimage .bdrDiv {
+  border-radius: 50%;
+  border: 0.2rem solid #707070;
+}
+.aboutPageMain .teamContaintBox .candiimage .bdrDiv img,
+.placementPageSect .candiimage img,
+.placementSecDiv .candiimage img,
+.studReviewSecDiv .candiimage .userImg {
+  width: 16.5rem;
+  height: 16.5rem;
+  border-radius: 50%;
+}
+.placementPageSect .candiName h3,
+.placementSecDiv .candiName h3 {
+  font-family: Roboto-Bold;
+  font-size: 2.7rem;
+  color: #fc4045;
+}
+.placementPageSect .candiName p,
+.placementSecDiv .candiName p {
+  font-family: Roboto-Regular;
+  font-size: 2rem;
+  color: #494949;
+}
+.placementSecDiv .dropCircle {
+  text-align: center;
+  margin-top: 1%;
+}
+.topCoursesSecDiv {
+  background: #494949;
+  position: relative;
+  z-index: 20;
+}
+.groupComSecDiv .headimage,
+.studReviewSecDiv .headimage,
+.topCoursesSecDiv .headimage,
+.upComeBatchSecDiv .headimage {
+  text-align: center;
+  position: relative;
+  padding: 2% 0;
+}
+.topCoursesSecDiv .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/textFoot.png);
+  background-repeat: no-repeat;
+  left: 61.5%;
+  top: 63%;
+  width: 20rem;
+  height: 4.5rem;
+}
+.topCoursesSecDiv .owl-carousel .owl-stage-outer {
+  margin: 1% 10% 3.5%;
+}
+.topCoursesSecDiv .owl-carousel.owl-drag .owl-item {
+  background: #fff;
+  width: 100%;
+  border-radius: 4rem;
+}
+.quickInquSecDiv .queryImage,
+.topCoursesSecDiv .owl-carousel .owl-item img,
+.upComeBatchSecDiv .owl-carousel .owl-item img {
+  margin: auto;
+}
+.topCoursesSecDiv .viewed_nav_container .viewed_prev img {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  z-index: 1;
+}
+.topCoursesSecDiv .viewed_nav_container .viewed_next img {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+}
+.topCoursesSecDiv .viewed_image {
+  margin-top: 10%;
+}
+.topCoursesSecDiv .courseName,
+.upComeBatchSecDiv .courseName {
+  font-family: Roboto-Bold;
+  font-size: 3rem;
+  color: #494949;
+  padding: 2rem 1rem;
+}
+.topCoursesSecDiv .linkDiv button {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 2.1rem;
+  padding: 10px 20%;
+  text-align: center;
+  border: transparent;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 10%;
+  left: 4%;
+}
+.topCoursesSecDiv .linkDiv .redir {
+  width: 3rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 16rem;
+  transform: rotate(-90deg);
+}
+.studReviewSecDiv {
+  background: #fff;
+  position: relative;
+  padding-bottom: 2%;
+}
+.studReviewSecDiv .bgCornerTop {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  z-index: 1;
+}
+.studReviewSecDiv .bgCornerBottom {
+  position: absolute;
+  right: 0;
+  bottom: -6.5%;
+}
+.studReviewSecDiv .starDiv {
+  width: 10%;
+  margin-left: -35%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.studReviewSecDiv .starDiv .starImg {
+  width: 80%;
+  margin-left: 0.5rem;
+}
+.studReviewSecDiv .exlaIcoDiv,
+.testiReviewDiv .exlaIcoDiv {
+  position: absolute;
+  top: 17rem;
+}
+.studReviewSecDiv .headimage p {
+  text-align: center;
+  color: #fc4045;
+  font-family: Roboto-Medium;
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+.studReviewSecDiv .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/banTextIcon.png);
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  left: 46.5%;
+  top: 77%;
+  width: 40rem;
+  height: 4.5rem;
+}
+.studReviewSecDiv .owl-carousel .owl-stage-outer,
+.upComeBatchSecDiv .owl-carousel .owl-stage-outer {
+  margin: 0 10%;
+}
+.studReviewSecDiv .owl-carousel.owl-drag .owl-item {
+  background: #ffe9ec;
+  width: 100%;
+  height: 60rem;
+  border-radius: 2rem;
+  border: 0.5px solid #707070;
+  margin-bottom: 1rem;
+}
+.studReviewSecDiv .owl-carousel.owl-drag .owl-item .outerWhtBox {
+  padding-top: 2rem;
+  position: relative;
+}
+.studReviewSecDiv .owl-carousel .owl-item .redir img {
+  width: 95%;
+  margin: 5% auto auto;
+}
+.aboutPageMain .our-team .sectionTitle span:after,
+.aboutPageMain .ourOffice .sectionTitle span:after,
+.groupComSecDiv .headimage .sectionTitle span:after,
+.quickInquSecDiv .headimage .sectionTitle span:after,
+.upComeBatchSecDiv .headimage .sectionTitle span:after {
+  background-image: url(../images/icons/textFoot.png);
+  width: 20rem;
+  height: 4.5rem;
+  content: "";
+  background-repeat: no-repeat;
+}
+.studReviewSecDiv .viewed_nav_container .viewed_prev img,
+.upComeBatchSecDiv .viewed_nav_container .viewed_prev img {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.studReviewSecDiv .viewed_nav_container .viewed_next img,
+.upComeBatchSecDiv .viewed_nav_container .viewed_next img {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+.studReviewSecDiv .reviewPara p {
+  font-family: Roboto-Regular;
+  font-size: 2.4rem;
+  color: #494949;
+  padding: 0 5%;
+}
+.studReviewSecDiv .studName {
+  position: relative;
+  bottom: 5%;
+  width: 100%;
+}
+.studReviewSecDiv .studName h3 {
+  font-family: Roboto-Bold;
+  font-size: 2.6rem;
+  color: #fc4045;
+  padding-top: 8%;
+}
+.studReviewSecDiv .studName p {
+  font-family: Roboto-Regular;
+  font-size: 2.2rem;
+  color: #494949;
+}
+.studReviewSecDiv .linkDiv button,
+.upComeBatchSecDiv .linkDiv button {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 1vw;
+  padding: 10px 20%;
+  text-align: center;
+  border: transparent;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 10%;
+  left: 6%;
+}
+.studReviewSecDiv .linkDiv .redir {
+  width: 10%;
+  position: relative;
+  bottom: 26%;
+  left: 47%;
+  margin-bottom: 2rem;
+}
+.groupComSecDiv {
+  background: 0 0 / cover no-repeat #494949;
+  position: relative;
+  padding-bottom: 2%;
+}
+.groupComSecDiv .headimage .sectionTitle span:after {
+  position: absolute;
+  left: 58%;
+  top: 70%;
+}
+.groupComSecDiv .compLogo {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 3rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.groupComSecDiv .compLogo img {
+  max-width: 100%;
+  border-radius: 3rem;
+}
+.groupComSecDiv .Logocontainer {
+  padding: 2% 5%;
+}
+.whyJoinSecDiv {
+  background: #ffe9ec;
+  padding: 2% 5%;
+  position: relative;
+}
+.whyJoinSecDiv .sectHeadindDiv {
+  margin-top: -2%;
+}
+.whyJoinSecDiv .headUnderLine {
+  border-bottom: 0.6rem solid #fc4045;
+  width: 30rem;
+  margin: 1% auto 0;
+}
+.whyJoinSecDiv .whyJoinIcornerRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.whyJoinSecDiv .cornerIcoDiv {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  z-index: 0;
+}
+.whyJoinSecDiv .whyJoinIcoDiv {
+  position: absolute;
+  top: -1%;
+  right: 32%;
+}
+.aboutPageMain .sectHeadindDiv,
+.testimonialsPageMain .sectHeadindDiv,
+.whyJoinSecDiv .whyBox {
+  padding: 2% 0;
+}
+.course-card,
+.whyJoinSecDiv .whyImage {
+  height: auto;
+  width: 100%;
+}
+.whyJoinSecDiv .whyImage img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.whyJoinSecDiv p img {
+  margin-right: 2%;
+}
+.whyJoinSecDiv p {
+  font-family: Roboto-Regular;
+  font-size: 3.2rem;
+  color: #494949;
+  margin-left: 5%;
+}
+.whyJoinSecDiv .redUnderline {
+  border-top: 1px solid #fc4045;
+}
+.upComeBatchSecDiv {
+  background: #494949;
+  position: relative;
+  padding-bottom: 3%;
+}
+.upComeBatchSecDiv .headimage .sectionTitle span:after {
+  position: absolute;
+  left: 52%;
+  top: 65%;
+}
+.upComeBatchSecDiv .owl-carousel.owl-drag .owl-item {
+  background: #fff;
+  width: 100%;
+  height: 52rem;
+  border-radius: 4rem;
+}
+.upComeBatchSecDiv .viewed_image {
+  margin-top: 2rem;
+}
+.upComeBatchSecDiv .linkDiv {
+  width: 100%;
+  position: absolute;
+  bottom: 15%;
+}
+.upComeBatchSecDiv .linkDiv hr {
+  border-bottom: 1px solid #707070;
+  width: 80%;
+  margin: auto;
+}
+.upComeBatchSecDiv .linkDiv p {
+  color: #494949;
+  font-family: Roboto-Regular;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.upComeBatchSecDiv .linkDiv h3 {
+  color: #fc4045;
+  font-family: Roboto-bold;
+  font-size: 2.9rem;
+  margin-bottom: 1rem;
+}
+.upComeBatchSecDiv .linkDiv .redir {
+  width: 10%;
+  position: absolute;
+  bottom: 3%;
+  left: 47%;
+}
+.upComeBatchSecDiv .redir {
+  width: 10%;
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  transform: rotate(-90deg);
+}
+.eveGallerySecDiv {
+  background: #ffe9ec;
+  padding: 2% 0;
+  position: relative;
+  z-index: 2;
+}
+.eveGallerySecDiv .headimage {
+  text-align: center;
+  padding-bottom: 4%;
+  position: relative;
+}
+.eveGallerySecDiv .eveGallDiv {
+  position: absolute;
+  top: 5%;
+  left: 33%;
+}
+.eveGallerySecDiv .rightCornerIco {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.aboutBanner .aboutBotCorner,
+.eveGallerySecDiv .leftCornerIco,
+.testimonialsBanner .aboutBotCorner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.eveGallerySecDiv .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/banTextIcon.png);
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  left: 48%;
+  top: 50%;
+  width: 40rem;
+  height: 4.5rem;
+}
+.eveGallerySecDiv .leftText h4 {
+  color: #fc4045;
+  font-family: Roboto-Bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 16rem;
+  margin-bottom: 3%;
+}
+.eveGallerySecDiv .leftText h5 {
+  color: #707070;
+  font-family: Roboto-Regular;
+  font-size: 3rem;
+  text-align: center;
+}
+.eveGallerySecDiv .leftDate h4 {
+  color: #707070;
+  font-family: Roboto-Bold;
+  font-size: 3rem;
+  text-align: center;
+}
+.eveGallerySecDiv hr {
+  border-bottom: 0.2rem solid #707070;
+  width: 55rem;
+  margin: 5rem auto 4rem;
+}
+.eveGallerySecDiv .eventPic {
+  width: 90%;
+  margin: auto;
+}
+.eveGallerySecDiv .eventPic .galleryImg {
+  border-radius: 4rem;
+  width: 100%;
+}
+.bannerPageTitle .coursBanhead:after,
+.eventBlogSecDiv .headimage .sectionTitle span:after {
+  width: 40rem;
+  background-image: url(../images/icons/banTextIcon.png);
+  background-repeat: no-repeat;
+  content: "";
+  height: 4.5rem;
+}
+.eveGallerySecDiv .outfream {
+  padding: 0 5%;
+}
+.eveGallerySecDiv .nextPrevIco {
+  width: 20%;
+}
+.carousel-control-prev {
+  left: 0;
+  top: 0;
+  width: 10%;
+}
+.carousel-control-next {
+  right: 0;
+  top: 0;
+  width: 10%;
+}
+.eventBlogSecDiv {
+  background: #fff;
+  position: relative;
+  padding-bottom: 5%;
+}
+.eventBlogSecDiv .headimage,
+.quickInquSecDiv .headimage {
+  text-align: center;
+  position: relative;
+  padding: 2% 0;
+  margin-bottom: 2%;
+}
+.eventBlogSecDiv .headimage .sectionTitle span:after {
+  position: absolute;
+  background-size: 20rem;
+  left: 45%;
+  top: 75%;
+}
+.eventBlogSecDiv .leftcrystal {
+  position: absolute;
+  top: -4%;
+  left: -3%;
+}
+.eventBlogSecDiv .rightcrystal {
+  position: absolute;
+  bottom: -5%;
+  right: 0;
+}
+.eventBlogSecDiv .blogBox {
+  padding: 0 4%;
+}
+.eventBlogSecDiv .innerBlogBox {
+  border: 1px solid #707070;
+  border-radius: 2.8rem;
+  width: 90%;
+  margin: auto;
+  padding: 8% 5%;
+  background: #fff;
+}
+.eventBlogSecDiv .innerBlogBox h3 {
+  color: #336098;
+  font-family: Roboto-Bold;
+  font-size: 3.2rem;
+  margin-bottom: 5%;
+}
+.eventBlogSecDiv .innerBlogBox h5 {
+  color: #494949;
+  font-family: Roboto-Medium;
+  font-size: 2.4rem;
+  margin-bottom: 5%;
+}
+.eventBlogSecDiv .innerBlogBox p {
+  color: #494949;
+  font-family: Roboto-Regular;
+  font-size: 2.4rem;
+  margin-bottom: 10%;
+}
+.quickInquSecDiv {
+  background: 0 0 / cover no-repeat #494949;
+  position: relative;
+  padding-bottom: 4%;
+}
+.quickInquSecDiv .headimage .sectionTitle span:after {
+  position: absolute;
+  left: 49%;
+  top: 70%;
+}
+.quickInquSecDiv .headimage img {
+  width: 15%;
+  margin: 2% 0;
+}
+.quickInquSecDiv .outBox {
+  padding: 0 1%;
+}
+.form-inside label {
+  font-size: 2.5rem;
+  font-family: Quicksand, sans-serif;
+}
+#message,
+.form-inside input,
+.form-inside select {
+  color: #333;
+  font-size: 2.2rem;
+  font-family: Roboto-Regular;
+  padding: 1rem 1rem 1rem 5%;
+  background-color: #fff;
+  margin-bottom: 1%;
+}
+.form-inside input {
+  width: 100%;
+  border-radius: 1.2rem;
+  border: 1px solid #767676;
+}
+#message,
+.form-inside button,
+.form-inside select {
+  border-radius: 1.2rem;
+  width: 100%;
+}
+.form-inside select {
+  appearance: none;
+  background-image: url(../images/icons/dropDown.png);
+  background-repeat: no-repeat;
+  background-position: right 1.7rem top 50%;
+  background-size: 1.3rem auto;
+}
+.form-inside button {
+  font-family: Roboto-Medium;
+  font-size: 2.3rem;
+  margin-top: 0;
+  padding: 1rem;
+  background-color: #fc4045;
+  color: #fff;
+  border: none;
+}
+.footerSecDiv {
+  background: #ffe9ec;
+  padding: 2%;
+}
+.footerSecDiv .firstFoot,
+.testimonialsPageMain .testiReviewDiv {
+  padding: 1% 5%;
+}
+.footerSecDiv .firstFoot .footLogo img {
+  width: 27rem;
+}
+.footerSecDiv .firstFoot .contactDiv a {
+  width: 12%;
+  padding: 0 0.5rem;
+}
+.footerSecDiv .firstFoot .contactDiv {
+  margin-left: 12%;
+  border-right: 2px solid #797979;
+}
+.footerSecDiv .forBdr {
+  border-right: 2px solid #797979;
+  height: 5.5rem;
+}
+.branch-body h5 a,
+.footerSecDiv .forBdr a,
+.headcoursefeatureimg {
+  color: #494949;
+}
+.firstFoot p a,
+.footerSecDiv .firstFoot p {
+  font-family: Roboto-Medium;
+  font-size: 2.4rem;
+  color: #494949;
+  margin-right: 1rem;
+  text-align: center;
+}
+.footerSecDiv .firstFoot .msgI img {
+  width: 12%;
+}
+.footerSecDiv .firstFoot .callI img {
+  width: 8%;
+}
+.footerSecDiv .secondFoot p {
+  font-family: Roboto-Regular;
+  font-size: 2.4rem;
+  color: #494949;
+  text-align: center;
+}
+.footerSecDiv hr {
+  border-bottom: 2px solid #707070;
+}
+.bannerPageTitle,
+.branchText h2 {
+  font-family: Roboto-Medium;
+  font-size: 6rem;
+  color: #494949;
+}
+.bannerPageTitle .coursBanhead:after {
+  position: absolute;
+  background-size: 21.5rem;
+  left: 50%;
+  top: 90%;
+}
+.bannerPageTitle .abtBanhead:after,
+.bannerPageTitle .coursdetailBanhead:after {
+  top: 100%;
+  background-image: url(../images/icons/banTextIcon.png);
+}
+.aboutBanner .bannerText,
+.testimonialsBanner .bannerText {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+.bannerPageTitle .abtBanhead:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 23rem;
+  left: 45%;
+  width: 25rem;
+  height: 4.5rem;
+}
+.aboutBanner .bannerText img {
+  position: absolute;
+  width: 23rem;
+  left: 15%;
+}
+.aboutPageMain .aboutParaDiv {
+  font-size: 2.4rem;
+  font-family: Roboto-Medium;
+  color: #494949;
+  padding: 0 5% 2%;
+  text-align: justify;
+}
+.aboutPageMain .sectionTitle {
+  font-size: 6rem;
+  font-family: Roboto-Bold;
+  padding: 2% 0;
+  text-align: center;
+}
+.aboutPageMain .teamPara,
+.our-team .connectBtn {
+  font-size: 2.6rem;
+  font-family: Roboto-Regular;
+  color: #fff;
+}
+.aboutPageMain .our-team,
+.branchMapDiv {
+  background-color: #494949;
+  position: relative;
+}
+.aboutPageMain .our-team .sectionTitle span:after {
+  position: absolute;
+  left: 47.5%;
+  top: 10rem;
+}
+.our-team .connectBtn {
+  background-color: #007ab9;
+  border-color: #007ab9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.our-team .connectBtn img {
+  width: 4rem;
+  margin-bottom: 0.6rem;
+}
+.btnBack:hover,
+.btnViewDetails:hover,
+.our-team .connectBtn a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.aboutPageMain .teamPara {
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+.aboutPageMain .teamContaintBox {
+  padding: 0 2%;
+}
+.aboutPageMain .team-box {
+  background-color: #fff;
+  border-radius: 2.4rem;
+  text-align: center;
+  padding: 8% 0;
+  margin: auto auto 10%;
+  width: 90%;
+}
+.aboutPageMain .prof-name {
+  font-size: 3.2rem;
+  color: #fc4146;
+  font-family: Roboto-Bold;
+  margin-top: 2%;
+}
+.aboutPageMain .prof-pos {
+  font-size: 2.2rem;
+  font-family: Roboto-Medium;
+  padding: 0 1rem;
+}
+.aboutPageMain .prof-exp {
+  font-size: 2rem;
+  font-family: Roboto-Regular;
+}
+.aboutPageMain .officeContaintBox {
+  padding: 2% 3%;
+}
+.aboutPageMain .our-ofc-border {
+  border-radius: 2.8rem;
+  border: 1px solid #707070;
+  padding: 1rem;
+}
+.aboutPageMain .our-ofc {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.aboutPageMain .ourOffice .sectionTitle span:after {
+  position: absolute;
+  left: 46.5%;
+  top: 22%;
+}
+.aboutPageMain .our-ofc img {
+  border-radius: 1.5rem;
+}
+.aboutPageMain .ofc-centered-text {
+  margin-top: 1rem;
+  background-color: rgba(252, 65, 70, 0.9);
+  padding: 1rem;
+  min-width: 100%;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: Roboto-Bold;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+.bannerPageTitle .coursdetailBanhead:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 215px;
+  left: 0;
+  width: 40rem;
+  height: 4.5rem;
+}
+.couresedetail {
+  margin: 5vh 8vw;
+}
+.aboutBanner .corsesCertiimgDiv {
+  width: 18rem;
+  height: 18rem;
+  background: #fc4045;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17;
+  position: absolute;
+  left: 3%;
+  top: 25%;
+}
+.aboutBanner .roundIcoDiv {
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+.blkanim {
+  position: absolute;
+  left: 17%;
+  top: 10%;
+  animation: 4.5s linear infinite alternate courseanimation;
+}
+@keyframes courseanimation {
+  0% {
+    transform: translate(-4rem);
+  }
+  100% {
+    transform: translate(1rem);
+  }
+}
+.aboutBanner .roundIcoDiv img {
+  width: 88%;
+}
+.coursedetailtabs {
+  width: 100%;
+  background-color: #ffe9ec;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+.coursedetailtabs img {
+  width: 4rem;
+  position: relative;
+  top: 70px;
+}
+.tabs {
+  list-style-type: none;
+}
+.tabs li,
+.testimonialsPageMain .tabTesti li {
+  display: inline-block;
+  padding: 1rem;
+}
+.tabs li a {
+  text-transform: uppercase;
+  padding: 1.2rem 3rem;
+}
+.tabs li.active a {
+  background-color: #fc4045;
+  color: #fff;
+}
+.headcoursefeatureimg2,
+.tabs li a:hover {
+  color: #000;
+}
+.outer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+.btnmenu,
+.detailsbtn {
+  width: 16rem;
+}
+.detailsbtn {
+  border: 0.1rem solid #fc4045;
+  padding: 0.8rem 0.5rem;
+  font-family: Roboto-medium;
+  font-size: 2.2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #494949;
+  font-weight: 500;
+}
+.titledescription {
+  font-size: 2.8rem;
+  color: #494949;
+  font-family: Roboto-Bold;
+}
+.descriptioncourse {
+  font-size: 2.2rem;
+  color: #494949;
+  font-family: Roboto-regular;
+  text-align: justify;
+}
+.coursedetailheading,
+.ourcoursesimg {
+  text-align: center;
+  color: #000;
+  font-size: 3.5rem;
+  font-family: Roboto-Regular;
+  font-weight: 600;
+  margin-left: 15%;
+}
+.coursedetailheadingTitle {
+  font-size: 3.5rem;
+}
+.headcoursefeatureimg,
+.headcoursefeatureimg2 {
+  text-align: center;
+  font-size: 3.3rem;
+  padding: 2rem 0;
+  font-family: Roboto-Bold;
+}
+.coursedetailheadingTitle span,
+.ourcoursesTitle span,
+.sectioncoursefeatureTitle span,
+.sectioncoursefeatureTitle2 span {
+  color: #fc4045;
+  padding: 0 1rem;
+}
+.coursedetailheadingTitle span::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/headingUnderline.png);
+  background-repeat: no-repeat;
+  left: 13.5%;
+  top: 44%;
+  width: 26%;
+  height: 100%;
+  background-size: 100%;
+}
+.ourcoursesTitle span::after,
+.sectioncoursefeatureTitle span::after,
+.sectioncoursefeatureTitle2 span::after {
+  background-image: url(../images/icons/banTextIcon.png);
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+}
+.ourcoursesTitle span::after {
+  left: 24.5%;
+  top: 44%;
+  width: 25%;
+  height: 100%;
+  background-size: 100%;
+}
+.sectioncoursefeatureTitle span::after,
+.sectioncoursefeatureTitle2 span::after {
+  height: 2rem;
+  top: 8rem;
+}
+.sectioncoursefeatureTitle span::after {
+  left: 20rem;
+  width: 29rem;
+  background-size: 10rem;
+}
+.sectioncoursefeatureTitle2 span::after {
+  left: 17rem;
+  width: 31rem;
+  background-size: 11rem;
+}
+.featurecard-body {
+  padding: 1rem 3rem;
+}
+.coursefeatures-body,
+.testimonialsPageMain .tab-content {
+  padding: 1rem;
+}
+.coursefeatures {
+  width: 95%;
+  border-radius: 2.5rem;
+  margin: auto;
+}
+.coursefeatures-title {
+  padding: 0 1.5rem;
+  margin-bottom: -1rem;
+}
+.coursefeaturestb,
+.coursereviewstb {
+  color: #000;
+  font-size: 2.2rem;
+  text-align: left;
+  border: none;
+  width: 100%;
+}
+.coursefeaturestb tr,
+.coursereviewstb tr {
+  border-bottom: 0.1rem solid #ccc;
+  border-top: 0.1rem solid #ccc;
+  font-family: Roboto-Medium;
+}
+.coursereviewstb tr:last-child {
+  border-bottom: none;
+}
+.featurefirstcolumn {
+  width: 15%;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 1.5rem 0.8rem 1.5rem 1.5rem;
+  text-align: left;
+}
+.featuresecondcolumn {
+  width: 50%;
+  padding: 0;
+  text-align: left;
+}
+.featurelastcolumn {
+  width: 35%;
+  color: #fc4045;
+  text-align: end;
+  padding: 0 1.5rem 0 0;
+}
+.reviewsfirstcolumn {
+  text-align: left;
+}
+.reviewssecondcolumn {
+  color: #fc4045;
+  text-align: end;
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+.reviewratingpoint {
+  font-size: 4rem;
+  font-family: Roboto-Medium;
+}
+.Entroll {
+  background-color: #fc4045;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: Roboto-Regular;
+  padding: 0.8rem 0;
+  width: 20rem;
+}
+.whtsapplinkbtn {
+  background-color: #309255;
+  color: #fff;
+  font-family: Roboto-Medium;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  width: 90%;
+  border-radius: 1.6rem;
+  border: 0.1rem solid #707070;
+}
+.whtsapplinkbtn img {
+  padding-right: 10px;
+  width: 5rem;
+}
+.checked {
+  color: orange;
+}
+.starDiv img {
+  width: 3.4rem;
+}
+.coursecontent1 {
+  font-size: 2.6rem;
+  font-family: Roboto-Medium;
+  color: #fff;
+  background-color: #336098;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+.Demovideotitle,
+.coursecontentlist li {
+  color: #383c41;
+  font-family: Roboto-Regular;
+}
+.coursecontent2 {
+  background-color: #ffe9ec;
+  width: 100%;
+  border-radius: 1.7rem;
+}
+.coursecontentlist li {
+  list-style: none;
+  padding: 0 1rem;
+  font-size: 2.2rem;
+  margin-left: 1.5rem;
+}
+.coursecontentlist .fa {
+  padding: 1rem;
+  font-size: 2.2rem;
+  color: #fc4045;
+}
+.coursewebinarvideo {
+  width: 100%;
+  height: 44rem;
+  border-radius: 2.4rem;
+}
+.placementPageSect {
+  padding: 4%;
+}
+.bannerPageTitle .placeBanhead:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 235px;
+  left: 65%;
+  width: 40rem;
+  height: 4.5rem;
+}
+.bannerPageTitle .eventBanhead:after,
+.completedEventSect .evePageupbat:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 4.5rem;
+}
+.completedEventSect {
+  padding: 2% 3%;
+  position: relative;
+}
+.completedEventSect .card {
+  border: 0.1rem solid #707070;
+  border-radius: 2.8rem;
+  margin: auto auto 10%;
+  width: 95%;
+}
+.completedEventSect .card .card-body {
+  padding-bottom: 0;
+}
+.completedEventSect .card img {
+  border-radius: 2.8rem;
+  padding: 3%;
+}
+.branchMapDiv .whiteMapBoxDiv hr,
+.completedEventSect .card hr {
+  border-bottom: 0.1rem solid #707070;
+}
+.completedEventSect .card-body h5 {
+  color: #fc4045;
+  font-family: Roboto-Bold;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.completedEventSect .card-body .card-text {
+  color: #707070;
+  font-family: Roboto-Medium;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.completedEventSect .card-body p {
+  color: #707070;
+  font-family: Roboto-Bold;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.completedEventSect .evePageupbat:after {
+  background-image: url(../images/icons/curvedUnderline.png);
+  background-size: 18rem;
+  left: 51%;
+  top: 13%;
+}
+.bannerPageTitle .eventBanhead:after {
+  background-image: url(../images/icons/banTextIcon.png);
+  background-size: 23rem;
+  left: 55%;
+  top: 100%;
+}
+.bannerPageTitle .testimoBanhead:after,
+.testimonialsPageMain .headimage .sectionTitle .clientSpan:after,
+.testimonialsPageMain .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/banTextIcon.png);
+  background-repeat: no-repeat;
+  width: 40rem;
+}
+.bannerPageTitle .testimoBanhead:after {
+  background-size: 235px;
+  left: 5%;
+  top: 100%;
+  height: 45px;
+}
+.testimonialsPageMain .testiReviewCard {
+  background: #ffe9ec;
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 2rem;
+  border: 0.5px solid #707070;
+  margin-bottom: 5%;
+}
+.testimonialsPageMain .headimage .sectionTitle span:after {
+  background-size: 20rem;
+  left: 48.5%;
+  top: 72%;
+  height: 4.5rem;
+}
+.testimonialsPageMain .headimage .sectionTitle .clientSpan:after {
+  background-size: 13rem;
+  left: 44%;
+  top: 72%;
+  height: 4.5rem;
+}
+.testimonialsPageMain .tabTesti {
+  text-align: center;
+  list-style-type: none;
+  background: #dadada;
+  margin: 2% 5% 0;
+  border-radius: 1.7rem;
+  padding: 2.5rem 0;
+}
+.testimonialsPageMain .tabTesti li a {
+  background: #fff;
+  color: #494949;
+  font-family: Roboto-Medium;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 1.1rem;
+  margin-top: 1%;
+}
+.branchMapDiv .headimage .sectionTitle span:after,
+.branchText h2 span:after,
+.contactFormHeadDiv .headimage .sectionTitle span:after {
+  background-image: url(../images/icons/curvedUnderline.png);
+  width: 20rem;
+}
+.branchMapDiv .headimage .sectionTitle span:after,
+.branchMapDiv .whiteMapBoxDiv .headimage .sectionTitle span:after,
+.branchText h2 span:after,
+.contactFormHeadDiv .headimage .sectionTitle span:after,
+.internPageMain .headimage .sectionTitle span:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 4.5rem;
+}
+.testimonialsPageMain .tabTesti li.active a {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: transparent;
+  border-radius: 1.1rem;
+  margin-top: 1%;
+}
+.course-card {
+  background: #ffe9ec;
+  border-radius: 4rem;
+  border: 0.1rem solid #fc4045;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+.linkDivcoursedetails button {
+  background: #fc4045;
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 1vw;
+  padding: 1rem 12%;
+  text-align: center;
+  border: transparent;
+  border-radius: 1rem;
+  bottom: 15%;
+  left: 12%;
+}
+.linkDivcoursedetails .redir {
+  bottom: 4%;
+  left: 47%;
+  transform: rotate(-90deg);
+}
+.course-card img {
+  width: 70%;
+  margin: 5% auto auto;
+}
+.courseName {
+  font-family: Roboto-Bold;
+  color: #494949;
+  line-height: 1.5;
+}
+.subcoursetext {
+  font-size: 1.5rem;
+  font-family: Roboto-Regular;
+}
+.placementicon {
+  margin-bottom: 4vh;
+}
+.Enquiryformrow {
+  margin: 0 3vw;
+}
+.branchText h2 span:after {
+  background-size: 15rem;
+  left: 105rem;
+  top: 8rem;
+}
+.branch-body h5 {
+  font-size: 3rem;
+  font-family: Roboto-Medium;
+  padding: 2rem 5rem;
+  color: #494944;
+}
+.branchOutBoxDiv {
+  padding: 5rem;
+}
+.whtMapBox {
+  padding: 2% 3%;
+  border-radius: 2.8rem;
+  background: #fff;
+  height: 51rem;
+}
+.branchMapDiv .headimage .sectionTitle {
+  padding: 3% 0;
+}
+.branchMapDiv .whiteMapBoxDiv {
+  padding: 1% 10%;
+}
+.branchMapDiv .whiteMapBoxDiv .media {
+  margin-top: 8%;
+}
+.branchMapDiv .whiteMapBoxDiv .media h5,
+.branchMapDiv .whiteMapBoxDiv .media h5 a {
+  font-family: Roboto-Regular;
+  font-size: 2.6rem;
+  color: #000;
+  margin-left: 3%;
+}
+.branchMapDiv .whiteMapBoxDiv .card {
+  padding: 2% 3%;
+  border-radius: 2.8rem;
+}
+.branchMapDiv .whiteMapBoxDiv .headimage .sectionTitle {
+  font-size: 3.6rem;
+  text-align: start;
+}
+.branchMapDiv .whiteMapBoxDiv .headimage .sectionTitle span:after {
+  background-image: url(../images/icons/counterUnderline.png);
+  background-size: 10.5rem;
+  left: 28%;
+  top: 18%;
+  width: 20rem;
+}
+.branchMapDiv .headimage .sectionTitle span:after {
+  background-size: 18rem;
+  left: 52%;
+  top: 12%;
+}
+.contactFormHeadDiv .headimage .sectionTitle span:after {
+  background-size: 18rem;
+  left: 53%;
+  top: 75%;
+}
+.contactFormHeadDiv .externatOutBoxDiv {
+  padding: 0 7%;
+}
+.internPageMain .headimage {
+  position: relative;
+  padding: 2% 0;
+}
+.internPageMain .intersParaDiv {
+  padding: 2% 8%;
+}
+.internPageMain .hghtParaDiv {
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+.internPageMain .hghtParaDiv p {
+  text-indent: -3rem;
+}
+.internPageMain .intersParaDiv h4 {
+  font-family: Roboto-Medium;
+  font-size: 2.7rem;
+  color: #494949;
+  margin: 4rem 0;
+}
+.internPageMain .headimage .sectionTitle span:after {
+  background-image: url(../images/icons/banTextIcon.png);
+  background-size: 21rem;
+  left: 59%;
+  top: 75%;
+  width: 27.4rem;
+}
+@media screen and (min-device-width: 1680px) and (max-device-width: 1950px) {
+  .readMoreToggle > img {
+    width: 40px !important;
+  }
+  .coursedetailtabs img {
+    top: 65px;
+  }
+}
+@media screen and (min-device-width: 1480px) and (max-device-width: 1680px) {
+  html {
+    font-size: 48%;
+  }
+  .coursefeatures {
+    width: 100%;
+    margin: auto;
+  }
+  .coursewebinarvideo {
+    height: 53.5rem;
+  }
+  .coursedetailtabs img {
+    top: 50px;
+  }
+}
+@media screen and (min-device-width: 1300px) and (max-device-width: 1479px) {
+  html {
+    font-size: 45%;
+  }
+  .course-card {
+    width: 105%;
+    border-radius: 3rem;
+  }
+  .linkDivcoursedetails button {
+    padding: 0.8rem 12%;
+    left: 13.5%;
+  }
+  .sectioncoursefeatureTitle span::after {
+    top: 12%;
+  }
+  .sectioncoursefeatureTitle2 span::after {
+    top: 18%;
+  }
+  .reviewssecondcolumn {
+    padding: 1.5rem 0;
+  }
+  .coursewebinarvideo {
+    height: 48.5rem;
+  }
+  .topcontactnav a {
+    font-size: 1.9rem;
+  }
+  .topCoursesSecDiv .linkDiv button {
+    position: static;
+  }
+  .topCoursesSecDiv .courseName {
+    height: 80px;
+  }
+  .topCoursesSecDiv .linkDiv .redir {
+    position: static;
+    width: 100%;
+    margin-top: 8px;
+  }
+  .topCoursesSecDiv .linkDiv .redir img {
+    width: 22px;
+  }
+  #studentReviews .owl-carousel.owl-drag .owl-item {
+    height: 70rem;
+  }
+  .studReviewSecDiv .reviewPara > p {
+    height: 107px !important;
+  }
+  .coursedetailtabs img {
+    top: 45px;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1299px) {
+  html {
+    font-size: 45%;
+  }
+  .course-card {
+    width: 105%;
+    border-radius: 3rem;
+  }
+  .coursenmtop {
+    padding-top: 5.7vh;
+  }
+  .linkDivcoursedetails button {
+    padding: 0.8rem 12%;
+    left: 13.5%;
+  }
+  .sectioncoursefeatureTitle span::after {
+    top: 9%;
+  }
+  .sectioncoursefeatureTitle2 span::after {
+    top: 14%;
+  }
+  .reviewssecondcolumn {
+    padding: 1.5rem 0;
+  }
+  .coursewebinarvideo {
+    height: 58rem;
+  }
+  .topcontactnav a {
+    font-size: 1.8rem;
+  }
+  .coursedetailtabs img {
+    top: 45px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 32%;
+  }
+  #prg-counter .countSet1::before,
+  #prg-counter .countSet2::before,
+  #prg-counter .countSet3::before,
+  #prg-counter .countSet4::before,
+  .aboutBanner .aboutBotCorner,
+  .groupComSecDiv .headimage .sectionTitle span:after,
+  .headBannerDiv .cornerIcoDiv,
+  .placementSecDiv .headIcon img,
+  .placementSecDiv .headimage .sectionTitle span:after,
+  .studReviewSecDiv .headimage .sectionTitle span:after,
+  .topCoursesSecDiv .headimage .sectionTitle span:after,
+  .upComeBatchSecDiv .headimage .sectionTitle span:after,
+  .upComeInternSecDiv .headimage .sectionTitle span:after,
+  .whyJoinSecDiv .cornerIcoDiv,
+  .whyJoinSecDiv .whyJoinIcoDiv,
+  .whyJoinSecDiv .whyJoinIcornerRight {
+    display: none !important;
+  }
+  .navbar-light .navbar-toggler {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1.5rem;
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar-light .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+  .branch-body img,
+  .media img {
+    width: 5rem;
+  }
+  .branchMapDiv .whiteMapBoxDiv .headimage .sectionTitle span:after {
+    left: 14%;
+    top: 25%;
+  }
+  .branchMapDiv .whiteMapBoxDiv {
+    padding: 2%;
+  }
+  .branchMapDiv .whiteMapBoxDiv .media {
+    margin-top: 4rem;
+  }
+  .branchText h2 span:after {
+    left: 90rem;
+  }
+  .eventBlogSecDiv {
+    top: 5rem;
+  }
+  .branch {
+    padding-top: 10rem;
+  }
+  .aboutPageMain .prof-pos {
+    font-size: 2.1rem;
+  }
+  .aboutPageMain .team-box {
+    width: 100%;
+  }
+  .our-team .connectBtn img {
+    width: 3rem;
+  }
+  .placementSecDiv .outerWhtBox {
+    height: 40rem;
+  }
+  .topCoursesSecDiv .courseName {
+    height: 58px !important;
+  }
+  #studentReviews .owl-carousel.owl-drag .owl-item {
+    height: 72rem;
+  }
+  .nextPrevIcons {
+    position: relative;
+  }
+  #studentReviews .owl-next img,
+  #studentReviews .owl-prev img,
+  #topCourseDiv .owl-next img,
+  #topCourseDiv .owl-prev img {
+    width: 30px;
+  }
+  .exlaIcoDiv img,
+  .readMoreToggle img {
+    width: 25px;
+  }
+  .studReviewSecDiv .reviewPara > p {
+    height: 100px !important;
+  }
+  #studentReviews .owl-theme .owl-nav .owl-prev {
+    margin-left: -2.5rem !important;
+  }
+  #studentReviews .owl-theme .owl-nav .owl-next {
+    margin-right: -2.5rem !important;
+  }
+  .coursedetailtabs img {
+    top: 30px;
+  }
+  .coursedetailbutton button {
+    margin-bottom: 18px;
+  }
+  .hirebtn {
+    right: 2px !important;
+    padding: 10px !important;
+  }
+  .placement-dept {
+    margin-top: 2% !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 30%;
+  }
+  .aboutPageMain .our-team .sectionTitle span:after {
+    background-size: 15rem;
+    top: 7rem;
+  }
+  .aboutPageMain .ourOffice .sectionTitle span:after {
+    top: 4%;
+    background-size: 15rem;
+  }
+  #prg-counter .countSet1::before,
+  #prg-counter .countSet2::before,
+  #prg-counter .countSet3::before,
+  #prg-counter .countSet4::before,
+  .aboutBanner .aboutBotCorner,
+  .groupComSecDiv .headimage .sectionTitle span:after,
+  .headBannerDiv .cornerIcoDiv,
+  .placementSecDiv .headIcon img,
+  .placementSecDiv .headimage .sectionTitle span:after,
+  .readMoreToggle,
+  .studReviewSecDiv .headimage .sectionTitle span:after,
+  .topCoursesSecDiv .headimage .sectionTitle span:after,
+  .upComeBatchSecDiv .headimage .sectionTitle span:after,
+  .upComeInternSecDiv .headimage .sectionTitle span:after,
+  .whyJoinSecDiv .cornerIcoDiv,
+  .whyJoinSecDiv .whyJoinIcoDiv,
+  .whyJoinSecDiv .whyJoinIcornerRight {
+    display: none;
+  }
+  .counterDiv .prg-container {
+    text-align: start;
+    margin-left: 8rem;
+  }
+  .aboutPageMain .officeContaintBox {
+    padding: 3rem 0;
+  }
+  .footerSecDiv .firstFoot .footLogo img {
+    width: 55rem;
+    margin-bottom: 5rem;
+  }
+  .footerSecDiv .firstFoot p {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .footerSecDiv .firstFoot .contactDiv,
+  .footerSecDiv .forBdr {
+    border-right: none;
+    height: auto;
+  }
+  .headBannerDiv .leftBannerSide {
+    left: 5rem;
+    top: 5rem;
+    padding-right: 10rem;
+  }
+  .homeBannerbgDiv {
+    height: 85vh;
+  }
+  .rightBannerSide .banimg img {
+    top: 5rem;
+    left: 0;
+    width: 70rem;
+  }
+  .headBannerDiv .leftBannerSide h2 {
+    padding-right: 0;
+  }
+  .rightBannerSide .starCourseDiv {
+    top: -8rem;
+    left: 45rem;
+  }
+  #courseLogoSlider .carousel-inner img {
+    width: 13rem;
+  }
+  .welcomSecDiv {
+    padding: 0 5rem;
+  }
+  .whyJoinSecDiv .whyImage {
+    margin-bottom: 5rem;
+  }
+  .studReviewSecDiv .reviewPara p {
+    height: auto;
+    overflow: visible;
+    text-overflow: initial;
+    -webkit-line-clamp: initial;
+    white-space: normal;
+  }
+  .coursedetailbutton button {
+    margin-bottom: 18px;
+  }
+  .topcontactnav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .topcontactnav div {
+    margin-bottom: 10px;
+  }
+  .callIco img,
+  .socialIcons a img,
+  .top-info img {
+    width: 25px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  html {
+    font-size: 30%;
+  }
+  .aboutPageMain .our-team .sectionTitle span:after {
+    background-size: 15rem;
+    top: 7rem;
+  }
+  .aboutPageMain .ourOffice .sectionTitle span:after {
+    top: 4%;
+    background-size: 15rem;
+  }
+  #prg-counter .countSet1::before,
+  #prg-counter .countSet2::before,
+  #prg-counter .countSet3::before,
+  #prg-counter .countSet4::before,
+  .aboutBanner .aboutBotCorner,
+  .bannerImage,
+  .groupComSecDiv .headimage .sectionTitle span:after,
+  .headBannerDiv .cornerIcoDiv,
+  .placementSecDiv .headIcon img,
+  .placementSecDiv .headimage .sectionTitle span:after,
+  .readMoreToggle,
+  .studReviewSecDiv .headimage .sectionTitle span:after,
+  .topCoursesSecDiv .headimage .sectionTitle span:after,
+  .upComeBatchSecDiv .headimage .sectionTitle span:after,
+  .upComeInternSecDiv .headimage .sectionTitle span:after,
+  .whyJoinSecDiv .cornerIcoDiv,
+  .whyJoinSecDiv .whyJoinIcoDiv,
+  .whyJoinSecDiv .whyJoinIcornerRight {
+    display: none;
+  }
+  .counterDiv .prg-container {
+    text-align: start;
+    margin-left: 8rem;
+  }
+  .aboutPageMain .officeContaintBox {
+    padding: 3rem 0;
+  }
+  .footerSecDiv .firstFoot .footLogo img {
+    width: 55rem;
+    margin-bottom: 5rem;
+  }
+  .footerSecDiv .firstFoot p {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .footerSecDiv .firstFoot .contactDiv,
+  .footerSecDiv .forBdr {
+    border-right: none;
+    height: auto;
+  }
+  .headBannerDiv .leftBannerSide {
+    left: 5rem;
+    top: 5rem;
+    padding-right: 10rem;
+  }
+  .homeBannerbgDiv {
+    height: 85vh;
+  }
+  .rightBannerSide .banimg img {
+    top: 5rem;
+    left: 0;
+    width: 70rem;
+  }
+  .headBannerDiv .leftBannerSide h2 {
+    padding-right: 0;
+  }
+  .rightBannerSide .starCourseDiv {
+    top: -8rem;
+    left: 45rem;
+  }
+  #courseLogoSlider .carousel-inner img {
+    width: 13rem;
+  }
+  .welcomSecDiv {
+    padding: 0 5rem;
+  }
+  .whyJoinSecDiv .whyImage {
+    margin-bottom: 5rem;
+  }
+  .studReviewSecDiv .reviewPara p {
+    height: auto;
+    overflow: visible;
+    text-overflow: initial;
+    -webkit-line-clamp: initial;
+    white-space: normal;
+  }
+  .bannerText {
+    margin: 5rem 0;
+  }
+  .coursedetailbutton button {
+    margin-bottom: 18px;
+  }
+  .topcontactnav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .topcontactnav div {
+    margin-bottom: 10px;
+  }
+  .callIco img,
+  .socialIcons a img,
+  .top-info img {
+    width: 25px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .bannerImage,
+  .bannerPageTitle .coursBanhead:after,
+  .readMoreToggle,
+  .rightBannerSide .redaniarrow img {
+    display: none;
+  }
+  html {
+    font-size: 33%;
+  }
+  .aboutPageMain .our-team .sectionTitle span:after {
+    background-size: 15rem;
+    top: 7rem;
+  }
+  .aboutPageMain .ourOffice .sectionTitle span:after {
+    top: 6%;
+    background-size: 15rem;
+  }
+  .counterDiv .prg-container {
+    text-align: start;
+    margin-left: 8rem;
+  }
+  .aboutPageMain .officeContaintBox {
+    padding: 3rem 0;
+  }
+  .internPageMain .headimage .sectionTitle span:after {
+    left: 35%;
+    top: 85%;
+  }
+  .bannerImage {
+    margin-top: 15rem;
+  }
+  .footerSecDiv .firstFoot .footLogo img {
+    width: 55rem;
+    margin-bottom: 5rem;
+  }
+  .footerSecDiv .firstFoot p {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .footerSecDiv .firstFoot .contactDiv,
+  .footerSecDiv .forBdr {
+    border-right: none;
+    height: auto;
+  }
+  .headBannerDiv .leftBannerSide {
+    left: 5rem;
+    top: 5rem;
+    padding-right: 18rem;
+  }
+  .homeBannerbgDiv {
+    height: 85vh;
+  }
+  .rightBannerSide .banimg img {
+    top: 5rem;
+    left: 0;
+    width: 70rem;
+  }
+  .headBannerDiv .leftBannerSide h2 {
+    padding-right: 0;
+  }
+  .rightBannerSide .starCourseDiv {
+    top: -8rem;
+    left: 52rem !important;
+  }
+  #courseLogoSlider .carousel-inner img {
+    width: 13rem;
+  }
+  .welcomSecDiv {
+    padding: 0 5rem;
+  }
+  .whyJoinSecDiv .whyImage {
+    margin-bottom: 5rem;
+  }
+  .studReviewSecDiv .reviewPara p {
+    height: auto;
+    overflow: visible;
+    text-overflow: initial;
+    -webkit-line-clamp: initial;
+    white-space: normal;
+  }
+  .bannerText,
+  .queryImage {
+    margin: 5rem 0;
+  }
+  #prg-counter .countSet1::before,
+  #prg-counter .countSet2::before,
+  #prg-counter .countSet3::before,
+  #prg-counter .countSet4::before,
+  .aboutBanner .aboutBotCorner,
+  .groupComSecDiv .headimage .sectionTitle span:after,
+  .headBannerDiv .cornerIcoDiv,
+  .placementSecDiv .headIcon img,
+  .placementSecDiv .headimage .sectionTitle span:after,
+  .studReviewSecDiv .headimage .sectionTitle span:after,
+  .topCoursesSecDiv .headimage .sectionTitle span:after,
+  .upComeBatchSecDiv .headimage .sectionTitle span:after,
+  .upComeInternSecDiv .headimage .sectionTitle span:after,
+  .whyJoinSecDiv .cornerIcoDiv,
+  .whyJoinSecDiv .whyJoinIcoDiv,
+  .whyJoinSecDiv .whyJoinIcornerRight {
+    display: none !important;
+  }
+  .navbar-light .navbar-toggler {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1.5rem;
+    border-color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar-light .navbar-toggler-icon,
+  .paraDiv p,
+  .topCoursesSecDiv .linkDiv button {
+    font-size: 3rem;
+  }
+  .media img {
+    width: 4rem;
+  }
+  .branchMapDiv .whiteMapBoxDiv .headimage .sectionTitle span:after {
+    left: 30%;
+  }
+  .branchMapDiv .whiteMapBoxDiv {
+    padding: 1.5rem;
+  }
+  .footerSecDiv .forBdr .msgI img,
+  .footerSecDiv .forCallbdr .callI img {
+    width: 6rem;
+  }
+  .branchText h2 span:after {
+    left: 90rem;
+  }
+  .branch-body img {
+    width: 5rem;
+  }
+  .eventBlogSecDiv {
+    top: 5rem;
+  }
+  .branchOutBoxDiv .whtMapBox {
+    margin-top: 5rem;
+  }
+  .aboutBanner .bannerImage img {
+    width: 50rem;
+  }
+  .topCoursesSecDiv .courseName {
+    height: 50px !important;
+    font-size: 3rem !important;
+  }
+  .studReviewSecDiv .studName {
+    position: static;
+  }
+  .our-courses .courseName {
+    margin-bottom: 4rem;
+  }
+  .topCoursesSecDiv.topcourses
+    .custom-height.topCoursesbox
+    .owl-carousel.owl-drag
+    .owl-item {
+    height: 45rem !important;
+  }
+  .aboutPageMain .aboutParaDiv,
+  .aboutPageMain .prof-pos,
+  .branchMapDiv .whiteMapBoxDiv .media h5,
+  .branchMapDiv .whiteMapBoxDiv .media h5 a,
+  .courseName,
+  .descriptioncourse,
+  .detailsbtn,
+  .eventBlogSecDiv .innerBlogBox p,
+  .featurelastcolumn,
+  .featuresecondcolumn,
+  .form-inside button,
+  .form-inside input,
+  .form-inside select,
+  .internPageMain .intersParaDiv p,
+  .linkDivcoursedetails button,
+  .placementPageSect .candiName p,
+  .placementSecDiv .candiName p,
+  .reviewsfirstcolumn,
+  .reviewssecondcolumn,
+  .studReviewSecDiv .reviewPara p,
+  .studReviewSecDiv .studName p,
+  textarea#message::placeholder {
+    font-size: 2.9rem;
+  }
+  .aboutPageMain .prof-name,
+  .eventBlogSecDiv .innerBlogBox h3,
+  .headcoursefeatureimg,
+  .placementPageSect .candiName h3,
+  .placementSecDiv .candiName h3,
+  .studReviewSecDiv .studName h3 {
+    font-size: 3.4rem;
+  }
+  .internPageMain .intersParaDiv h4,
+  .titledescription {
+    font-size: 3.2rem;
+  }
+  .groupComSecDiv .compLogo img,
+  .quickInquSecDiv .headimage img {
+    width: 50%;
+  }
+  .placementPageSect .outerWhtBox {
+    height: 38rem;
+  }
+  .studReviewSecDiv .owl-carousel.owl-drag .owl-item {
+    height: 78rem;
+  }
+  .studReviewSecDiv .reviewPara > p {
+    height: auto !important;
+    -webkit-line-clamp: unset !important;
+    padding: 0 10rem;
+  }
+  #studentReviews.studReviewSecDiv .reviewPara > p {
+    height: 100px !important;
+  }
+  .viewCoursebtnDiv a {
+    position: relative;
+    z-index: 1;
+  }
+  .owl-theme .owl-nav [class*="owl-"] {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #studTesti .studReviewSecDiv .reviewPara > p {
+    padding: 1rem;
+  }
+  .headunderIcon {
+    top: 55%;
+  }
+  .coursedetailtabs img {
+    top: 50px;
+  }
+  .btnViewDetails {
+    margin-top: 10px;
+  }
+  .coursedetailbutton button {
+    margin-bottom: 18px;
+  }
+  .tabs li {
+    margin: 1rem;
+  }
+  .tabs a.tutorials {
+    margin: 1rem;
+  }
+  .topcontactnav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .topcontactnav div {
+    margin-bottom: 10px;
+  }
+  .callIco img,
+  .socialIcons a img,
+  .top-info img {
+    width: 25px;
+  }
+  .top-info a,
+  .top-mobno p a,
+  .topcontactnav .top-btn .enqBtn {
+    font-size: 14px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+.owl-next,
+.owl-prev {
+  position: absolute;
+  top: 42%;
+  background-color: transparent !important;
+}
+.owl-next {
+  right: 5.7%;
+}
+.owl-prev {
+  left: 5.5%;
+}
+@media (max-width: 441px) {
+  .owl-next {
+    right: -6%;
+  }
+  .owl-prev {
+    left: -6%;
+  }
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+.studReviewSecDiv .reviewPara > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 110px;
+}
+.readMoreParent[data-expanded="true"] .reviewPara p {
+  overflow: visible;
+  text-overflow: initial;
+  -webkit-line-clamp: initial;
+  white-space: normal;
+  height: auto !important;
+}
+.readMoreToggle > img {
+  cursor: pointer;
+  width: 28px;
+}
+.placement-cards-hidden,
+.sectioncoursefeatureTitle span::after,
+.sectioncoursefeatureTitle2 span::after,
+.topCoursesSecDiv.topcourses .redir {
+  display: none;
+}
+.aboutBanner .bannerText.courses-banner,
+.linkDivcoursedetails .redir,
+.linkDivcoursedetails button {
+  position: static;
+}
+.courseName {
+  padding-top: 2rem;
+}
+.courseName p:first-child {
+  height: 3rem;
+}
+.courseName .subcoursetext {
+  height: 2rem;
+}
+.linkDivcoursedetails {
+  margin: 2rem 0;
+}
+.linkDivcoursedetails .redir {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.linkDivcoursedetails .redir a {
+  display: inline-block;
+}
+.course-card a img {
+  width: 22px;
+}
+.quickInquSecDiv .queryImage {
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  border-radius: 0;
+}
+.quickInquSecDiv .form-inside {
+  margin-left: 0;
+  margin-bottom: 3rem;
+}
+.custom-img-height {
+  max-height: 510px;
+}
+.custom-img-height-join {
+  max-height: 450px;
+}
+.leftarrow img {
+  position: relative;
+  right: 5rem;
+  top: 1rem;
+}
+.rhtarrow img {
+  position: relative;
+  left: 4rem;
+  top: 1rem;
+}
+.callIco,
+.top-info,
+.top-mobno,
+.topcontactnav .msgIco {
+  line-height: 5.1rem;
+}
+.msgIco img {
+  margin: -2rem;
+}
+.many-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 0 !important;
+}
+.btnBack,
+.btnViewDetails {
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+}
+.bannerPageTitle .coursBanhead.internship-decor:after {
+  left: 0;
+}
+.btnViewDetails {
+  background: #fc4045;
+  padding: 1rem 12%;
+  border: transparent;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.btnBack {
+  background: #494949;
+  padding: 1rem 2rem;
+  border: transparent;
+  border-radius: 1rem;
+  margin-left: 15px;
+}
+.topcontactnav-contactno,
+.topcontactnav-mailbox {
+  display: flex;
+  align-items: center;
+}
+#topCourseDiv .owl-carousel.owl-drag .owl-item {
+  padding-bottom: 20px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: #ffe9ec;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5);
+}
+#success-message {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.tabs a.tutorials {
+  text-transform: uppercase;
+  padding: 1.2rem 3rem;
+  display: inline-block;
+  width: auto;
+}
+.tabs a.tutorials:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.hirebtn {
+  padding: 13px;
+  position: relative;
+  top: 2px;
+  right: 20px;
+  background-color: #fc4045;
+  color: #fff;
+  border-radius: 1.2rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+  outline: 0;
+  border: 0;
+}

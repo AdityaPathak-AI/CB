@@ -117,7 +117,19 @@
     border: 2px solid black;
     width: 100%;
     height: 650px;
+    position: relative;
 }
 .FormMain{
-    
+    position: absolute;
+     top: 20%;
+     left: 200px;
+}
+.Title{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    color: white;
+    font-weight: 600;
+    font-size: 30px ;
+    font-family: Arial, Helvetica, sans-serif;
 }

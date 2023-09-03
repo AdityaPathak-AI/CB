@@ -1,0 +1,130 @@
+@media screen and (min-device-width: 1480px) and (max-device-width: 1680px) {
+  html {
+    font-size: 48%;
+  }
+}
+@media screen and (min-device-width: 1300px) and (max-device-width: 1479px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1299px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+  html {
+    font-size: 45%;
+  }
+  .bannerPageTitle .placeBanhead:after,
+  .bannerPageTitle .testimoBanhead:after {
+    width: 25rem;
+  }
+  .exlaIcoDiv img,
+  .readMoreToggle img {
+    width: 5rem;
+  }
+  .testimonialsPageMain .testiReviewCard {
+    min-height: 70rem;
+  }
+  .aboutBanner .roundIcoDiv {
+    top: 55%;
+    left: 2%;
+  }
+  .aboutBanner .roundIcoDiv img {
+    width: 20rem;
+  }
+  .whyJoinSecDiv p {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .top-courses-slider .owl-next img,
+  .top-courses-slider .owl-prev img,
+  .upcoming-batches-slider .owl-next img,
+  .upcoming-batches-slider .owl-prev img {
+    width: 8rem;
+  }
+}
+
+
+.contact-numbers {
+  float: left;
+}
+.contact-numbers img {
+  margin: 8px 10px 0 0;
+}
+.contact-numbers h2 {
+  font-family: Roboto-Regular;
+  font-size: 2.3rem;
+  color: #000;
+  margin-left: 3%;
+  font-weight: 600;
+}
+.contact-numbers h5 a {
+  margin-left: 0 !important;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 30%;
+  }
+  .contact-numbers {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 4% !important;
+  }
+  .contact-numbers img {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  html {
+    font-size: 30%;
+  }
+  .contact-numbers {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 4% !important;
+  }
+  .contact-numbers img {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  html {
+    font-size: 30%;
+  }
+  .contact-numbers {
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 4% !important;
+  }
+  .contact-numbers img {
+    margin-right: 0;
+  }
+  .exlaIcoDiv img,
+  .readMoreToggle img {
+    width: 5rem;
+  }
+  .whyJoinSecDiv p {
+    margin: 0;
+    font-size: 3rem;
+  }
+  .topCoursesSecDiv.topcourses
+    .custom-height.topCoursesbox
+    .owl-carousel.owl-drag
+    .owl-item {
+    height: 50rem !important;
+  }
+}
+.branchMapDiv .headimage .sectionTitle span:after {
+  left: 55%;
+  top: 20%;
+}
