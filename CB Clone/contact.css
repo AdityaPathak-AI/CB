@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Contact {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #383c41;
+}
+.icons {
+  /*  border: 2px solid white; */
+  width: 100%;
+  display: flex;
+  margin-left: 15px;
+  list-style: none;
+}
+.icons li {
+  margin: 15px 10px;
+}
+.email {
+  /*  border: 2px solid white; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-left: 200px;
+  list-style: none;
+}
+.email li {
+  margin: 20px 10px;
+}
+.phone {
+  /*  border: 2px solid white; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-left: 200px;
+  list-style: none;
+}
+.phone li {
+  margin: 20px 10px;
+}
+
+.enqborder {
+  /*border: 2px solid white; */
+  width: 100%;
+  margin-left: 400px;
+}
+.enquiry {
+  border: 2px solid rgb(217, 57, 57);
+  border-radius: 10px;
+  background-color: #fc4045;
+  font-weight: 60;
+  margin-top: 8px;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  list-style: none;
+  padding-left: 5px;
+}
+.enquiry li {
+  margin: 5px 10px;
+}
+.enquiry:hover {
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 4px;
+  height: 70px;
+}
+.Nav {
+  /* border: 5px solid rgb(255, 0, 0); */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #efcddc;
+  position: sticky;
+  top: 0;
+}
+.navLogo {
+  /* border: 2px solid black; */
+  width: 20%;
+  margin: 30px 30px;
+  height: 70px;
+}
+.navBar {
+  /* border: 2px solid black; */
+  width: 60%;
+  height: 50px;
+  margin: 30px 20px 30px 200px;
+  color: #383c41;
+}
+.Bars {
+  list-style: none;
+  display: flex;
+  padding: 2px;
+}
+.Bars li {
+  margin: 5px 8px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  list-style: none;
+}
+.Bars li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.Bars li a:hover {
+  color: rgb(243, 8, 8);
+  text-decoration: overline;
+  font-size: 20px;
+}
+.Line7 {
+  background-color: #efcddc;
+  /* margin-top: 100px; */
+}
+.FormBG{
+    border: 2px solid black;
+    width: 100%;
+    height: 650px;
+}
+.FormMain{
+    
+}
