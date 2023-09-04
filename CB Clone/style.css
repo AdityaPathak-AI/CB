@@ -1,270 +1,311 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .Contact {
-  display: flex;
-  width: 100%;
-  height: 80px;
-  background-color: #383c41;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #383c41;
 }
+
 .icons {
-  /*  border: 2px solid white; */
-  width: 100%;
-  display: flex;
-  margin-left: 15px;
-  list-style: none;
+    /*  border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
 }
+
 .icons li {
-  margin: 15px 10px;
+    margin: 15px 10px;
 }
+
 .email {
-  /*  border: 2px solid white; */
-  width: 100%;
-  height: 70px;
-  display: flex;
-  margin-left: 200px;
-  list-style: none;
+    /*  border: 2px solid white; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-left: 200px;
+    list-style: none;
 }
+
 .email li {
-  margin: 20px 10px;
+    margin: 20px 10px;
 }
+
 .phone {
-  /*  border: 2px solid white; */
-  width: 100%;
-  height: 70px;
-  display: flex;
-  margin-left: 200px;
-  list-style: none;
+    /*  border: 2px solid white; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-left: 200px;
+    list-style: none;
 }
+
 .phone li {
-  margin: 20px 10px;
+    margin: 20px 10px;
 }
 
 .enqborder {
-  /*border: 2px solid white; */
-  width: 100%;
-  margin-left: 400px;
+    /*border: 2px solid white; */
+    width: 100%;
+    margin-left: 400px;
 }
+
 .enquiry {
-  border: 2px solid rgb(217, 57, 57);
-  border-radius: 10px;
-  background-color: #fc4045;
-  font-weight: 60;
-  margin-top: 8px;
-  width: 80%;
-  height: 60px;
-  display: flex;
-  list-style: none;
-  padding-left: 5px;
+    border: 2px solid rgb(217, 57, 57);
+    border-radius: 10px;
+    background-color: #fc4045;
+    font-weight: 60;
+    margin-top: 8px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
 }
+
 .enquiry li {
-  margin: 5px 10px;
+    margin: 5px 10px;
 }
+
 .enquiry:hover {
-  border: 2px solid rgb(0, 0, 0);
-  margin-top: 4px;
-  height: 70px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 4px;
+    height: 70px;
 }
+
 .Nav {
-  /* border: 5px solid rgb(255, 0, 0); */
-  width: 100%;
-  height: 100px;
-  display: flex;
-  background-color: #efcddc;
-  position: sticky;
-  top: 0;
+    /* border: 5px solid rgb(255, 0, 0); */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #efcddc;
+    position: sticky;
+    top: 0;
 }
+
 .navLogo {
-  /* border: 2px solid black; */
-  width: 20%;
-  margin: 30px 30px;
-  height: 70px;
+    /* border: 2px solid black; */
+    width: 20%;
+    margin: 30px 30px;
+    height: 70px;
 }
+
 .navBar {
-  /* border: 2px solid black; */
-  width: 60%;
-  height: 50px;
-  margin: 30px 20px 30px 200px;
-  color: #383c41;
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 50px;
+    margin: 30px 20px 30px 200px;
+    color: #383c41;
 }
+
 .Bars {
-  list-style: none;
-  display: flex;
-  padding: 2px;
+    list-style: none;
+    display: flex;
+    padding: 2px;
 }
+
 .Bars li {
-  margin: 5px 8px;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  list-style: none;
+    margin: 5px 8px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    list-style: none;
 }
+
 .Bars li a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
+
 .Bars li a:hover {
-  color: rgb(243, 8, 8);
-  text-decoration: overline;
-  font-size: 20px;
+    color: rgb(243, 8, 8);
+    text-decoration: overline;
+    font-size: 20px;
 }
+
 .Line7 {
-  background-color: #efcddc;
-  /* margin-top: 100px; */
+    background-color: #efcddc;
+    /* margin-top: 100px; */
 }
+
 .Heading {
-  /*  border: 5px solid red; */
-  width: 100%;
-  height: 100px;
-  display: flex;
-  background-color: #efcddc;
+    /*  border: 5px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #efcddc;
 }
+
 .H1 {
-  /*  border: 2px solid black; */
-  width: 50%;
+    /*  border: 2px solid black; */
+    width: 50%;
 }
+
 .H1 h1 {
-  text-align: right;
-  margin-right: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70px;
-  color: #383c41;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: #383c41;
 }
 
 .H2 {
-  /*   border: 2px solid black; */
-  width: 50%;
+    /*   border: 2px solid black; */
+    width: 50%;
 }
+
 .H2 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70px;
-  color: #fc4045;
-  margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: #fc4045;
+    margin-left: 5px;
 }
+
 .CoursesBar {
-  margin-left: 160px;
-  /*  border: 5px solid red; */
-  width: 82%;
-  height: 250px;
-  display: flex;
+    margin-left: 160px;
+    /*  border: 5px solid red; */
+    width: 82%;
+    height: 250px;
+    display: flex;
 }
+
 .apple {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .apple img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .apple h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .apple:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
 
 .flutter {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .flutter img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .flutter h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .flutter:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
 
 .android {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .android img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .android h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .android:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .reactNative {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .reactNative img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .reactNative h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .reactNative:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .react {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .react img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .react h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .react:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
 
 .apple,
@@ -272,135 +313,156 @@
 .android,
 .reactNative,
 .react {
-  margin: 20px 30px;
-  border-radius: 20px;
-  background-color: #ead8e0;
-  border: 2px solid pink;
+    margin: 20px 30px;
+    border-radius: 20px;
+    background-color: #ead8e0;
+    border: 2px solid pink;
 }
+
 
 /* CoursesBar1 */
 
 .CoursesBar1 {
-  margin-left: 160px;
-  /* border: 5px solid red; */
-  width: 82%;
-  height: 250px;
-  display: flex;
+    margin-left: 160px;
+    /* border: 5px solid red; */
+    width: 82%;
+    height: 250px;
+    display: flex;
 }
+
 .nodeJS {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .nodeJS img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .nodeJS h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .nodeJS:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .angularJS {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .angularJS img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .angularJS h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .angularJS:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .MernStack {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .MernStack img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .MernStack h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .MernStack:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .MeanStack {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .MeanStack img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .MeanStack h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .MeanStack:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .Python {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .Python img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .Python h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .Python:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
 
 .nodeJS,
@@ -408,552 +470,659 @@
 .MernStack,
 .MeanStack,
 .Python {
-  margin: 20px 30px;
-  border-radius: 20px;
-  background-color: #ead8e0;
-  border: 2px solid pink;
+    margin: 20px 30px;
+    border-radius: 20px;
+    background-color: #ead8e0;
+    border: 2px solid pink;
 }
 
+
 /* CoursesBar2*/
+
 .CoursesBar2 {
-  margin-left: 160px;
-  /*  border: 5px solid red; */
-  width: 82%;
-  height: 250px;
-  display: flex;
+    margin-left: 160px;
+    /*  border: 5px solid red; */
+    width: 82%;
+    height: 250px;
+    display: flex;
 }
+
 .Django {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .Django img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .Django h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .Django:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .DataScience {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .DataScience img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .DataScience h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .DataScience:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .DataAnalytics {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .DataAnalytics img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .DataAnalytics h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .DataAnalytics:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .AI {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .AI img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .AI h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .AI:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .Java {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .Java img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .Java h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .Java:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .Django,
 .DataScience,
 .DataAnalytics,
 .AI,
 .Java {
-  margin: 20px 30px;
-  border-radius: 20px;
-  background-color: #ead8e0;
-  border: 2px solid pink;
+    margin: 20px 30px;
+    border-radius: 20px;
+    background-color: #ead8e0;
+    border: 2px solid pink;
 }
 
+
 /* CoursesBar3*/
+
 .CoursesBar3 {
-  margin-left: 160px;
-  /* border: 5px solid red; */
-  width: 82%;
-  height: 250px;
-  display: flex;
+    margin-left: 160px;
+    /* border: 5px solid red; */
+    width: 82%;
+    height: 250px;
+    display: flex;
 }
 
 .Spring {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .Spring img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .Spring h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .Spring:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .ManualTesting {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .ManualTesting img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .ManualTesting h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .ManualTesting:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .TestingAutomation {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .TestingAutomation img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .TestingAutomation h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .TestingAutomation:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .ASPNETWebDevelopment {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .ASPNETWebDevelopment img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .ASPNETWebDevelopment h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .ASPNETWebDevelopment:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .ProgramminginC {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .ProgramminginC img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .ProgramminginC h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .ProgramminginC:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .Spring,
 .ManualTesting,
 .TestingAutomation,
 .ASPNETWebDevelopment,
 .ProgramminginC {
-  margin: 20px 30px;
-  border-radius: 20px;
-  background-color: #ead8e0;
-  border: 2px solid pink;
+    margin: 20px 30px;
+    border-radius: 20px;
+    background-color: #ead8e0;
+    border: 2px solid pink;
 }
+
+
 /* CoursesBar4*/
 
 .CourseBar4 {
-  margin-left: 160px;
-  /* border: 5px solid red; */
-  width: 82%;
-  height: 250px;
-  display: flex;
+    margin-left: 160px;
+    /* border: 5px solid red; */
+    width: 82%;
+    height: 250px;
+    display: flex;
 }
+
 .cpp {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .cpp img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .cpp h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .cpp:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .DSA {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .DSA img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .DSA h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .DSA:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .itBusiness {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .itBusiness img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .itBusiness h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .itBusiness:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .DigitalMarketing {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .DigitalMarketing img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .DigitalMarketing h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .DigitalMarketing:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .Salesforce {
-  border: 2px solid black;
-  width: 20%;
-  height: 200px;
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
 }
+
 .Salesforce img {
-  padding-left: 90px;
-  padding-top: 20px;
+    padding-left: 90px;
+    padding-top: 20px;
 }
+
 .Salesforce h4 {
-  border: 2px solid #fc4045;
-  background-color: #fc4045;
-  color: white;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 10px;
+    border: 2px solid #fc4045;
+    background-color: #fc4045;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
 }
+
 .Salesforce:hover {
-  border: 2px solid black;
-  width: 22%;
-  height: 220px;
+    border: 2px solid black;
+    width: 22%;
+    height: 220px;
 }
+
 .cpp,
 .DSA,
 .itBusiness,
 .DigitalMarketing,
 .Salesforce {
-  margin: 20px 30px;
-  border-radius: 20px;
-  background-color: #ead8e0;
-  border: 2px solid pink;
+    margin: 20px 30px;
+    border-radius: 20px;
+    background-color: #ead8e0;
+    border: 2px solid pink;
 }
+
 .InqBox {
-  /* border: 2px solid red; */
-  width: 100%;
-  height: 750px;
-  margin-top: 80px;
-  background-color: #494949;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 750px;
+    margin-top: 80px;
+    background-color: #494949;
 }
+
 .QuickInquiry {
-  margin-top: 20px;
-  /* border: 2px solid red; */
-  padding-left: 40%;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    padding-left: 40%;
 }
+
 .formBox {
-  /*  border: 2px solid red; */
-  height: 600px;
-  display: flex;
+    /*  border: 2px solid red; */
+    height: 600px;
+    display: flex;
 }
+
 .ContactForm {
-  /*  border: 2px solid red; */
-  width: 50%;
-  height: 550px;
+    /*  border: 2px solid red; */
+    width: 50%;
+    height: 550px;
 }
+
 .imgBox {
-  /* border: 2px solid red; */
-  width: 50%;
-  height: 500px;
-  padding-left: 30px;
-  padding-top: 20px;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
+
 .formData {
-  padding-left: 200px;
-  padding-top: 20px;
-  height: 500px;
-  /*  border: 2px solid red; */
+    padding-left: 200px;
+    padding-top: 20px;
+    height: 500px;
+    /*  border: 2px solid red; */
 }
+
 .formData input {
-  width: 100%;
-  height: 70px;
-  border-radius: 8px;
-  margin: 2px;
-  font-size: 25px;
-  padding-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    margin: 2px;
+    font-size: 25px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .formData input:hover {
-  width: 100%;
-  height: 90px;
-  border-radius: 10px;
-  margin: 4px;
-  font-size: 35px;
-  padding-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 35px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .formData textarea {
-  width: 100%;
-  height: 180px;
-  border-radius: 5px;
-  margin: 2px;
-  font-size: 25px;
-  padding-top: 10px;
-  padding-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .formData textarea:hover {
-  width: 100%;
-  height: 200px;
-  border-radius: 5px;
-  margin: 4px;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-left: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 4px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.submit {
-  background-color: #fc4045;
+
+.formData .submit {
+    /* background-color: #fc4045;
   border: 2px solid #fc4045;
   color: white;
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; */
+    font-family: Roboto-Medium;
+    font-size: 2.3rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: #fc4045;
+    color: #fff;
+    border: none;
+    width: 102%;
+    border-radius: 5px;
 }
+
+.formData .submit:hover {
+    font-family: Roboto-Medium;
+    font-size: 2.3rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: #fc4045;
+    color: #fff;
+    border: none;
+    width: 103%;
+}
+
 .bottom {
-  /* border: 2px solid red; */
-  width: 100%;
-  height: 100px;
-  background-color: #efcddc;
-  display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100px;
+    background-color: #efcddc;
+    display: flex;
 }
+
 .bottomImage {
-  /* border: 2px solid red; */
-  height: 70px;
-  width: 20%;
-  padding-top: 50px;
-  padding-left: 90px;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 90px;
 }
+
 .sociaLinks {
-  /* border: 2px solid red; */
-  height: 70px;
-  width: 20%;
-  padding-top: 50px;
-  padding-left: 90px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  display: flex;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
 }
+
 .contactCB {
-  /* border: 2px solid red; */
-  height: 70px;
-  width: 20%;
-  padding-top: 50px;
-  padding-left: 70px;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 70px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
+
 .contactNO {
-  /* border: 2px solid red; */
-  height: 70px;
-  width: 20%;
-  display: flex;
-  padding-top: 50px;
-  padding-left: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 20%;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
+
 .footerLine {
-  background-color: #efcddc;
-  height: 40px;
+    background-color: #efcddc;
+    height: 40px;
 }
+
 .bottom-last {
-  background-color: #efcddc;
-  height: 60px;
+    background-color: #efcddc;
+    height: 60px;
 }
+
 .bottom-last-last {
-  /* border: 2px solid red; */
-  width: 90%;
-  display: flex;
-  padding-top: 10px;
-  margin-left: 50px;
-  justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 50px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
