@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+var principal = parseFloat(prompt("Enter the principal amount:"));
+var rate = parseFloat(prompt("Enter the annual interest rate (in percentage):"));
+var years = parseFloat(prompt("Enter the number of years:"));
+var compoundingFrequency = parseFloat(prompt("Enter the number of times interest is compounded per year:"));
+
+var rateDecimal = rate / 100;
+
+var amount = principal * Math.pow((1 + (rateDecimal / compoundingFrequency)), (compoundingFrequency * years));
+
+var interest = amount - principal;
+
+document.write("Principal Amount: Rs" + principal.toFixed(2) + "<br>");
+document.write("Annual Interest Rate: " + rate.toFixed(2) + "%<br>");
+document.write("Number of Years: " + years.toFixed(2) + "<br>");
+document.write("Compounding Frequency: " + compoundingFrequency.toFixed(2) + " times per year<br>");
+document.write("Total Amount: Rs" + amount.toFixed(2) + "<br>");
+document.write("Interest Earned: Rs" + interest.toFixed(2) + "<br>");
+
+  
+</script>
+</body>
+</html>
