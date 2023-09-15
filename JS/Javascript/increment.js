@@ -57,28 +57,73 @@
 // }
 
 
-var basicSalary = parseFloat(prompt("Enter the basic salary:"));
-var hra, da;
+// var basicSalary = parseFloat(prompt("Enter the basic salary:"));
+// var hra, da;
 
-if (basicSalary <= 10000) {
-  hra = 0.2 * basicSalary;
-  da = 0.8 * basicSalary;
-} 
-else if (basicSalary <= 20000) {
-  hra = 0.25 * basicSalary;
-  da = 0.9 * basicSalary;
-}
- else {
-  hra = 0.3 * basicSalary;
-  da = 0.95 * basicSalary;
-}
+// if (basicSalary <= 10000) {
+//   hra = 0.2 * basicSalary;
+//   da = 0.8 * basicSalary;
+//   document.write("1.");
+// } 
+// else if (basicSalary <= 20000) {
+//   hra = 0.25 * basicSalary;
+//   da = 0.9 * basicSalary;
+//   document.write("2.")
+// }
+//  else {
+//   hra = 0.3 * basicSalary;
+//   da = 0.95 * basicSalary;
+//   document.write("3.");
+// }
 
-var grossSalary = basicSalary + hra + da;
+// var grossSalary = basicSalary + hra + da;
 
-document.write("Basic Salary: $" + basicSalary.toFixed(2) + "<br>");
-document.write("HRA: $" + hra.toFixed(2) + "<br>");
-document.write("DA: $" + da.toFixed(2) + "<br>");
-document.write("Gross Salary: $" + grossSalary.toFixed(2));
+// document.write("Basic Salary: $" + basicSalary.toFixed(2) + "<br>");
+// document.write("HRA: $" + hra.toFixed(2) + "<br>");
+// document.write("DA: $" + da.toFixed(2) + "<br>");
+// document.write("Gross Salary: $" + grossSalary.toFixed(2));
 
-    
+
+// var Num = +(prompt("Enter Number to view your day"));
+// switch(Num)
+// {
+//     case 0: 
+//     Num = "Sunday"
+//     document.write("Sunday")
+//     break;
+
+//     case 1: 
+//     Num = "Monday";
+//     document.write("Monday");
+//     break;
+
+//     case 2: 
+//     Num = "Tuesday";
+//     document.write("Tuesday");
+//     break;
+
+//     case 3: 
+//     Num = "Wednesday";
+//     document.write("Wednesday");
+//     break;
+
+//     case 4: 
+//     Num = "Thursday";
+//     document.write("Thursday");
+//     break;
+
+//     case 5: 
+//     Num = "Friday";
+//     document.write("Friday");
+//     break;
+
+//     case 6: 
+//     Num = "Saturday";
+//     document.write("Saturday");
+//     break;
+
+//     default:
+//     document.write("Invalid Number")
+
+// }
 
