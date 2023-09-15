@@ -1,2 +1,1 @@
-a+=1
-console.log(a)
+ arr1.push(arr);

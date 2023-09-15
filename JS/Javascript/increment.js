@@ -2,7 +2,7 @@
 // 10+12+13-12+11
 
 // let a = 1;
-// a+=5 
+// a+=5
 // console.log(a)
 // a-=1
 // console.log(a)
@@ -18,7 +18,6 @@
 // else
 // document.write("Your Number is odd")
 
-
 // 2
 // Num1= +(prompt("enter first number"));
 // Num2= +(prompt("enter first number"));
@@ -28,7 +27,6 @@
 // else
 // document.write("not divsible")
 
-
 // 3
 // Num1= +(prompt("enter first number"));
 // Num2= +(prompt("enter second number"));
@@ -36,7 +34,7 @@
 
 // if(Num1>Num2 && Num1>Num3)
 // document.write("First is greater");
-// else 
+// else
 // if(Num2>Num3)
 // document.write("Second is greater");
 // if(Num1==Num2 && Num1==Num3)
@@ -44,25 +42,43 @@
 // else
 // document.write("Enter Valid Number");
 
-
 // var character = prompt("Enter a character:");
 
-// if ((character >= 'a' && character <= 'z') || (character >= 'A' && character <= 'Z')) 
+// if ((character >= 'a' && character <= 'z') || (character >= 'A' && character <= 'Z'))
 // {
 //   if (character === character.toLowerCase())
 //    {
 //     document.write(character + " is in lowercase.");
-//    } 
-//   else 
+//    }
+//   else
 //    {
 //     document.write(character + " is in uppercase.");
 //    }
-// } 
+// }
 
 
+var basicSalary = parseFloat(prompt("Enter the basic salary:"));
+var hra, da;
 
+if (basicSalary <= 10000) {
+  hra = 0.2 * basicSalary;
+  da = 0.8 * basicSalary;
+} 
+else if (basicSalary <= 20000) {
+  hra = 0.25 * basicSalary;
+  da = 0.9 * basicSalary;
+}
+ else {
+  hra = 0.3 * basicSalary;
+  da = 0.95 * basicSalary;
+}
 
+var grossSalary = basicSalary + hra + da;
 
+document.write("Basic Salary: $" + basicSalary.toFixed(2) + "<br>");
+document.write("HRA: $" + hra.toFixed(2) + "<br>");
+document.write("DA: $" + da.toFixed(2) + "<br>");
+document.write("Gross Salary: $" + grossSalary.toFixed(2));
 
-
+    
 
