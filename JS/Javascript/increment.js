@@ -56,7 +56,6 @@
 //    }
 // }
 
-
 // var basicSalary = parseFloat(prompt("Enter the basic salary:"));
 // var hra, da;
 
@@ -64,7 +63,7 @@
 //   hra = 0.2 * basicSalary;
 //   da = 0.8 * basicSalary;
 //   document.write("1.");
-// } 
+// }
 // else if (basicSalary <= 20000) {
 //   hra = 0.25 * basicSalary;
 //   da = 0.9 * basicSalary;
@@ -83,41 +82,40 @@
 // document.write("DA: $" + da.toFixed(2) + "<br>");
 // document.write("Gross Salary: $" + grossSalary.toFixed(2));
 
-
 // var Num = +(prompt("Enter Number to view your day"));
 // switch(Num)
 // {
-//     case 0: 
+//     case 0:
 //     Num = "Sunday"
 //     document.write("Sunday")
 //     break;
 
-//     case 1: 
+//     case 1:
 //     Num = "Monday";
 //     document.write("Monday");
 //     break;
 
-//     case 2: 
+//     case 2:
 //     Num = "Tuesday";
 //     document.write("Tuesday");
 //     break;
 
-//     case 3: 
+//     case 3:
 //     Num = "Wednesday";
 //     document.write("Wednesday");
 //     break;
 
-//     case 4: 
+//     case 4:
 //     Num = "Thursday";
 //     document.write("Thursday");
 //     break;
 
-//     case 5: 
+//     case 5:
 //     Num = "Friday";
 //     document.write("Friday");
 //     break;
 
-//     case 6: 
+//     case 6:
 //     Num = "Saturday";
 //     document.write("Saturday");
 //     break;
@@ -129,7 +127,6 @@
 
 // var a = +(prompt("Enter first number:"))
 // var b = +(prompt("Enter second number:"))
-
 
 // var operation = +prompt("Choose operation from \n 1)+  \n 2)-  \n 3)*  \n 4)/ ");
 // var result
@@ -154,21 +151,62 @@
 //         result = a/b;
 //         document.write(result)
 //         break;
-        
+
 //     default:
 //         document.write("Inavlid Keys");
 
 // }
 
+// var i = 1 ;
+// sum=0;
 
-var i = 1 ,sum=0;
+// while(i<=10)
+// {
+// document.write(i*i*i+"<br>");
+// sum=sum+(i*i*i);
+// i=i+1;
+// }
+// document.write(sum);
 
-while(i<=10)
-{
-document.write(i*i*i+"<br>");
-sum=sum+i;  
-i=i+1;
+// var i = 1 ;
+// sum=0;
+
+// while(i<=10)
+// {
+// document.write(i*i+"<br>");
+// sum=sum+(i*i);
+// i=i+1;
+// }
+// document.write(sum);
+
+
+/* var i = 1;
+var sum = 0;
+while (i <= 10) {
+  var a = +prompt("Enter Your Number");
+  sum = sum + a;
+  i = i + 1;
 }
-document.write(sum); 
+avg = sum / 10;
+document.write(sum, "<br>");
+document.write(avg);*/
+
+
+/* square and cube of a number
+
+var b , p;
+b = +prompt("Enter Starting Point");
+p = +prompt("Enter Ending Point");
+
+while(b<=p)
+{
+  document.write(b + " " + b*b +" "+ b*b*b  + "<br>");
+  b=b+1;
+}
+
+*/
+
+
+
 
 
