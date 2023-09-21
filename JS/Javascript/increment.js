@@ -228,4 +228,40 @@ while(b<=p)
 
 
 
+  
+// var n = parseInt(prompt("Enter a number:"));
+// var sum = 0;
+// var i = 1; 
+
+
+//   while (i <= n) {
+//     document.write(i+"<br>");
+//     sum += i;
+//     i = i + 2; 
+//   }
+//    document.write("The sum of even numbers between 1 and " + n + " is: " + sum);
+  
+
+// var i;
+// f = 1;
+// n = +prompt("Enter Your Number");
+
+// for (i = 1; i <= n; i++) {
+//   f = f * i;
+//   document.write("Factorial Is" + f + "<br>");
+// }
+
+var i;
+c = 0;
+n = +prompt("enter no to check");
+
+for (i = 1; i <= n; i++) {
+  if (n % i == 0) c++;
+}
+
+if (c == 2) document.write(n + "Is a Prime Number");
+else document.write(n + "Is Not a Prime Number");
+
+
+
 
