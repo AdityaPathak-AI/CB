@@ -251,17 +251,25 @@ while(b<=p)
 //   document.write("Factorial Is" + f + "<br>");
 // }
 
-var i;
-c = 0;
-n = +prompt("enter no to check");
+// var i;
+// c = 0;
+// n = +prompt("enter no to check");
 
-for (i = 1; i <= n; i++) {
-  if (n % i == 0) c++;
+// for (i = 1; i <= n; i++) {
+//   if (n % i == 0) c++;
+// }
+
+// if (c == 2) document.write(n + "Is a Prime Number");
+// else document.write(n + "Is Not a Prime Number");
+
+
+var i, j;
+
+for (i = 1; i <= 5; i++) {
+  for (j = 5; j >= i; j--) {
+    document.write("*");
+  }
+  document.write("<br>");
 }
-
-if (c == 2) document.write(n + "Is a Prime Number");
-else document.write(n + "Is Not a Prime Number");
-
-
 
 
