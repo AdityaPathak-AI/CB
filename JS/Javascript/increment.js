@@ -179,7 +179,6 @@
 // }
 // document.write(sum);
 
-
 /* var i = 1;
 var sum = 0;
 while (i <= 10) {
@@ -190,7 +189,6 @@ while (i <= 10) {
 avg = sum / 10;
 document.write(sum, "<br>");
 document.write(avg);*/
-
 
 /* square and cube of a number
 
@@ -213,7 +211,6 @@ while(b<=p)
 //   i = i + 1;
 // }
 
-
 // var sum=0;
 // var i = 1;
 
@@ -226,21 +223,16 @@ while(b<=p)
 // }
 // document.write(sum);
 
-
-
-  
 // var n = parseInt(prompt("Enter a number:"));
 // var sum = 0;
-// var i = 1; 
-
+// var i = 1;
 
 //   while (i <= n) {
 //     document.write(i+"<br>");
 //     sum += i;
-//     i = i + 2; 
+//     i = i + 2;
 //   }
 //    document.write("The sum of even numbers between 1 and " + n + " is: " + sum);
-  
 
 // var i;
 // f = 1;
@@ -262,7 +254,6 @@ while(b<=p)
 // if (c == 2) document.write(n + "Is a Prime Number");
 // else document.write(n + "Is Not a Prime Number");
 
-
 // var i , j ;
 
 // for (i=1 ;i<=5 ;i++)
@@ -275,13 +266,10 @@ while(b<=p)
 //  document.write("<br>");
 
 // infinite loop
+
 var i, j;
-
-
-for(i=1 ; i<=3 ; i++)
-{
-  for(j=1 ; j<=5 ; j++)
-  {
+for (i = 1; i <= 5; i++) {
+  for (j = 1; j <= i; j++) {
     document.write("*");
   }
   document.write("<br>");
