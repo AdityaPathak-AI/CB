@@ -263,13 +263,27 @@ while(b<=p)
 // else document.write(n + "Is Not a Prime Number");
 
 
+// var i , j ;
+
+// for (i=1 ;i<=5 ;i++)
+//  {
+//   for(j=1;j<=5;j++)
+//   {
+//     document.write("*");
+//   }
+//  }
+//  document.write("<br>");
+
+// infinite loop
 var i, j;
 
-for (i = 1; i <= 5; i++) {
-  for (j = 5; j >= i; j--) {
+
+for(i=1 ; i<=3 ; i++)
+{
+  for(j=1 ; j<=5 ; j++)
+  {
     document.write("*");
   }
   document.write("<br>");
 }
-
 
