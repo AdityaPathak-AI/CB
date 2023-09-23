@@ -275,13 +275,21 @@ while(b<=p)
 //   document.write("<br>");
 // }
 
-var i, j;
+// var i, j;
 
-for (i = 1; i <= 5; i++) {
-  for (j = 5; j >= i; j--) {
-    document.write("*");
-  }
-  document.write("<br>");
-}
+// for (i = 1; i <= 5; i++) {
+//   for (j = 5; j >= i; j--) {
+//     document.write("*");
+//   }
+//   document.write("<br>");
+// }
+
+// var i, j;
+// for (i = 1; i <= 5; i++) {
+//   for (j = 5; j >= 1; j--) {
+//     document.write(j);
+//   }
+//   document.write("<br>");
+// }
 
 
