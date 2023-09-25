@@ -300,5 +300,11 @@ while(b<=p)
 //   document.write("<br>");
 // }
 
-
-
+var a = 5,
+  b = 1;
+var obj = { a: 10 };
+console.log(a)
+// with keyword in JavaScript
+with (obj) {
+  console.log(a);
+}
