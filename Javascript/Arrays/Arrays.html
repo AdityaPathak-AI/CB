@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-       
+      var a = [];
+      var sum = 0;
+      var avg, len;
+      len = +prompt("Enter Length of an Array:");
 
+      for (var i = 0; i < len; i++) {
+        a[i] = +prompt("Enter a Number:");
+        sum = sum + a[i] ;
+      }
+      avg = sum / len;
 
+      document.write("Entered Numbers:<br>");
+      for (var i = 0; i < len; i++) {
+        document.write(a[i] + "<br>");
+      }
 
-
-       
+      document.write("Sum: " + sum + "<br>");
+      document.write("Average: " + avg.toFixed(2));
+      
     </script>
-    
-</body>
+  </body>
 </html>

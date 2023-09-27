@@ -10,8 +10,10 @@ for (i = 5; i >= 1; i--) {
 }
 for (a = 5; a >= 1; a--) {
   for (b = 6; b >= 1; b--) {
-    if (a >= b) document.write("*" + "&ensp;");
-    else document.write("&ensp;");
+    if (a >= b) 
+      document.write("*" + "&ensp;");
+    else 
+      document.write("&ensp;");
   }
   document.write("<br>");
 }
