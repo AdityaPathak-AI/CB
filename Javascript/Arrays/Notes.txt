@@ -1,0 +1,12 @@
+JS array directly (new directly)
+
+var arr = new Array();
+
+name = new Array(1,2,3,4);
+name = [1,2,3,4,5,]
+var emp = new Array();
+emp[0] = "Arun";
+emp[1] = "Varun";
+emp[2] = "Virat";
+
+#Creating Array Using Constructor
