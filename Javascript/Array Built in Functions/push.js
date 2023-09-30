@@ -1,4 +1,13 @@
 numbers = [1,2,3,4,5];
-popOperation = numbers.push(6);
-console.log(popOperation);
+
+AddedNumber = numbers.push(222);
+console.log("Index is" + " " + AddedNumber);
+console.log(numbers);
+
+AddedNumber = numbers.push(333);
+console.log("Index is" + " " + AddedNumber);
+console.log(numbers);
+
+AddedNumber = numbers.push(444);
+console.log("Index is " + AddedNumber);
 console.log(numbers);
