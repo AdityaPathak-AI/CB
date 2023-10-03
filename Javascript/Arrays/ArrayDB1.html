@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Array</title>
+    <script language="javascript">
+        var nm, ct, sl;
+        var i = 0;
+
+        nm = ["preeti", "priyanka", "neha", "jenny", "sushil", "yash"];
+        ct = ["indore", "bombay", "pune", "delhi", "calcutta", "surat"];
+        sl = ["83300", "25000", "780000", "560000", "150000", "50000"];
+        console.log(nm);
+
+        function sf() {
+            document.f1.t1.value = nm[0];
+            document.f1.t2.value = ct[0];
+            document.f1.t3.value = sl[0];
+            i = 0;
+        }
+
+        function slast() {
+            document.f1.t1.value = nm[nm.length - 1];
+            document.f1.t2.value = ct[ct.length - 1];
+            document.f1.t3.value = sl[sl.length - 1];
+            i = nm.length - 1;
+        }
+
+        function pre() {
+            i = i - 1;
+            if (i < 0) {
+                alert("No more previous records");
+                i = 0;
+            } else {
+                document.f1.t1.value = nm[i];
+                document.f1.t2.value = ct[i];
+                document.f1.t3.value = sl[i];
+            }
+        }
+
+        function next() {
+            i = i + 1;
+            if (i >= nm.length) {
+                alert("No more records");
+                i = nm.length - 1;
+            } else {
+                document.f1.t1.value = nm[i];
+                document.f1.t2.value = ct[i];
+                document.f1.t3.value = sl[i];
+            }
+        }
+
+        function addNewRecord() {
+        
+            var newName = prompt("Enter a new name:");
+            var newCity = prompt("Enter a new city:");
+            var newSalary = prompt("Enter a new salary:");
+
+            
+            nm.push(newName);
+            ct.push(newCity);
+            sl.push(newSalary);
+
+            
+            i = nm.length - 1;
+            document.f1.t1.value = nm[i];
+            document.f1.t2.value = ct[i];
+            document.f1.t3.value = sl[i];
+        }
+
+    </script>
+    
+
+    <style>
+        .form{
+            border: 2px solid red;
+            width: 30%;
+            margin-left: 30%;
+            margin-top: 20%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="form">
+    <form name="f1">
+        Name: <input type="text" name="t1"><br>
+        City: <input type="text" name="t2"><br>
+        Salary: <input type="text" name="t3"><br>
+        <input type="button" value="First" onClick="sf()">
+        <input type="button" value="Previous" onClick="pre()">
+        <input type="button" value="Next" onClick="next()">
+        <input type="button" value="Last" onClick="slast()">
+        <input type="button" value="Add New Record" onClick="addNewRecord()">
+    </form>
+    </div>
+</body>
+
+</html>
