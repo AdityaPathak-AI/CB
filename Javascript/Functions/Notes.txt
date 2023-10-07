@@ -6,3 +6,34 @@
 
 #.Call by Value
 1.Take the argument but not return the value
+
+function cube(a)
+{
+    alert(a*a*a);
+}
+<input type="submit" value="submit" onclick="cube(4)">
+
+
+function Factorial(n)
+{
+var i 
+f =1;
+for(i=1 ; i<=n ; i++)
+{
+    f = f * i;
+    document.write("Factorial Is" + f + "<br>");
+}
+}
+<input type="submit" value="submit" onclick="Factorial(5)">
+
+
+function validAge(age)
+{
+    if(age>=18)
+    document.getElementById('ans').innerHTML = 'Valid'
+    else
+     document.getElementById('ans').innerHTML = 'Invalid'
+}
+<input type = "number" id='age' placeholder = 'Enter Age'>
+<input type = "button"  onclick="validAge(document.getElementById('age').value)">
+<p id='ans'></p>

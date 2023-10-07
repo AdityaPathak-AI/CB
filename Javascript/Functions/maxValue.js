@@ -1,4 +1,4 @@
-/*function maxArray()
+function maxArray()
 {
     var a =[] , n , i;
     n = +prompt("enter counting");
@@ -11,11 +11,11 @@
     }
     document.write( "Entered Numbers:" + a + "<br>");
     document.write("Maximum Numbers:"+ max)
-}*/
+}
 
 
 
-function primeNumber()
+/*function primeNumber()
 {
 var i;
 c = 0;
@@ -27,4 +27,5 @@ for (i = 1; i <= n; i++) {
 
 if (c == 2) document.write(n + "Is a Prime Number");
 else document.write(n + "Is Not a Prime Number");
-}
+}*/
+

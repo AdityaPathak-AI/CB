@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function validAge(age) {
+            if (age >= 18)
+                document.getElementById('ans').innerHTML = 'Valid'
+            else
+                document.getElementById('ans').innerHTML = 'Invalid'
+        }
+    </script>
+    <input type="number" id='age' placeholder='Enter Age'> <br>
+    <input type="button" value="click" onclick="validAge(document.getElementById('age').value)">
+    <p id='ans'></p>
+
+</body>
+
+</html>
