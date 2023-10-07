@@ -2,3 +2,7 @@
 
 #Functions
 
+#Default Functions
+
+#.Call by Value
+1.Take the argument but not return the value
