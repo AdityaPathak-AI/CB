@@ -6,6 +6,7 @@
     <title>Arithmetic Calculator</title>
 
 </head>
+
 <body>
     <script>
 
@@ -25,10 +26,12 @@
             return x / y;
         }
 
+
         var a = +prompt("Enter Your Number 1:");
         var b = +prompt("Enter Your Number 2:");
         var Operation = prompt("What operation do you want to perform (add, subtract, multiply, divide)?").toLowerCase();
-    
+
+
         switch (Operation) {
 
             case "add":
@@ -44,7 +47,7 @@
                 break;
 
             case "Division":
-                var result =  Division(a, b);
+                var result = Division(a, b);
                 break;
 
             default:
@@ -53,7 +56,7 @@
 
         }
 
-        document.write(result);
+        document.write("Your Operation result is:" + " " + result);
 
     </script>
 
