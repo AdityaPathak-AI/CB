@@ -8,7 +8,37 @@
 </head>
 
 <body>
-    <script>
+    <style>
+        div {
+            border: 2px solid black;
+            width: 20%;
+            margin-left: 40%;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10%;
+            height: 600px;
+            background-color: yellow;
+
+        }
+
+        .div2 {
+            margin-left: 35px;
+            margin-top: 2px;
+            width: 80%;
+            height: 40px;
+            font-size: 35px;
+            text-align: center;
+            font-weight: 600;
+            border: 0px solid yellow;
+        }
+
+        div input {
+            width: 300px;
+            height: 30px;
+            margin-left: 30px;
+        }
+    </style>
+    <!-- <script>
 
         function Add(x, y) {
             return x + y;
@@ -27,18 +57,18 @@
         }
 
 
-        var a = +prompt("Enter Your Number 1:");
-        var b = +prompt("Enter Your Number 2:");
-        var Operation = prompt("What operation do you want to perform (add, subtract, multiply, divide)?").toLowerCase();
+        var a = +prompt("Enter Your Number 1:"); 
+        var b = +prompt("Enter Your Number 2:"); 
+        var Operation = prompt("What operation do you want to perform (add, subtract, multiply, divide)?").toLowerCase(); 
 
 
         switch (Operation) {
 
             case "add":
-                var result = Add(a, b);
-                break;
+                var result = Add(a, b); 
+                break; 
 
-            case "subtract":
+            case "subtract":    
                 var result = Subtract(a, b);
                 break;
 
@@ -59,8 +89,80 @@
         document.write("Your Operation result is:" + " " + result);
 
 
+    </script> -->
+
+    <script>
+        function performAddition() {
+            performOperation("add");
+        }
+
+        function performSubtraction() {
+            performOperation("subtract");
+        }
+
+        function performMultiplication() {
+            performOperation("multiply");
+        }
+
+        function performDivision() {
+            performOperation("divide");
+        }
+
+        function performOperation(operation) {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var resultElement = document.getElementById("result");
+
+            switch (operation) {
+                case "add":
+                    resultElement.value = num1 + num2;
+                    break;
+
+                case "subtract":
+                    resultElement.value = num1 - num2;
+                    break;
+
+                case "multiply":
+                    resultElement.value = num1 * num2;
+                    break;
+
+                case "divide":
+                    if (num2 === 0) {
+                        alert("Division by zero is not allowed.");
+                        resultElement.value = "";
+                    } else {
+                        resultElement.value = num1 / num2;
+                    }
+                    break;
+
+                default:
+                    alert("Invalid operation.");
+                    resultElement.value = "";
+                    break;
+            }
+        }
     </script>
 
+    <div>
+        <div class="div2">Calculator</div>
+        <h3 style="text-align: center;">Enter First Value</h3>
+        <input type="number" name="" id="num1" style="text-align: center; font-size: 25px;">
+        <h3 style="text-align: center;">Enter Second Value</h3>
+        <input type="number" name="" id="num2" style="text-align: center; font-size: 25px;">
+        <h3 style="text-align: center;">What operation do you want to perform?</h3>
+        <center>
+            <button onclick="performAddition()" style="background-color: blue; font-size: 20px; color: white;"
+                type="submit">Add</button> &ensp;
+            <button onclick="performSubtraction()" style="background-color: red; font-size: 20px;">Subtract</button>
+            &ensp;
+            <button onclick="performMultiplication()"
+                style="background-color: chartreuse; font-size: 20px;">Multiply</button> &ensp;
+            <button onclick="performDivision()" style="background-color: chocolate; font-size: 20px;">Divide</button> <br>
+            <br>
+        </center>
+        <h3 style="text-align: center;">Result</h3><br>
+        <input type="number" id="result" disabled>
+    </div>
 
 
 
