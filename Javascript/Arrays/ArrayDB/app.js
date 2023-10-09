@@ -34,7 +34,7 @@ function pre() {
 
 function next() {
   i = i + 1;
-  if (i >= nm.length) { 
+  if (i >= nm.length) {
     alert("No more records");
     i = nm.length - 1;
   } else {
@@ -52,18 +52,21 @@ function addNewRecord() {
   nm.push(newName);
   ct.push(newCity);
   sl.push(newSalary);
- 
+
   i = nm.length - 1;
   document.f1.t1.value = nm[i];
   document.f1.t2.value = ct[i];
   document.f1.t3.value = sl[i];
 }
-function deleteRecord(){
-  nm.pop()
-  ct.pop()
-  sl.pop()
+function deleteRecord() {
+  nm.pop();
+  ct.pop();
+  sl.pop();
 }
-function Store(){
-  
-
+function display() {
+  var a = " ";
+  for (i = 0; i < nm.length; i++) {
+    a += nm[i] + " " + ct[i] + " " + sl[i] + "<br>";
+  }
+  document.getElementById("res").innerHTML = a;
 }
