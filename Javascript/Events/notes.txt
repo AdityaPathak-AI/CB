@@ -1,0 +1,17 @@
+Event.
+
+1.onload()
+2.onclick()
+
+for-of
+
+3.onmouseover()
+4.
+<button id="btn"> show dialog </button>
+
+btn.addEventListener("click" , function()
+{
+    alert("hello world");
+});
+
+4.0

@@ -116,22 +116,32 @@
             switch (operation) {
                 case "add":
                     resultElement.value = num1 + num2;
+                    document.getElementById("num1").value = " ";
+                    document.getElementById("num2").value = " ";
                     break;
 
                 case "subtract":
                     resultElement.value = num1 - num2;
+                    document.getElementById("num1").value = " ";
+                    document.getElementById("num2").value = " ";
                     break;
 
                 case "multiply":
                     resultElement.value = num1 * num2;
+                    document.getElementById("num1").value = " ";
+                    document.getElementById("num2").value = " ";
                     break;
 
                 case "divide":
                     if (num2 === 0) {
                         alert("Division by zero is not allowed.");
                         resultElement.value = "";
+                        document.getElementById("num1").value = " ";
+                        document.getElementById("num2").value = " ";
                     } else {
                         resultElement.value = num1 / num2;
+                        document.getElementById("num1").value = " ";
+                        document.getElementById("num2").value = " ";
                     }
                     break;
 
@@ -160,10 +170,11 @@
             &ensp;
             <button onclick="performMultiplication()"
                 style="background-color: chartreuse; font-size: 20px;">Multiply</button> &ensp;
-            <button onclick="performDivision()" style="background-color: chocolate; font-size: 20px;">Divide</button> <br>
+            <button onclick="performDivision()" style="background-color: chocolate; font-size: 20px;">Divide</button>
+            <br>
             <br>
         </center>
-        
+
         <h3 style="text-align: center;">Result</h3><br>
         <input type="number" id="result" disabled>
     </div>
@@ -171,4 +182,5 @@
 
 
 </body>
+
 </html>

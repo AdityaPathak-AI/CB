@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script>
+        function cube() {
+            var a = document.getElementById('a1').value * 1
+            var c = a ** 3
+            document.getElementById('aa1').innerText = c;
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="alert-success text-center">CUBE</h1>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-xl-6 col-lg-6">
+                <input class="form-control" type="text" placeholder="cube of any number" id="a1">
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <button onclick="cube()" type="button" class="btn btn-outline-primary">CUBE</button>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-xl-6 col-lg-6">
+                <h3 class="alert-primary">Cube of any number : <span id="aa1">0</span></h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
