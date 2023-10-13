@@ -53,10 +53,11 @@
      <!--pi r square & 2 pi r-->
      <script>
         function circle(){
-            var r = document.getElementById('radius').value
-            var ar = 3.14*r*2
-           
-
+            var r = +(document.getElementById('radius').value);
+            var area = 3.14 * r **  2;
+            var circumference = 2 * 3.14 * r;
+            document.getElementById('Area').value=area;
+            document.getElementById('circumference').value = circumference;
         }
 
      </script>
@@ -64,17 +65,16 @@
     <div>
         <div class="div2">Circle Operation</div>
     
-        <h3 style="text-align: center;" id="radius">Enter Radius of a Circle</h3>
-        <input type="number" name="" id="num1" style="text-align: center; font-size: 25px;">
+        <h3 style="text-align: center;" >Enter Radius of a Circle</h3>
+        <input type="number"  id="radius" style="text-align: center; font-size: 25px;">
         <button type="submit" class="btn" onclick="circle()">Click to Find Out!</button>
         <br><br>
         <h3 style="text-align: center;">Area of a Circle:</h3><br>
         <input type="number" id="Area" disabled>
         <br><br>
         <h3 style="text-align: center;">Cricumference of a Circle:</h3><br>
-        <input type="number" id="cricumference" disabled>
-        
-    </div>
+        <input type="number" id="circumference" disabled>  
+    </div>      
 
 
 </body>
