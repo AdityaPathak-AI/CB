@@ -1,0 +1,9 @@
+Javascript DOM stands for DOCUMENT OBJECT MODEL.
+
+$.Element Selection in DOM
+
+1.document.getElementById()
+2.document.getElementByTagName()
+3.document.getElementsByClassName()
+4.query Selector()
+5.query Selector All()

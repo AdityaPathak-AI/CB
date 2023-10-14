@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Addition Event Listener Example</title>
+</head>
+
+<body>
+    <label for="num1">Enter first number:</label>
+    <input type="number" id="num1"><br><br>
+
+    <label for="num2">Enter second number:</label>
+    <input type="number" id="num2"><br><br>
+
+    <button id="calculateButton">Add Numbers</button>
+
+    <p>Result: <span id="result"></span></p>
+
+    <script>
+        // Get references to the input elements and the result span
+        const num1Input = document.getElementById('num1');
+        const num2Input = document.getElementById('num2');
+        const calculateButton = document.getElementById('calculateButton');
+        const resultSpan = document.getElementById('result');
+
+        // Define a function to be executed when the button is clicked
+        function addNumbers() {
+            // Parse the input values as numbers and calculate the sum
+            const num1 = parseFloat(num1Input.value);
+            const num2 = parseFloat(num2Input.value);
+            const sum = num1 + num2;
+
+            // Display the result in the result span
+            resultSpan.textContent = sum;
+        }
+
+        // Attach an event listener to the button element
+        calculateButton.addEventListener('click', addNumbers);
+    </script>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic Country and State Dropdown Example</title>
+</head>
+
+<body>
+    <label for="country">Select Country:</label>
+    <select id="country">
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="uk">United Kingdom</option>
+    </select>
+
+    <label for="state">Select State:</label>
+    <select id="state">
+        <option value="">Select a State</option>
+    </select>
+
+    <div id="result"></div>
+
+    <script>
+        // Get references to the country, state, and result elements
+        const countryDropdown = document.getElementById('country');
+        const stateDropdown = document.getElementById('state');
+        const resultDiv = document.getElementById('result');
+
+        // State data based on country (you can extend this with more options)
+        const statesByCountry = {
+            usa: ["New York", "California", "Texas"],
+            canada: ["Ontario", "Quebec", "British Columbia"],
+            uk: ["England", "Scotland", "Wales"],
+        };
+
+        // Function to update the state dropdown based on the selected country
+        function updateStateDropdown() {
+            const selectedCountry = countryDropdown.value;
+            const states = statesByCountry[selectedCountry];
+
+            // Clear existing options in the state dropdown
+            stateDropdown.innerHTML = '';
+
+            // Add a default "Select a State" option
+            const defaultOption = document.createElement('option');
+            defaultOption.value = '';
+            defaultOption.textContent = 'Select a State';
+            stateDropdown.appendChild(defaultOption);
+
+            // Populate the state dropdown with options
+            for (const state of states) {
+                const option = document.createElement('option');
+                option.value = state;
+                option.textContent = state;
+                stateDropdown.appendChild(option);
+            }
+        }
+
+        // Attach an event listener to the country dropdown to update the state dropdown
+        countryDropdown.addEventListener('change', updateStateDropdown);
+
+        // Attach an event listener to display the selected country and state
+        stateDropdown.addEventListener('change', function () {
+            const selectedCountry = countryDropdown.options[countryDropdown.selectedIndex].text;
+            const selectedState = stateDropdown.value;
+            resultDiv.textContent = `Selected Country: ${selectedCountry}, Selected State: ${selectedState}`;
+        });
+
+        // Initial population of the state dropdown
+        updateStateDropdown();
+    </script>
+</body>
+
+</html>

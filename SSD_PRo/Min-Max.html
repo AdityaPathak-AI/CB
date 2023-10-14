@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Find Maximum and Minimum</title>
+</head>
+
+<body>
+    <h1>Find Maximum and Minimum</h1>
+    <p>How many numbers do you want to enter?</p>
+
+    <input type="number" id="numCount" placeholder="Enter count">
+    <button onclick="collectNumbers()">Submit</button>
+
+    <div id="numberInputs" style="display: none;">
+        <p>Enter the numbers:</p>
+        <div id="inputFields"></div>
+        <button onclick="findMaxMin()">Find Max and Min</button>
+
+        <p>Maximum: <span id="maxResult"></span></p>
+        <p>Minimum: <span id="minResult"></span></p>
+    </div>
+
+    <script>
+        function collectNumbers() {
+            var numCount = parseInt(document.getElementById("numCount").value);
+
+            if (numCount > 0) {
+                document.getElementById("numberInputs").style.display = "block";
+                var inputFieldsDiv = document.getElementById("inputFields");
+                inputFieldsDiv.innerHTML = "";
+
+                for (var i = 1; i <= numCount; i++) {
+                    var inputField = document.createElement("input");
+                    inputField.type = "number";
+                    inputField.placeholder = "Enter number " + i;
+                    inputFieldsDiv.appendChild(inputField);
+                }
+            }
+        } 
+
+        function findMaxMin() {
+            var inputs = document.querySelectorAll("#inputFields input");
+            var numbers = [];
+
+            for (var i = 0; i < inputs.length; i++) {
+                numbers.push(parseFloat(inputs[i].value));
+            }
+
+            if (numbers.length > 0) {
+                var max = Math.max(...numbers);
+                var min = Math.min(...numbers);
+
+                document.getElementById("maxResult").textContent = max;
+                document.getElementById("minResult").textContent = min;
+            }
+        }
+    </script>
+</body>
+
+</html>
