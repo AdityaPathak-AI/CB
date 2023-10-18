@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <title>
+        pizza's
+    </title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> -->
+    <style>
+        .h1 {
+            padding-left: 450px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(229, 32, 32);
+            text-size-adjust: 10px;
+
+        }
+
+        .mune {
+            max-width: 400px;   
+            padding-left: 100px;
+            border-style: dotted;
+            color: rgb(170, 24, 32);
+        }
+
+        .IMG {
+            display: inline;
+        }
+
+        .pizza {
+            padding-left: 0px;
+        }
+
+        .burger {
+            padding-left: 0px;
+        }
+
+        .burg {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(34, 46, 84);">
+    <script>
+        function add() {
+            var a, b, c, d = 0;
+            a = document.f3.pizza1.value;
+            b = document.f3.pizza2.value;
+            c = a * b;
+            document.f3.total.value = c;
+
+            document.getElementById("result").value = c;
+        }
+        function Add() {
+            var a, b, c;
+            a = document.f3.roll.value;
+            b = document.f3.rollprice.value;
+            c = a * b;
+            document.f3.total2.value = c;
+
+            document.getElementById("result2").value = c;
+        }
+        function ADD() {
+            var a, b, c;
+            a = document.f3.burger1.value;
+            b = document.f3.burger2.value;
+            c = a * b;
+            document.f3.total3.value = c;
+
+            document.getElementById("result3").value = c;
+        }
+    </script>
+    <div class="container">
+        <h1 class="h1">Pizza's Perfect Menu</h1>
+        <br>
+        <h3>MENU</h3>
+
+        <div class="mune">
+            <h4>Pizza price-Larged=500 Medium=300 small=200</h4>
+            <h4>Roll price-Larged=200 Medium=150 small=100</h4>
+            <h4>Burger price-Larged=250 Medium=200 Small=150</h4>
+        </div><br>
+        <form name="f2">
+            <input type="text" placeholder="pizza" id="result">
+            <input type="text" placeholder="roll" id="result2">
+            <input type="text" placeholder="burger" id="result3">
+        </form>
+        <form name="f3">
+            <div class="pizza">
+                <img class="IMG"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzLujRndsgiN2qsGiTgilmD9RhviWFv4zkzQ&usqp=CAU"
+                    style="height: 300px; width: 300px;">&emsp;
+                <img class="IMG"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBGmylx4TgJvONdlIKZDy835sNs6pc4q3gQ&usqp=CAU"
+                    style="height: 300px; width: 300px;">
+                <h4>Quantity</h4>
+
+                <select name="pizza1">
+                    <option value="500">Larged</option>
+                    <option value="300">Medium</option>
+                    <option value="200">small</option>
+                </select>
+                <select name="pizza2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <div><input type="button" value="total" class="btn btn-success" onclick="add()">
+                    <input type="text" name="total" disabled>
+                </div>
+            </div>
+            <br>
+            <div class="roll">
+                <img class="d"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZDoV4GmFdRA6qSunnvGb9RfuTUqLGsJi30N0DG8hqwZTWn3hN82_RDA9zEl3C4DyBwOY&usqp=CAU"
+                    style="height: 200px; width: 300px;">&emsp; &emsp;
+                <img class="d"
+                    src="https://recipesblob.oetker.in/assets/b777acee3b1b47299ae7f47715e926fd/1272x764/roti-roll.jpg"
+                    style="height: 200px;width: 300px;">
+                <h4>Quantity</h4>
+                <select name="roll" onchange="(this.value)">
+                    <option value="200">Larged</option>
+                    <option value="150">Medium</option>
+                    <option value="100">Small</option>
+                </select>
+                <select name="rollprice">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <div><input type="button" value="total" class="btn btn-success" onclick="Add()">
+                    <input name="total2">
+                </div>
+            </div>
+            <br>
+            <div class="burger">
+                <img class="burg"
+                    src="https://b.zmtcdn.com/data/pictures/chains/1/310301/cd51ac677555924ebb9f7f7cbc3d9bff.jpg"
+                    style="height: 200px; width: 300px;">&emsp; &emsp;
+                <img class="burg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6g2MK9IC03jptgNUAYqa7JvKM26drutgwKw&usqp=CAU"
+                    style="height: 200px;width: 300px;">
+                <h4>Quantity</h4>
+                <select name="burger1" onchange="(this.value)">
+                    <option value="250">Larged</option>
+                    <option value="200">Medium</option>
+                    <option value="150">small</option>
+                </select>
+                <select name="burger2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <input type="button" value="total" class="btn btn-success" onclick="ADD()">
+                <div><input type="text" name="total3"> </div>
+            </div>
+    </div>
+    </form>
+</body>
+
+</html>

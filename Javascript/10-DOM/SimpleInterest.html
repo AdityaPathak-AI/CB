@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class Student {
+            constructor() {
+                var p, r, t, result;
+            }
+            getData() {
+                this.p = +prompt("Enter Principal");
+                this.r = +prompt("Enter r");
+                this.t = +prompt("Enter Time");
+            }
+            calculate() {
+                this.result = (this.p * this.r * this.t) / 100;
+            }
+            show() {
+                document.write(this.result);
+            }
+        }
+        var obj = new Student();
+        obj.getData();
+        obj.calculate();
+        obj.show();
+    </script>
+
+</body>
+
+</html>

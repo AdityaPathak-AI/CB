@@ -1,0 +1,22 @@
+Classes
+Object
+Abstraction 
+Encapsulation
+Inheritance
+
+#Polymorphism
+ $ Compile Time
+ $ Run Time
+
+ class Student
+ {
+    add()
+    {
+        var a , b , c;
+        a = +(prompt("Enter A"));
+        b = +(prompt("Enter B"));
+        c = a-b;
+        document.write(c);.
+       
+    }
+ }
