@@ -42,3 +42,15 @@ constrcutor(x,y)
  let obj = new Calculator(x,y);
  d.w("sum" + obj.sum() + "<br>");
  obj.display();
+
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+
+ class Student{
+    constrcutor(a,b,c)
+    {
+        this.tot = a+b+c;
+        this.p = this.tot/3;
+
+        
+    }
+ }
