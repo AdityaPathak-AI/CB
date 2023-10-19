@@ -14,7 +14,8 @@ for(i=0;i<listItems.length ; i++){
 console.log(listItems);
  */
 
-//Creating Element
+/*
+Creating Element
 
 const ul = document.querySelector("ul");
 const li = document.createElement("li");
@@ -23,8 +24,19 @@ ul.append(li);
 li.innerText = "Virat Kohli";
 li.setAttribute("id", "main-heading");
 li.classList.add("list-items");
+*/
 
+/* Traversing in DOM
 
+const html = document.documentElement; 
+console.log(html.parentNode);
+console.log(html.parentElement);
+
+*/
+
+// let ul = document.querySelector('ul');
+// console.log(ul.childNodes);
+ 
 
 
 

@@ -8,7 +8,9 @@ Inheritance
  $ Compile Time
  $ Run Time
 
- class Student
+
+
+class Student
  {
     add()
     {
@@ -20,3 +22,23 @@ Inheritance
        
     }
  }
+
+ PARAMETERIZED CONSTRUCTOR & FUNCTION
+ when we pass argument in constrcutor known as PARAMETERIZED constrcutor.
+
+
+constrcutor(x,y)
+ {
+    this.first = x;
+    this.second = y;
+    this.sum = function(){
+        return=function()
+        {
+            return(this.first + this.second);
+        }
+    }
+ }
+ var x = parseInt(prompt("Enter 1st no"))
+ let obj = new Calculator(x,y);
+ d.w("sum" + obj.sum() + "<br>");
+ obj.display();

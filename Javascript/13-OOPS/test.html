@@ -1,0 +1,36 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        class bank {
+            constructor() {
+                var t, ans1, ans2, t2;
+                this.name = +prompt("enter account no");
+                document.write("Account no" + this.name);
+                this.balance = +prompt("enter amount");
+                document.write("bank balance amount=" + this.balance + "<br>");
+            }
+            add() {
+                this.t = +prompt("enter deposit amount");
+                document.write("deposit amount=" + this.t + "<br>");
+                this.ans1 = this.balance + this.t;
+                document.write("Account no" + this.name + "balance after deposit=" + this.ans1 + "<br>");
+            }
+            sub() {
+                this.t2 = +prompt("enter withdraw amount");
+                document.write("withdraw amount" + this.t2 + "<br>");
+                this.ans2 = this.ans1 - this.t2;
+                document.write("Account no" + this.name + "withdraw amount=" + this.ans2 + "<br>");
+            }
+        }
+        let obj = new bank();
+        obj.add();
+        obj.sub();
+
+    </script>
+</body>
+
+</html>
