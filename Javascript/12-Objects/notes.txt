@@ -1,0 +1,11 @@
+var p,r,r,I
+p = +prompt("Enter")
+r = +prompt("Enter")
+t = +prompt("Enter")
+
+Student = 
+{
+    pno : p,rno : r,tno : t
+}
+
+    

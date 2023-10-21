@@ -54,3 +54,5 @@ constrcutor(x,y)
         
     }
  }
+
+ classname.prototype.   
