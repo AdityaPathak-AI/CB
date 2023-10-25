@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       .grandparent
+       {
+        height: 500px;
+        width: 500px;
+        background-color: blue;
+        margin-top: 10%;
+        margin-left: 35%;
+        position: relative;
+       }
+       .parent{
+        height: 300px;
+        width: 300px;
+        background-color: black;
+        position: absolute;
+        left: 90px;
+        top: 90px;
+       }
+       .child{
+        height: 150px;
+        width: 150px;
+        background-color: red;
+        position: absolute;
+        left: 70px;
+        top: 80px;
+       }
+
+    </style>
+    
+</head>
+<body>
+    <div class="grandparent">
+       <div class="parent">
+        <div class="child"></div>
+       </div>
+    </div>
+    <script src="app.js"></script>
+    
+
+   
+
+    
+</body>
+</html>
