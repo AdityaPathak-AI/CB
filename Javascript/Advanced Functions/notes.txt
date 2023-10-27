@@ -1,0 +1,89 @@
+#[Arrow Function ==>]
+1.Arrow function ==> is the one of the feature introduced in ECMAscript 6.
+2.It allows you to create a function in a cleaner way compare to regular functions.
+
+1.  ()=> expression
+
+2.  (parameter, parametern) => expression
+
+3.  ()=>
+        {
+            statement
+        }
+
+const greet=()=>
+{
+    console.log("welcome my fraaands");
+}
+greet();
+
+const greet=(count)=>
+{
+    for(let i=0 ; i<count ;i++)
+    console.log("welcome my fraaands");
+}
+greet(5);
+
+
+const si=(p,r,t)=>
+{
+    let a = p*r*t;
+    return a;
+    
+}
+console.log(a);
+si(10,20,2);
+
+
+#Callback Function
+
+1. A Callback is a Function which passed as an argument to another argument.
+
+function greet(name,Callback)
+{
+    console.log('hi + ' ' + name);
+    callback();
+}
+function callMe()
+{
+    console.log('i am a callback function');
+}
+greet('ram', callMe)
+
+#Array Callback Functions
+find() ; returns a first value of element that passes a test.
+
+var numbers = [1,3,4,9,8];
+
+function isEven(element){
+    return element%2 == 0;
+}
+
+evenNumber = numbers.find(isEven);
+console.log(evenNumber);
+
+findIndex():- returns first index of array element.
+
+forEach():
+map():
+filter():
+every():
+sum():
+
+the setTimeout() method calls a function after a number of miliseconds the setTimeout method execute a block of code
+after a specified time the method execute a block of code after a specified time the method executes the code only once.
+
+the setTimeout() is asynchronous function meaning that timer will not pause the execution of other function in function stack the commonly used syntax is:
+
+syntax:- setTimeout(function,miliseconds);
+
+Asynchronous code
+means the code is run after some time of execute differently parallely
+Syntax:
+ setTimeout(function(),3000)
+
+
+clg
+clg(function(){clg("this will execute after 3 seconds");},3000);
+clg
+clg
