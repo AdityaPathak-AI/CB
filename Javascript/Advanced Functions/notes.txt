@@ -87,3 +87,51 @@ clg
 clg(function(){clg("this will execute after 3 seconds");},3000);
 clg
 clg
+
+function hello(){
+var x = 10; //Function Scope
+let y = 10; //Block Scope
+clg("X: " , x , "Y:" , y)
+{
+    var x = 45;
+    let y = 45;
+    clg(x,y)
+}
+clg(x,y)
+}
+
+#Rest Operator
+
+ function hello(...num)
+ {
+    console.log(num);
+ }
+ hello(23,45)
+ hello(23,45,56,78,90)
+ hello()
+ hello(33,66,99,111,777)
+
+
+ function hello(x, ...num)
+ {
+    console.log(x);
+    console.log(num);
+ }
+ hello(23,45)
+ hello(23,45,56,78,90)
+ hello()
+ hello(33,66,99,111,777)
+
+ var arr = [45,65,76,55,44,33,32,22]
+ var[x,y,z,...data] = arr
+ console.log(x,y,z)
+ console.log(data)
+
+ Swapping without using third variable
+ var x = 45
+ var y = 67
+ console.log(x,y)
+ var[y,x] = [x,y]
+ console.log(x,y)
+
+ #Spread Operator
