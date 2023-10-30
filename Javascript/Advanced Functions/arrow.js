@@ -26,19 +26,42 @@ const a = (num) => {
 a(2);
 */
 
-
-var a = (arr) => {
-  arr = [1, 2, 3, 4, 5, 6];
-  max = min = arr[0];
-  for(i=0;i<arr.length;i++){
-    if(arr[i]>max)
-    max = arr[i];
-    if(arr[i]<min)
-    min = arr[i];
-  }
-  console.log(max);
-  console.log(min);  
+/*
+const sayHello = () =>
+{
+  console.log("hello");
 }
+sayHello()
+*/
+
+var findMaxAndMin = (arr) => {
+   max = min = arr[0];
+
+  for (let i = 1; i < arr.length; i++) 
+  {
+    if (arr[i] > max)
+    {
+      max = arr[i];
+    }
+    if (arr[i] < min)
+    {
+      min = arr[i];
+    }
+  }
+  return { max, min }; 
+};
+const arr = [2, 1, 5, 3, 4];
+const result = findMaxAndMin(arr);
+console.log("Max:", result.max);
+console.log("Min:", result.min);
+
+
+/*
+ var myArray = [1, 2, 3, 4];
+ console.log(myArray.reduce((a, b) => Math.min(a, b)));
+ console.log(myArray.reduce((a, b) => Math.max(a, b)));
+
+*/ 
 
 
 

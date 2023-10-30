@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
@@ -12,7 +12,7 @@
 }
 
 .Title {
-    /* border: 2px solid red;
+     border: 2px solid red;
     height: 50px;
     width: 60%;
     padding: 50px;
@@ -59,4 +59,4 @@
 
 .display {
     color: white;
-} */
+}
