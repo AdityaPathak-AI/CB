@@ -1,43 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-body{
+
+body {
     background-color: black;
 }
-header nav{
+
+header nav {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
     background-color: rgb(255, 98, 0);
 }
 
-.logo{
+.logo {
     width: 40px;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     flex-basis: 30%;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-ul li a{
+
+ul li a {
     font-weight: 600;
     text-decoration: none;
 }
-ul li:not(:last-child) a:hover , ul li a.active{
+
+ul li:not(:last-child) a:hover,
+ul li a.active {
     text-decoration: underline 2px;
     text-underline-offset: 4px;
     color: #000000;
-    text-decoration-color: #fff ;
+    text-decoration-color: #fff;
 }
-.btn{
+
+.btn {
     font-weight: 700;
     padding: 8px 20px;
     border: none;
@@ -46,21 +54,26 @@ ul li:not(:last-child) a:hover , ul li a.active{
     cursor: pointer;
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: red;
 }
-.hamburger{
+
+.hamburger {
     font-size: 30px;
     display: none;
 }
-@media screen and (max-width:1024px){
-    .hamburger{
+
+@media screen and (max-width:1024px) {
+    .hamburger {
         display: flex;
     }
-    ul{
+
+    ul {
         display: none;
     }
-    ul.ham_active{
+
+    ul.ham_active {
         display: flex;
         flex-direction: column;
         justify-content: center;
