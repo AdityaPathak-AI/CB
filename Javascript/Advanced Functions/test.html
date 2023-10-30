@@ -1,31 +1,34 @@
-<html>
-    <title>Arrow</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 <body>
+  <script>
+    /*
+    var a = (arr) => {
+        max = min = arr[0];
+        for (i = 0; i < arr.length; i++) {
+          if (arr[i] > max)
+            max = arr[i];
+          if (arr[i] < min)
+            min = arr[i];
+          return max;
+          return min;
+        }
+        console.log(max);
+        console.log(min);
+      }
+      arr = [1, 2, 3, 4, 5, 6];
+      */
+      var myArray = [1, 2, 3, 4];
+      console.log(myArray.reduce((a, b) => Math.min(a, b)));  
+      console.log(myArray.reduce((a, b) => Math.max(a, b)));
 
-<h1>JavaScript "this"</h1>
 
-<p>This example demonstrate that in a regular function, the "this" keyword represents different objects depending on how the function was called.</p>
-
-<p>Click the button to execute the "hello" function again, and you will see that this time "this" represents the button object.</p>
-
-<button id="btn">Click Me!</button>
-
-<p id="demo"></p>
-
-<script>
-let hello = "";
-
-hello = function() 
-{
-  document.getElementById("demo").innerHTML += this;
-}
-
-//The window object calls the function:
-window.addEventListener("load", hello);
-
-//A button object calls the function:
-document.getElementById("btn").addEventListener("click", hello);
-</script>
-
+  </script>
+  
 </body>
 </html>

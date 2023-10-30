@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append Child</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li style="display: none;">Project</li>
+    </ul>
+    <script>
+       let menu = document.getElementById("menu");
+    //    menu.insertAdjacentHTML("afterend","<li>contact</li>");  
+       menu.removeChild(menu.firstElementChild);
+         
+       /*
+        let list = document.createElement("li");
+        list.innerHTML = "contact";
+        menu.appendChild(list);
+        */
+
+        /*
+        let menu = document.getElementById("menu");
+        console.log(menu.textContent); // displays text
+        console.log(menu.innerText); // displays visible text only
+        menu.textContent = "Hello!"
+        menu.innerHTML = "<h1>Hello!</h1>"
+        menu.textContent = "<h1>Hello!</h1>"
+        */
+
+    </script>
+    
+</body>
+</html>

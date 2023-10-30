@@ -135,3 +135,58 @@ clg(x,y)
  console.log(x,y)
 
  #Spread Operator
+
+ 
+
+var ob = {
+    roll:101 , name:'Vikas', age:21
+}
+
+ var keys = Object.keys(ob)
+ console.log(keys)
+
+ var values = Object.values(ob)
+ console.log(values)
+
+
+ A clousure may be described as a combination of a function and the lexical environment in which it was declared.
+ The lexical environment consists of any local variables in the function's scope when the function is created.
+ A clousure enables one to refer to all local variables of a function in the state they were found.
+ This is essntially achieved by defining a function inside another function.
+
+ function closure(){
+    function first(){
+        clg('I was declared first')
+    }
+    function second(){
+        clg('I was declared second')
+    }
+    function third(){
+        clg('I was declared third')
+    }
+    return[first,second,third]
+ }
+ let f = closure()
+ let one = f[0];
+ let second = f[1];
+ let third = f[2];
+ one();
+ second();
+ third();
+
+ In js a generator provide a new way to work with function and iterartor.
+ we can stop the execution of a function from anywhere inside a function & and continue execution code for a halted position.
+
+ function * generator(){
+    .......
+    .......
+ }
+ const a = generator()
+ function *test(){
+    clg("Code before first yield")
+    yield = 100;
+    clg(code before the second yield)
+    yield = 200;
+ }
+ const g = test()
+ clg(g.next());

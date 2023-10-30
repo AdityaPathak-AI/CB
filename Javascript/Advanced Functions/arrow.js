@@ -16,6 +16,7 @@ const si = (p,r,t)=> p*r*t;
 console.log(si(300,10,2));
 */
 
+/*
 const a = (num) => {
   for (var i = 1; i <= 10; i++) {
     b = num * i;
@@ -23,5 +24,22 @@ const a = (num) => {
   }
 };
 a(2);
+*/
+
+
+var a = (arr) => {
+  arr = [1, 2, 3, 4, 5, 6];
+  max = min = arr[0];
+  for(i=0;i<arr.length;i++){
+    if(arr[i]>max)
+    max = arr[i];
+    if(arr[i]<min)
+    min = arr[i];
+  }
+  console.log(max);
+  console.log(min);  
+}
+
+
 
 
