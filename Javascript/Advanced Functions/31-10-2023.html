@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced-Functions</title>
+</head>
+<body>
+    <script>
+        function show(a){
+            console.log("Roll Number:" , this.roll);
+            console.log("Name:" , this.name);
+            console.log("Age:" , this.age);
+            console.log(a);
+        }
+        var ob1={
+            roll : 101 , name:"Bhupinder" , age : 38
+        }
+        var ob2={
+            roll : 102 , name:"Jogi" , age : 38
+        }
+        // show.call(ob1,69)
+        show.call(ob1,[69,101])
+        show.call(ob2)
+
+        // We can pass argument in call function with object. with different objects we can pass differents arguments.
+    </script>
+    
+</body>
+</html>
