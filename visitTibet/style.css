@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif
+}
+
+/* main */
+
+.main{
+    height: 100px;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 100px;
+    font-weight: bolder;  
+}
+.navBar{
+    width: 50%;  
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.navBar a {
+    color: black;
+    font-size: 25px;
+    margin: 5px 20px;
+    text-decoration: none;  
+    transition: 0.7s;
+}
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+img{
+    opacity: 1;
+}
+.banner-text{
+    position: absolute;
+    font-size: 35px;
+    top: 60px;
+    left: 50px;
+    color: white;
+}
+.banner-btn{
+    position: absolute;
+    top: 60%;
+    left: 55px; 
+}
+button{
+    border-radius: 30px;
+    height: 80px;
+    width: 500px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    transition: 0.8s; 
+}
+button:hover{
+    background-color: black;
+    opacity: 0.9;
+}
+.banner-links{
+    position: absolute;
+    top: 90%;
+    left: 80px;
+}
