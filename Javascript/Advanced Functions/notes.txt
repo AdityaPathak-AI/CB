@@ -190,3 +190,15 @@ var ob = {
  }
  const g = test()
  clg(g.next());
+
+
+#
+call() v apply()
+
+the call() method takes argument seperately, this method is very handy if you want to use an array instead of argument list.
+the apply() method takes arguments as an array.
+
+const person = {fname : "John" , lname: "Doe" , age:25};
+for(let x in person){
+    document.write(x + " " + person[x] + "<br>");
+}
