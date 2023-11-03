@@ -202,3 +202,10 @@ const person = {fname : "John" , lname: "Doe" , age:25};
 for(let x in person){
     document.write(x + " " + person[x] + "<br>");
 }
+
+1. call()
+2. bind()
+3. apply()
+4. arrow{}
+5. this keyword
+x
