@@ -1,0 +1,30 @@
+New Features in ES6
+
+1.The let keyword
+2.The const keyword
+3.Arrow Functions
+4.The ... Operator
+5.For/of
+6.Map Objects
+7.Set Objects
+8.Classes
+9.Promises
+10.Symbol
+11.Default Parameters
+12.Function Rest Parameter
+13.String.includes()
+14.String.startsWith()
+15.String.endsWith()
+16.Array.from()
+17.Array keys()
+18.Array find()
+19.Array findIndex()
+20.New Math Methods
+21.New Number Properties
+22.New Number Methods
+23.New Global Methods
+24.Object entries
+25.JavaScript Modules
+
+
+
