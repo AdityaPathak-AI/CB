@@ -38,6 +38,7 @@ si(10,20,2);
 #Callback Function
 
 1. A Callback is a Function which passed as an argument to another argument.
+2. Callback is a function which is to be executed after another function has finished execution.
 
 function greet(name,Callback)
 {
@@ -189,7 +190,7 @@ var ob = {
     yield = 200;
  }
  const g = test()
- clg(g.next());
+ clg(g.next());*
 
 
 #
@@ -208,4 +209,12 @@ for(let x in person){
 3. apply()
 4. arrow{}
 5. this keyword
-x
+
+
+#Promises
+
+here my promie represents asynchronous ops that will resolve with the success message or reject with an error message after a simulated delay.
+we use then function to handle the resolve promise and catch method to handle the rejected message.
+
+
+

@@ -4,7 +4,7 @@ New Features in ES6
 2.The const keyword
 3.Arrow Functions
 4.The ... Operator
-5.For/of
+5.For/of 
 6.Map Objects
 7.Set Objects
 8.Classes
