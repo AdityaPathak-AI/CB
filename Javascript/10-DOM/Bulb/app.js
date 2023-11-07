@@ -17,8 +17,7 @@ var btn2 = document.querySelector("#Off")
 //     {
 //     bulb.style.backgroundColor = "black";
 //     flag = 0;
-//     }  
-//     
+//     } 
 // })
 
 btn1.addEventListener("click",function(){
