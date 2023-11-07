@@ -1,0 +1,33 @@
+Sourcecube Technologies{
+    City : "Surat, Gujarat",
+    Salary : "10k-30k",
+}
+
+1.Familiarity with common programming tools such as Redux, IDEs, RESTful APIs, Git repositories, TypeScript, version control software, and remote deployment tools.
+2.Knowledge of React and common tools used in the wider React ecosystem, such as Node.js and npm
+
+PROVIS TECHNOLOGIES PRIVATE LIMITED{
+    City : "Jaipur,Rajasthan",
+    Salary "25k-55k",
+}
+1.Experience with popular React.js workflows (such as Flux or Redux)
+2.Experience with data structure libraries (e.g., Immutable.js)
+3.Familiarity with RESTful APIs
+4.Knowledge of modern authorization mechanisms, such as JSON Web Token
+5.Familiarity with modern front-end build pipelines and tools
+6.Experience with common front-end development tools such as Babel, Webpack, NPM, etc.
+7.Familiarity with code versioning tools {{such as Git, SVN, and Mercurial}}
+
+Scintillate Alliance Private Limited{
+    City : "Bengaluru , Karnataka"
+    Salary : "3 - 6 lakh",
+}
+1. Strong knowledge of responsive web design principles.
+2.Experience with version control systems (e.g., Git).
+3.Familiarity with front-end build tools and package managers (e.g., Webpack, npm).
+4.Understanding of SEO principles and best practices.
+
+ProExelancers{
+    City : "Surat,Gujarat",
+    Salary : "15k-30k",
+}

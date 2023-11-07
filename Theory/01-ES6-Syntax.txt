@@ -26,5 +26,23 @@ New Features in ES6
 24.Object entries
 25.JavaScript Modules
 
+# 7 Primitive Data Types.
+string
+number
+boolean
+null
+undefined
+symbol
+bigint
+
+
+Value	     Type	                 Comment
+"Hello"	    string	        "Hello" is always "Hello"
+3.14	    number	        3.14 is always 3.14
+true	    boolean	        true is always true
+false	    boolean	        false is always false
+null	    null(object)    null is always null
+undefined   undefined       undefined is always undefined
+
 
 

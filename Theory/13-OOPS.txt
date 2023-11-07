@@ -6,3 +6,32 @@
 4.Polymorphism
 
 
+# OBJECTS
+
+The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. 
+
+1.Booleans can be objects (if defined with the new keyword)
+2.Numbers can be objects (if defined with the new keyword)
+3.Strings can be objects (if defined with the new keyword)
+4.Dates are always objects
+5.Maths are always objects
+6.Regular expressions are always objects
+7.Arrays are always objects
+8.Functions are always objects
+9.Objects are always objects
+10.All JavaScript values, except primitives, are objects.
+
+#Key Points
+1.JavaScript variables can also contain many values.
+2.Objects are variables too. But objects can contain many values.
+3.Object values are written as name : value pairs (name and value separated by a colon).
+4.It is a common practice to declare objects with the const keyword.
+
+const person = {
+    firstName:"Zorawar", 
+    lastName:"Singh", 
+    age:20, 
+    eyeColor:"brown"
+};
+
+

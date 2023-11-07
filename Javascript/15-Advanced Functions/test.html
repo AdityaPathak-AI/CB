@@ -25,9 +25,86 @@
       }
       arr = [1, 2, 3, 4, 5, 6];
       */
-      var myArray = [1, 2, 3, 4];
-      console.log(myArray.reduce((a, b) => Math.min(a, b)));  
-      console.log(myArray.reduce((a, b) => Math.max(a, b)));
+
+      // var myArray = [1, 2, 3, 4];
+      // console.log(myArray.reduce((a, b) => Math.min(a, b)));  
+      // console.log(myArray.reduce((a, b) => Math.max(a, b)));
+       
+/*
+    class Car {
+    constructor(make, model, color) {
+        this.make = make;
+        this.model = model;
+        this.color = color;
+       }
+
+    drive(){
+        console.log(`Driving the ${this.color} ${this.make} ${this.model}.`);
+           }
+       }
+
+   // Creating instances (objects) of the Car class
+    const car1 = new Car("Toyota", "Camry", "Blue");
+    const car2 = new Car("Ford", "Mustang", "Red");
+    
+    // Using the methods of the instances
+    car1.drive(); 
+    car2.drive(); 
+*/  
+
+class Car{
+  
+   test(make,model,color){
+    this.make = make;
+    this.model = model;
+    this.color = color;
+    console.log(`${this.make} ${this.model} ${this.color}`);
+    }
+
+    word(name,age,type){
+      this.name = name;
+      this.age = age;
+      this.type = type;
+      console.log(`${this.name} ${this.age}  ${this.type}`);
+    }
+}
+
+const car1 = new Car()
+car1.test("car", "toyota", "red")
+const car2 = new Car()
+car2.word("Chidiya", "2", "Bird") 
+
+class Model extends Car{
+  test1(gender,city,number){
+    this.gender = gender;
+    this.city = city;
+    this.number = number;
+    console.log(`${this.gender} ${this.city}  ${this.number}`);
+  }
+}
+let model = new Model()
+model.test1("Female","Gwalior","21");
+model.test("hello", "ji", "namastey")
+
+
+  // const car1 
+  //  new Car("Toyota", "Camry", "Blue")
+  // const car2 = new Car("Ford", "Mustang", "Red")
+
+  
+ 
+  
+
+// class Animal{
+
+//   constructor(name , breed , color){
+//     this.name = name;
+//     this.breed = breed;
+//     this.color = color;
+//   }
+
+// }
+
 
 
   </script>
