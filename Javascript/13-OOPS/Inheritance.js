@@ -9,7 +9,7 @@ class Car {
     this.name = name;
     this.age = age;
     this.type = type;
-    console.log(`${this.name} ${this.age}  ${this.type}`);
+    console.log(`${this.name} ${this.age} ${this.type}`);
   }
 }
 const car1 = new Car();
@@ -24,7 +24,7 @@ class Model extends Car {
     this.gender = gender;
     this.city = city;
     this.number = number;
-    console.log(`${this.gender} ${this.city}  ${this.number}`);
+    console.log(`${this.gender} ${this.city} ${this.number}`);
   }
 }
 let model = new Model();

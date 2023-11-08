@@ -1,9 +1,17 @@
-# $ Pillars of OOPS
+# 4 Pillars of OOPS
 
 1.Encapsulation
 2.Abstraction
 3.Inheritance
 4.Polymorphism
+
+#Key Things
+
+Class.
+Object.
+Instance.
+Constructor.
+
 
 
 # OBJECTS
