@@ -1,11 +1,12 @@
 class Car {
-  test(make, model, color) {
+  test(make, model, color){
     this.make = make;
     this.model = model;
     this.color = color;
     console.log(`${this.make} ${this.model} ${this.color}`);
   }
-  word(name, age, type) {
+  
+  word(name, age, type){
     this.name = name;
     this.age = age;
     this.type = type;

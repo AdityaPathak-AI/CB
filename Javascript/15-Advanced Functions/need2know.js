@@ -15,7 +15,6 @@ console.log(component());
 
 */
 
-
 /*
 //2. Dealing with objects.  (Destructing Property)
 
