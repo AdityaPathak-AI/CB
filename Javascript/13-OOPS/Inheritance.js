@@ -31,3 +31,15 @@ class Model extends Car {
 let model = new Model();
 model.test1("Female", "Gwalior", "21");
 model.test("hello", "ji", "namastey");
+
+
+class Truck extends Car{
+   Bult(gears , speed , type){
+    this.gears = gears;
+    this.speed = speed;
+    this.type = type;
+    console.log(`${this.gears} ${this.speed} ${this.type}`);
+   }
+}
+let crook = new Truck();
+crook.Bult("7" , "150" , "2-axle");
