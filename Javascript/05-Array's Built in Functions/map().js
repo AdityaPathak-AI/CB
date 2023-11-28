@@ -31,8 +31,6 @@ const persons = [
     },
 ]
 
-
-
 //With Arrow Function
 let getFullName = (item) => {
   return [item.firstname, item.lastname].join(" ");
@@ -40,7 +38,6 @@ let getFullName = (item) => {
 
 let fullNames = persons.map(getFullName);
 console.log(fullNames);
-
 
 //With Normal Function
 

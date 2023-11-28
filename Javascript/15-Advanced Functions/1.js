@@ -40,6 +40,22 @@ const myUpdatedVehicle = { ...myVehicle, ...updateMyVehicle };
 console.log(myUpdatedVehicle);
 */
 
+const myObject = {
+  key1: "value1",
+  key2: "value2",
+  key3: "value3",
+};
+
+const valuesArray = [];
+
+for (let key in myObject) {
+  if (myObject.hasOwnProperty(key))
+   {
+    valuesArray.push(myObject[key]);
+  }
+}
+
+console.log(valuesArray);
 
 
 
