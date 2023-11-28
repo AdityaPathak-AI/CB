@@ -1,0 +1,24 @@
+const vehicles = ['mustang', 'f-150', 'expedition'];
+
+// old way
+const car = vehicles[0];
+const truck = vehicles[1];
+const suv = vehicles[2];
+
+
+//new way
+
+const vehicles = ['mustang', 'f-150', 'expedition'];
+const [car, truck, suv] = vehicles;
+
+//calculator with destructuring
+
+function calculate(a,b){
+    const add = a+b;
+    const substract = a-b;
+    const multiply = a*b;
+    const divide = a/b;
+
+    return[add,substract,multiply,divide];
+}
+const[add,substract,multiply,divide] = calculate(4,7);
