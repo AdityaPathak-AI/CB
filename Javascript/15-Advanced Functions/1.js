@@ -72,10 +72,12 @@ console.log(myUpdatedVehicle);
 // console.log(myUpdatedVehicle);
 
 
-const arr1 = [1, 2, 3, 4];
-const arr2 = [2, 5, 7, 9];
-const arr3 = [...arr1, ...arr2];
-console.log(arr3);
+const myFunc = (total,num)=>{
+  return total + num;
+}
+const number = [25, 25, 50];
+let ans = number.reduce(myFunc);
+console.log(ans);
 
 
 
