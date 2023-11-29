@@ -1,18 +1,21 @@
+Definition :-
+The spread operator (...) is a syntax in JavaScript that allows the expansion or spreading of elements from an iterable (like an array or a string) or the properties from an object. It provides a concise way to copy arrays, concatenate arrays, and create shallow copies of objects.
+
+
+Example-1
 const numberOne = [1,2,3];
 const numberTwo = [4,5,6];
 const numebrsCombined = [...numberOne , ...numberTwo];
 
-<html>
-
-<body>
+Example-2
 
 <script>
+
 const myVehicle = {
   brand: 'Ford',
   model: 'Mustang',
   color: 'red'
 }
-
 const updateMyVehicle = {
   type: 'car',
   year: 2021, 
@@ -20,12 +23,36 @@ const updateMyVehicle = {
 }
 
 const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
-
-//Check the result object in the console:
 console.log(myUpdatedVehicle);
+
 </script>
 
-<p>Press F12 and see the result object in the console view.</p>
+o/p
 
-</body>
-</html>
+{
+  brand: 'Ford',
+  model: 'Mustang',
+  color: 'yellow',
+  type: 'car',
+  year: 2021
+}
+
+Spread Operator can perform many things some of them are:-
+
+1.Copy an array
+
+const arr1 = [1,2,3,4];
+const arr2 = [...arr1];
+
+console.log(arr2)
+
+2. Concatenate an array
+
+const arr1 = [1,2,3,4];
+const arr2 = [2,5,7,9];
+const arr3 = [...arr1,...arr2];
+console.log(arr3);
+
+Fun Fact :- 
+Overlapping of values only takes place in objects , in arrays it concatenate both the arrays.
+While in objects it update the object and remove common values.

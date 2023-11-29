@@ -40,23 +40,42 @@ const myUpdatedVehicle = { ...myVehicle, ...updateMyVehicle };
 console.log(myUpdatedVehicle);
 */
 
-const myObject = {
-  key1: "value1",
-  key2: "value2",
-  key3: "value3",
-};
+// const myObject = {
+//   key1: "value1",
+//   key2: "value2",
+//   key3: "value3",
+// };
 
-const valuesArray = [];
+// const valuesArray = [];
 
-for (let key in myObject) {
-  if (myObject.hasOwnProperty(key))
-   {
-    valuesArray.push(myObject[key]);
-  }
-}
+// for (let key in myObject) {
+//   if (myObject.hasOwnProperty(key))
+//    {
+//     valuesArray.push(myObject[key]);
+//   }
+// }
 
-console.log(valuesArray);
+// console.log(valuesArray);
 
+// const myVehicle = {
+//   brand: "Ford",
+//   model: "Mustang",
+//   color: "red",
+// };
+// const updateMyVehicle = {
+//   type: "car",
+//   year: 2021,
+//   color: "yellow",
+// };
+
+// const myUpdatedVehicle = { ...myVehicle, ...updateMyVehicle };
+// console.log(myUpdatedVehicle);
+
+
+const arr1 = [1, 2, 3, 4];
+const arr2 = [2, 5, 7, 9];
+const arr3 = [...arr1, ...arr2];
+console.log(arr3);
 
 
 
