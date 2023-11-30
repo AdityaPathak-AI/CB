@@ -24,5 +24,5 @@ arr.forEach(number => {
   if (number < 0) {
     neg.push(number);
   }
-});x
+});
 console.log(neg);

@@ -39,7 +39,7 @@ let getFullName = (item) => {
 let fullNames = persons.map(getFullName);
 console.log(fullNames);
 
-//With Normal Function
+// With Normal Function
 
 function getFullName(item){
     return[item.firstname , item.lastname].join(" ");
