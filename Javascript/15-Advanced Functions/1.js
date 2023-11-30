@@ -72,12 +72,21 @@ console.log(myUpdatedVehicle);
 // console.log(myUpdatedVehicle);
 
 
-const myFunc = (total,num)=>{
-  return total + num;
+// const myFunc = (total,num)=>{
+//   return total + num;
+// }
+// const number = [25, 25, 50];
+// let ans = number.reduce(myFunc);
+// console.log(ans);
+
+
+
+const a = (i,index,arr)=>{
+   arr[index] = i*100;
 }
-const number = [25, 25, 50];
-let ans = number.reduce(myFunc);
-console.log(ans);
+const numbers = [65, 44, 12, 4];
+numbers.forEach(a);
+console.log(numbers);
 
 
 
