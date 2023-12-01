@@ -32,7 +32,7 @@ let model = new Model();
 model.test1("Female", "Gwalior", "21");
 model.test("hello", "ji", "namastey");
 
-
+//Extended Class 2
 class Truck extends Car{
    Bult(gears , speed , type){
     this.gears = gears;
@@ -40,6 +40,16 @@ class Truck extends Car{
     this.type = type;
     console.log(`${this.gears} ${this.speed} ${this.type}`);
    }
+   test3(hello,hi,bonjoir){
+    this.hello = hello;
+    this.hi = hi;
+    this.bonjoir = bonjoir;
+    console.log(`${this.hello} ${this.hi} ${this.bonjoir}`);
+   }
 }
 let crook = new Truck();
 crook.Bult("7" , "150" , "2-axle");
+let india = new Truck();
+india.test("jiji","hihi","nono");
+
+
