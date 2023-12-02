@@ -18,7 +18,7 @@ car1.test("car", "toyota", "red");
 const car2 = new Car();
 car2.word("Chidiya", "2", "Bird");
 
-//Extended Class
+//Extended Class 1
 
 class Model extends Car {
   test1(gender, city, number) {

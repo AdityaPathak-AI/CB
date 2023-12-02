@@ -45,10 +45,13 @@ console.log(names2);
 
 // filter()
  
-let names = ["jessica", "Carol" , "nigga", "nigga", "homie", "sumit"];
-let updated = names.filter((name)=>{
-    return name !== "nigga"
+// let names = ["jessica", "Carol" , "nigga", "nigga", "homie", "sumit"];
+// let updated = names.filter((name)=>{
+//     return name !== "nigga"
     
-})
-console.log(updated);
+// })
+// console.log(updated);
+
+
+
 
