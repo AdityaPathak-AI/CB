@@ -37,4 +37,6 @@ console.log(fruits.includes("apple")); // Returns true if the value is present i
 console.log(name.endsWith('y'));
 console.log(name.startsWith('A'));
 
+console.log(1+2+'2');
+console.log(true);
 

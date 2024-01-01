@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AdityaPathak-AI/CB/issues"
   },
-  "homepage": "https://github.com/AdityaPathak-AI/CB#readme"
+  "homepage": "https://github.com/AdityaPathak-AI/CB#readme",
+  "dependencies": {
+    "node": "^21.2.0"
+  }
 }
