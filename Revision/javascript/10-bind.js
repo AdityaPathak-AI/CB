@@ -1,16 +1,15 @@
-
 const student = {
   name: "Aditya",
-    displayName(){
-    return this.name + ' is Coding'
-  }
-}
- 
+  displayName() {
+    return this.name + " is Coding";
+  },
+};
+
 const student2 = {
   name: "Sumit",
-  
 };
 let hyperStudent = student.displayName.bind(student2);
+console.log(student.displayName());
 console.log(hyperStudent());
 
 /*
@@ -32,5 +31,3 @@ console.log(student.displayName.apply(student2));
 const boundDisplayName = student.displayName.bind(student2);
 console.log(boundDisplayName()); 
 */
-
-

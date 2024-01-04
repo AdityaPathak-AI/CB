@@ -1,3 +1,4 @@
+
 //this
 let obj = {
   name: "Adi",
@@ -10,7 +11,6 @@ obj.name = "aditya";
 obj.showName();
 
 // this.name = obj.name
-
 
 const student = {
   name: "Aditya",
@@ -26,7 +26,6 @@ const student2 = {
 };
 
 student.printName.call(student2);
-
 
 //Technically, it’s also possible to access the object without this, by referencing it via the outer variable:
 
@@ -68,3 +67,17 @@ user.getName(); // Aditya
 
 //this inside dom elements refers to HTML elements.
 
+
+
+
+// this in function
+function makeUser() {
+  return {
+    name: "John",
+    ref: this,
+  };
+}
+
+let user = makeUser();
+
+console.log(user.ref.name); // will return undefined becuase there is no object to point in fuunction
