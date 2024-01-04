@@ -1,4 +1,4 @@
-
+/*
 //this
 let obj = {
   name: "Adi",
@@ -108,6 +108,21 @@ console.log(addTwo(3,4));
 
 const implicitAdd = (x, y) => x + y;
 console.log(implicitAdd(5,7)) ;//12
+*/
+
+let obj = {
+  test:'success',
+  login:'authentication',
+   
+  objectFunction(){
+    console.log(this.login);
+  }
+};
+ objectFunction2= ()=>{
+    console.log(`here this keyword is returning a window object.${this.test}`);
+  }
+objectFunction2();
+obj.objectFunction();
 
 
 
