@@ -37,14 +37,5 @@ const addTw0 = function(num){
 }
 console.log(addTw0(5));
 
-//this 
-let obj = {
-    name : 'Adi',
-    age : 26,
-    showName : function (){
-        console.log(`My Name is ${this.name}`);
-    }
-}
-obj.name = 'richa'
-obj.showName()
+
 
