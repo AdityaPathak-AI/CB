@@ -79,5 +79,36 @@ function makeUser() {
 }
 
 let user = makeUser();
-
+``
 console.log(user.ref.name); // will return undefined becuase there is no object to point in fuunction
+
+
+// Key Points
+//For referrig current context in scope this keyword is secureHeapUsed.
+// In JavaScript, arrow functions do not bind their own this value.
+// The this value of an arrow function depends on where it is defined rather than how it is called.
+// in node env this this keyword return empty parenthesis. {}
+// in browser this keyword returns window object.
+// engine : dino , bun , node
+
+const test = () => {
+  let username = "aditya"
+  console.log(this.username);
+}
+test(); //undefined because the arrow function does not have its own this.
+
+//explicit return in arrow function.
+
+const addTwo = (num1 , num2) => {
+  return num1+num2
+}
+console.log(addTwo(3,4));
+
+//implicit return in arrow function.
+
+const implicitAdd = (x, y) => x + y;
+console.log(implicitAdd(5,7)) ;//12
+
+
+
+
