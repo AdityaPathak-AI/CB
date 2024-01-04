@@ -12,7 +12,4 @@ const student2 = {
 
 student.printName.call(student2);
 
-const student3 = {
-    name:"Rudiger"
-}
 

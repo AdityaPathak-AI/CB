@@ -64,3 +64,7 @@ user.getName = function() {
 };
 
 user.getName(); // Aditya
+
+
+//this inside dom elements refers to HTML elements.
+
