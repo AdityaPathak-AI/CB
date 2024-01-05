@@ -1,4 +1,4 @@
-const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+/*const myNumbers = [1,2,3,4,5,6,7,8,9,10]
 const newNums = myNumbers.map((num) => num+10 )
 console.log(newNums);
 
@@ -10,12 +10,13 @@ myNumbers.forEach((num) => {
   }
 });
 console.log(newNums);
-
+*/
 //Chaining
 const newNumbers = [1,2,3,4,5,6,7,8,9,10]
-const newNumbs = myNumbers
+const newNumbs = newNumbers
                 .map((num)=>num*10)
-                .map((num)=> num%2===0)
+                .map((num)=> num+1)
+                .filter((num)=> num>=40)
 console.log(newNumbs);
 
 /*
@@ -34,12 +35,5 @@ console.log(sumReducer);
 //console.log(FinalSum)
 
 */
-
-for(i=0 ; i<=5 ; i++){
-  for(j=0 ; j<=5 ; j++){
-    console.log("*")
-  }
-  console.log("</br>")
-}
 
 

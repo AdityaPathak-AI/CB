@@ -33,6 +33,7 @@ for (const key in map){
 
 
 //for-in
+//it' used to iterate over keys in object.
 
 const myObject = {
   js: "javascript",
