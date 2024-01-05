@@ -22,14 +22,14 @@ const App = () => {
     </div>
   );
 };
-export default App; 
+export default App;
 
 // Child Component
 
 import React from "react";
-const Template = ({username , btnText }) => {
-    console.log(username);
-  return (  
+const Template = ({ username, btnText }) => {
+  console.log(username);
+  return (
     <>
       <div className="relative h-[400px] w-[300px] rounded-md">
         <img
@@ -45,7 +45,7 @@ const Template = ({username , btnText }) => {
             debitis?
           </p>
           <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-           {btnText || "Visit Me"}
+            {btnText || "Visit Me"}
           </button>
         </div>
       </div>
@@ -54,7 +54,3 @@ const Template = ({username , btnText }) => {
 };
 
 //export default Template;
-
-
-
-
