@@ -1,0 +1,34 @@
+<!-- stopPropagation() :- don't move to parent element.
+preventDefault() :- prevent natural behaviour. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    // stop propagation
+
+    document.getElementById('owl').addEventListener('click', function(e){
+        console.log("Clicked on owl");
+        e.stopPropagation()
+    }, false)
+
+    // prevent default
+
+    document.getElementById('google').addEventListener('click',function(e){
+        e.preventDefault();
+    }, false)
+
+    
+
+
+
+
+</script>
+</html>

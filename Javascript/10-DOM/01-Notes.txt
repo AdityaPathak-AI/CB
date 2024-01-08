@@ -7,6 +7,6 @@ $.Element Selection in DOM
 3.document.getElementsByClassName()
 4.query Selector()
 5.query Selector All()
-
+ 
 Event Bubbling.
 Event Capturing.
