@@ -6,23 +6,19 @@
     <title>async</title>
 </head>
 <body>
-    <h1>async</h1>
+    <h1>async & await</h1>
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
 
 <script>
+    const sayDate = function(str){
+        console.log(str,Date.now());
+    }
 
-    const changeText = function(){
-        document.querySelector('h1').innerHTML = "async & await"
-    } 
-    const changeMe =  setTimeout( changeText , 2000 )
-
-    //stopped the execution
+    const intervalId =   setInterval(sayDate , 6000 , "hi")
     
-    document.querySelector('#stop').addEventListener('click',function(){
-        clearTimeout(changeMe)
-        console.log('stopped');
-    })
+    clearInterval(intervalId);
 
 </script>
  
