@@ -1,4 +1,4 @@
-/*
+
 const promiseOne = new Promise(function (resolve, reject) {
   setTimeout(() => {
     console.log("async task completed");
@@ -30,9 +30,9 @@ promiseThree.then((user)=>{
     console.log(user);
 })
 
-*/
 
-/*
+
+
 const promiseFour = new Promise((resolve, reject) => {
     setTimeout(()=>{
         let error = true
@@ -55,7 +55,7 @@ const username = promiseFour.then((user)=>{
     console.log('this is finally block');
 })
 
-*/
+
 const promiseFive = new Promise((resolve, reject) => {
     setTimeout(() => {
       let error = true;
@@ -77,16 +77,16 @@ async function consumePromiseFive(){
 }
 consumePromiseFive()
 
-// async function getAllUsers(){
-//     try {
-//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
-//         const data = await response.json()
-//         console.log(data);
-//     } catch (error) {
-//         console.log("e" , error);
-//     }
-// }
-// getAllUsers()
+async function getAllUsers(){
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        const data = await response.json()
+        console.log(data);
+    } catch (error) {
+        console.log("e" , error);
+    }
+}
+getAllUsers()
 
 fetch('https://jsonplaceholder.typicode.com/users')
 .then((response)=>{
