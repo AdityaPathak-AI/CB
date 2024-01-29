@@ -1,4 +1,4 @@
-
+// Promise 1
 const promiseOne = new Promise(function (resolve, reject) {
   setTimeout(() => {
     console.log("async task completed");
@@ -20,6 +20,7 @@ new Promise((resolve, reject) => {
     console.log("async 2 resolved");
 })
 
+// Promise 3
 
 const promiseThree = new Promise((resolve, reject) => {
     setTimeout(()=>{
@@ -32,7 +33,7 @@ promiseThree.then((user)=>{
 
 
 
-
+// Promise 4
 const promiseFour = new Promise((resolve, reject) => {
     setTimeout(()=>{
         let error = true
@@ -55,6 +56,8 @@ const username = promiseFour.then((user)=>{
     console.log('this is finally block');
 })
 
+
+// Promise 5
 
 const promiseFive = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -96,7 +99,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
 .catch((error)=> console.log(error))
 
 
-          
 
 
 
