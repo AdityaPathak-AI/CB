@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav {
+    /* border: 5px solid rgb(255, 0, 0); */
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    position: sticky;
+    top: 0;
+}
+
+.navLogo {
+    padding: 1rem 5rem;
+    border: 2px solid red;
+
+}
+
+.navBar {
+    /* border: 2px solid red; */
+    color: white;
+}
+
+.Bars {
+    border: 2px solid red;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.Bars li {
+    font-size: 20px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.Bars li a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    border: 2px solid red;
+    display: flex;
+
+}

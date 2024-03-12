@@ -5,5 +5,6 @@ Array.prototype.polyfillMap = (mapLogicFn) => {
     output.push(mapLogicFn(arr[i], i));
   }
   return output;
-  
 };
+
+
